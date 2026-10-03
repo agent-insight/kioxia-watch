@@ -1,17 +1,14 @@
-# KIOXIA WATCH Ver.8 SIGNAL LAB
+# KIOXIA WATCH Ver.9 — NEAREST ANALOG
 
-Ver.8 turns the full-auto data pipeline into a descriptive signal-analysis dashboard.
+Ver.9 upgrades SIGNAL LAB from exact buckets to distance-based nearest analogs.
 
-## Added in Ver.8
-- NEXT JPX SESSION panel based on the latest independently available US/macro observations
-- Threshold studies: SOX +1%/+2%, SNDK +3%, MU +3%, NVDA +3%, combined semiconductor conditions, and rates/FX combinations
-- For every condition: sample size, Kioxia next-session up rate, average return, and median return
-- Similar-regime matching using bucketed SOX/SNDK/MU/NVDA moves
-- Data-quality / coverage monitoring remains visible
-- No missing-value imputation; missing observations stay missing
+## Main changes
+- TOP 15 nearest historical market regimes using SOX / SNDK / MU / NVDA / US10Y / USDJPY
+- Confidence indicator based on sample count and average similarity
+- Up ratio, mean, median, maximum rise and maximum fall for the analog set
+- TOP 10 historical analog dates displayed on the page
+- USD/JPY freshness extension: FRED DEXJPUS historical backbone + Yahoo JPY=X when newer
+- US 10Y freshness extension: FRED DGS10 historical backbone + Yahoo ^TNX only for newer observations
+- Missing data are not imputed
 
-## Interpretation
-All percentages are historical descriptive statistics, not forecasts or probabilities of future performance. Small samples are explicitly flagged.
-
-## Automation
-Keep the existing `.github/workflows/update.yml`. The current GitHub Actions schedule can continue to call `scripts/update_market.py` and deploy the site.
+The statistics are descriptive historical summaries, not forecasts or investment advice.

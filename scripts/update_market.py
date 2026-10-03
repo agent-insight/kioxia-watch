@@ -5,7 +5,7 @@ from datetime import datetime, timezone, timedelta
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data' / 'market.json'
-UA = {'User-Agent':'Mozilla/5.0 (compatible; KIOXIA-WATCH/8.0; +https://agent-insight.github.io/kioxia-watch/)'}
+UA = {'User-Agent':'Mozilla/5.0 (compatible; KIOXIA-WATCH/9.0; +https://agent-insight.github.io/kioxia-watch/)'}
 JST = timezone(timedelta(hours=9))
 
 def get(url, timeout=30):
@@ -119,15 +119,27 @@ if not feeds['sox']:
     try:
         q=yahoo_chart('^SOX', days=520); feeds['sox']={d:x['close'] for d,x in q.items()}; status['sox']=f'yahoo-fallback-ok:{len(q)}'
     except Exception as e: status['sox']+=f'/yahoo-error:{type(e).__name__}'
-if not feeds['usdjpy']:
-    try:
-        q=yahoo_chart('JPY=X', days=520); feeds['usdjpy']={d:x['close'] for d,x in q.items()}; status['usdjpy']=f'yahoo-fallback-ok:{len(q)}'
-    except Exception as e: status['usdjpy']+=f'/yahoo-error:{type(e).__name__}'
-# ^TNX is a market proxy for the US 10Y yield and is used only if DGS10 is unavailable.
-if not feeds['us10y']:
-    try:
-        q=yahoo_chart('^TNX', days=520); feeds['us10y']={d:x['close'] for d,x in q.items()}; status['us10y']=f'yahoo-tnx-fallback-ok:{len(q)}'
-    except Exception as e: status['us10y']+=f'/yahoo-error:{type(e).__name__}'
+# FX freshness overlay: FRED H.10 can lag several days. Prefer Yahoo JPY=X when it has a newer observation,
+# while retaining FRED as the authoritative historical backbone.
+try:
+    q=yahoo_chart('JPY=X', days=520); yfx={d:x['close'] for d,x in q.items()}
+    if yfx and (not feeds['usdjpy'] or max(yfx) > max(feeds['usdjpy'])):
+        feeds['usdjpy'].update(yfx)
+        status['usdjpy']=f'fred+yahoo-fresh:{len(feeds["usdjpy"])}'
+    elif not feeds['usdjpy']:
+        feeds['usdjpy']=yfx; status['usdjpy']=f'yahoo-fallback-ok:{len(yfx)}'
+except Exception as e:
+    status['usdjpy']+=f'/yahoo-error:{type(e).__name__}'
+# ^TNX is a market proxy. Use it only to extend DGS10 when it is newer; historical DGS10 remains preferred.
+try:
+    q=yahoo_chart('^TNX', days=520); y10={d:x['close'] for d,x in q.items()}
+    if y10 and (not feeds['us10y'] or max(y10) > max(feeds['us10y'])):
+        feeds['us10y'].update({d:v for d,v in y10.items() if d not in feeds['us10y'] or d>max(feeds['us10y'])})
+        status['us10y']=f'fred+tnx-fresh:{len(feeds["us10y"])}'
+    elif not feeds['us10y']:
+        feeds['us10y']=y10; status['us10y']=f'yahoo-tnx-fallback-ok:{len(y10)}'
+except Exception as e:
+    status['us10y']+=f'/yahoo-error:{type(e).__name__}'
 feedret={k:returns(v) for k,v in feeds.items()}
 
 # 3) US peers: Yahoo first, Stooq fallback.
@@ -179,7 +191,7 @@ for jd in kdates:
 
 m['sessions']=sessions
 meta=m.setdefault('meta',{})
-meta['version']='8.0-signal-lab'
+meta['version']='9.0-nearest-analog'
 meta['as_of']=sessions[-1]['date'] if sessions else meta.get('as_of')
 meta['source_universe']=len(sessions)
 meta['loaded_kioxia_rows']=len(sessions)
@@ -206,6 +218,6 @@ meta['source_policy']={
  'sox':'FRED NASDAQSOX / Nasdaq, Inc.',
  'sndk':'Yahoo Finance SNDK; Stooq fallback', 'mu':'Yahoo Finance MU; Stooq fallback',
  'nvda':'Yahoo Finance NVDA; Stooq fallback', 'wdc':'Yahoo Finance WDC; Stooq fallback',
- 'us10y':'FRED DGS10 / Federal Reserve H.15', 'usdjpy':'FRED DEXJPUS / Federal Reserve H.10'}
+ 'us10y':'FRED DGS10 / Federal Reserve H.15; Yahoo ^TNX freshness extension', 'usdjpy':'FRED DEXJPUS / Federal Reserve H.10; Yahoo JPY=X freshness extension'}
 DATA.write_text(json.dumps(m,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({'sessions':len(sessions),'latest':sessions[-1]['date'] if sessions else None,'status':status},ensure_ascii=False,indent=2))
