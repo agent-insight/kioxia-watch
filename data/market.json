@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "3.0",
+    "version": "4.0-distributed",
     "as_of": "2026-10-03",
     "target_period": {
       "from": "2025-10-03",
@@ -14,7 +14,19 @@
       "effective_history_marker": "2026-09-29",
       "ratio": "1:3"
     },
-    "next_earnings": "2026-10-30 18:45 JST"
+    "next_earnings": "2026-10-30 18:45 JST",
+    "source_universe": 242,
+    "loaded_kioxia_rows": 30,
+    "source_policy": {
+      "kioxia": "Yahoo Japan / TSE-consistent history; split-adjusted prices, actual traded volume where verified",
+      "sox": "FRED series NASDAQSOX; source Nasdaq, Inc.",
+      "sndk": "pending reliable bulk history",
+      "mu": "pending reliable bulk history",
+      "nvda": "pending reliable bulk history",
+      "us10y": "pending reliable bulk history",
+      "usdjpy": "pending reliable bulk history"
+    },
+    "no_imputation": true
   },
   "sessions": [
     {
@@ -29,7 +41,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "withheld_pending_source_normalization"
+      "volume_basis": "withheld_pending_source_normalization",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-08-20",
@@ -43,7 +62,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "withheld_pending_source_normalization"
+      "volume_basis": "withheld_pending_source_normalization",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-08-21",
@@ -57,7 +83,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "withheld_pending_source_normalization"
+      "volume_basis": "withheld_pending_source_normalization",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-08-24",
@@ -71,7 +104,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "withheld_pending_source_normalization"
+      "volume_basis": "withheld_pending_source_normalization",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-08-25",
@@ -85,7 +125,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "withheld_pending_source_normalization"
+      "volume_basis": "withheld_pending_source_normalization",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-08-26",
@@ -99,7 +146,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "withheld_pending_source_normalization"
+      "volume_basis": "withheld_pending_source_normalization",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-08-27",
@@ -113,7 +167,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "withheld_pending_source_normalization"
+      "volume_basis": "withheld_pending_source_normalization",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-08-28",
@@ -127,7 +188,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-08-31",
@@ -141,7 +209,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-01",
@@ -155,7 +230,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-02",
@@ -169,7 +251,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-03",
@@ -183,7 +272,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-04",
@@ -197,7 +293,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-07",
@@ -211,7 +314,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-08",
@@ -225,7 +335,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-09",
@@ -239,7 +356,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-10",
@@ -253,7 +377,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-11",
@@ -267,7 +398,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-14",
@@ -281,7 +419,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-15",
@@ -295,7 +440,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-16",
@@ -309,7 +461,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-17",
@@ -323,7 +482,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-18",
@@ -337,7 +503,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-24",
@@ -351,7 +524,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-25",
@@ -365,7 +545,14 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": null,
+      "sox": null,
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-28",
@@ -379,7 +566,18 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": "2026-09-25",
+      "sox": {
+        "close": 12668.93,
+        "change_pct": null,
+        "source": "FRED/Nasdaq"
+      },
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-29",
@@ -393,7 +591,18 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": "2026-09-28",
+      "sox": {
+        "close": 12465.24,
+        "change_pct": -1.607791660384894,
+        "source": "FRED/Nasdaq"
+      },
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-09-30",
@@ -407,7 +616,18 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": "2026-09-29",
+      "sox": {
+        "close": 12629.16,
+        "change_pct": 1.315016798713864,
+        "source": "FRED/Nasdaq"
+      },
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-10-01",
@@ -421,7 +641,18 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": "2026-09-30",
+      "sox": {
+        "close": 12628.62,
+        "change_pct": -0.004275818819299282,
+        "source": "FRED/Nasdaq"
+      },
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     },
     {
       "date": "2026-10-02",
@@ -435,7 +666,18 @@
       },
       "verified": true,
       "price_basis": "split_adjusted_1_to_3",
-      "volume_basis": "actual_traded_volume"
+      "volume_basis": "actual_traded_volume",
+      "us_session_date": "2026-10-01",
+      "sox": {
+        "close": 12829.0,
+        "change_pct": 1.5867133542698975,
+        "source": "FRED/Nasdaq"
+      },
+      "sndk": null,
+      "mu": null,
+      "nvda": null,
+      "us10y": null,
+      "usdjpy": null
     }
   ]
 }

@@ -1,5 +1,6 @@
-# KIOXIA WATCH Ver.3
-One-year research dashboard.
-- Source period: 2025-10-03 to 2026-10-02 (242 TSE observations reported by source)
-- Never fabricates missing normalized rows.
-- Split-adjusted price / actual traded volume policy.
+# KIOXIA WATCH Ver.4
+Distributed-source research build.
+- Kioxia: Yahoo Japan / TSE-consistent history
+- SOX: FRED NASDAQSOX (source Nasdaq, Inc.)
+- Missing series remain null; no interpolation or invented history.
+- UI recalculates when data/market.json grows.

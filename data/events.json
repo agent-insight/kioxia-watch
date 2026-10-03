@@ -1,32 +1,76 @@
 {
   "events": [
     {
-      "date": "2026-07-31",
+      "date": "2026-05-15",
       "type": "IR",
+      "title": "米国取引所へのADS上場準備を公表",
+      "impact": "需給・認知",
+      "verified": true,
+      "source": "Kioxia IR"
+    },
+    {
+      "date": "2026-05-25",
+      "type": "RATING",
+      "title": "S&P・Fitchが投資適格BBB-へ格上げ",
+      "impact": "信用力",
+      "verified": true,
+      "source": "Kioxia IR"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "NAND",
+      "title": "第10世代3Dフラッシュを北上工場で生産開始",
+      "impact": "供給・技術",
+      "verified": true,
+      "source": "Kioxia"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "AI SSD",
+      "title": "AI・ハイパースケール向け次世代E1.S SSD開発",
+      "impact": "AIストレージ",
+      "verified": true,
+      "source": "Kioxia"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "NAND",
+      "title": "第9世代BiCS FLASH 1Tb TLCサンプル出荷開始",
+      "impact": "製品",
+      "verified": true,
+      "source": "Kioxia"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "EARNINGS",
+      "title": "2027年3月期Q1決算",
+      "impact": "業績",
+      "verified": true,
+      "source": "Kioxia IR"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "SPLIT",
       "title": "1株→3株の株式分割を発表",
-      "impact": "構造",
-      "verified": true
+      "impact": "株式需給",
+      "verified": true,
+      "source": "Kioxia IR"
     },
     {
       "date": "2026-08-27",
       "type": "CAPEX",
-      "title": "Kioxia・SanDisk、日本で約5兆円投資",
-      "impact": "中長期",
-      "verified": true
-    },
-    {
-      "date": "2026-09-15",
-      "type": "ADS",
-      "title": "米国ADS上場準備について会社がコメント",
-      "impact": "需給/認知",
-      "verified": true
+      "title": "Kioxia・Sandisk、日本で310億ドル超の投資計画",
+      "impact": "中長期供給",
+      "verified": true,
+      "source": "Kioxia IR"
     },
     {
       "date": "2026-10-30",
       "type": "EARNINGS",
-      "title": "2027年3月期 Q2決算発表予定 18:45",
+      "title": "2027年3月期Q2決算発表予定 18:45 JST",
       "impact": "イベント",
-      "verified": true
+      "verified": true,
+      "source": "Kioxia IR"
     }
   ]
 }
