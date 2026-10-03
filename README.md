@@ -1,18 +1,14 @@
-# KIOXIA WATCH Ver.5 AUTO
+# KIOXIA WATCH Ver.6 FULL AUTO
 
-Automated GitHub Pages research dashboard.
+Kioxia (285A) research dashboard for GitHub Pages.
 
-## Automatic schedule (Asia/Tokyo)
-- Weekdays 07:30 — ingest overnight US/macro data
-- Weekdays 16:30 — refresh after the Tokyo cash session
+## Ver.6
+- KIOXIA 285A.T: rolling daily history is fetched automatically and new JPX sessions are appended.
+- SOX: FRED NASDAQSOX.
+- SNDK / MU / NVDA / WDC: Yahoo Finance chart with Stooq fallback.
+- US 10Y: FRED DGS10.
+- USD/JPY: FRED DEXJPUS.
+- No fabricated values: failed sources remain unavailable or existing data is preserved.
+- GitHub Actions updates and deploys at 07:30 and 16:30 JST on weekdays, plus manual dispatch.
 
-## Sources
-- SOX: FRED NASDAQSOX (Nasdaq)
-- US 10Y: FRED DGS10 (Federal Reserve)
-- USD/JPY: FRED DEXJPUS (Federal Reserve)
-- SNDK / MU / NVDA / WDC: Stooq daily CSV when available
-- Kioxia base history: existing normalized TSE/Yahoo Japan dataset
-
-Missing observations remain null. No interpolation or fabricated prices.
-
-The workflow explicitly deploys GitHub Pages after updating because a push made with GITHUB_TOKEN does not itself trigger a Pages build.
+Historical statistics shown by the site are descriptive and are not forecasts or investment advice.

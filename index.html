@@ -1,5 +1,5 @@
 <!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>KIOXIA WATCH Ver.5</title><style>
+<title>KIOXIA WATCH Ver.6</title><style>
 :root{--bg:#06101d;--p:#0c2034;--l:#294158;--t:#f3f7fb;--m:#9eb2c7;--g:#38e6a8;--r:#ff6f7d;--a:#ffcb62}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}.w{max-width:1200px;margin:auto;padding:22px}
 header{border-bottom:1px solid var(--l)}.g{color:var(--g)}.r{color:var(--r)}.m{color:var(--m)}h1{font-size:clamp(40px,7vw,72px);margin:18px 0 4px}.tag{color:var(--g);font-weight:850;letter-spacing:.12em}
@@ -9,9 +9,9 @@ header{border-bottom:1px solid var(--l)}.g{color:var(--g)}.r{color:var(--r)}.m{c
 .source{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--l)}.ok{color:var(--g)}.wait{color:var(--a)}.badge{display:inline-block;border:1px solid var(--l);border-radius:999px;padding:3px 8px;font-size:11px;color:var(--m)}.event{padding:11px 0;border-bottom:1px solid var(--l)}
 .note{border-left:3px solid var(--a);background:#091a2b;padding:11px;margin:12px 0}.foot{border-top:1px solid var(--l);margin-top:22px;padding-top:15px;color:var(--m);font-size:12px}
 @media(max-width:850px){.grid{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}.row{grid-template-columns:1.5fr 1fr 1fr}.hide{display:none}}@media(max-width:500px){.grid{grid-template-columns:1fr}.w{padding:14px}}
-</style></head><body><header><div class="w"><b class="g">KIOXIA WATCH</b> <span class="m">by AGENT INSIGHT · VER.5 AUTO</span></div></header><main class="w">
+</style></head><body><header><div class="w"><b class="g">KIOXIA WATCH</b> <span class="m">by AGENT INSIGHT · VER.6 FULL AUTO</span></div></header><main class="w">
 <div class="tag">DISTRIBUTED-SOURCE RESEARCH ENGINE</div><h1>KIOXIA WATCH</h1><p class="m">一つのデータ元に依存せず、系列ごとに信頼できる出所を採用。欠損は推測せず、そのまま表示します。</p>
-<div class="grid"><div class="card"><small>SOURCE UNIVERSE</small><div class="big">242日</div><p class="m">Kioxia 1Y</p></div>
+<div class="grid"><div class="card"><small>SOURCE UNIVERSE</small><div class="big" id="un">—</div><p class="m">Kioxia rolling 1Y</p></div>
 <div class="card"><small>KIOXIA LOADED</small><div class="big" id="kn">—</div><p class="m" id="kc">—</p></div>
 <div class="card"><small>SOX LINKED</small><div class="big" id="sn">—</div><p class="m">FRED / Nasdaq</p></div>
 <div class="card"><small>NEXT EARNINGS</small><div class="big">10/30</div><p class="m">18:45 JST</p></div></div>
@@ -20,7 +20,7 @@ header{border-bottom:1px solid var(--l)}.g{color:var(--g)}.r{color:var(--r)}.m{c
 <section class="card"><h2>Data Sources</h2>
 <div class="source"><span>KIOXIA</span><b class="ok">採用</b></div><small class="m">Yahoo Japan / 東証系。分割調整株価＋実出来高。</small>
 <div class="source"><span>SOX</span><b class="ok">採用</b></div><small class="m">FRED NASDAQSOX / Nasdaq, Inc.</small>
-<div class="source"><span>SNDK / MU / NVDA</span><b class="wait">取得待ち</b></div><small class="m">信頼できる一括履歴のみ採用。</small>
+<div class="source"><span>SNDK / MU / NVDA / WDC</span><b class="ok">自動取得</b></div><small class="m">Yahoo Finance chart / Stooq fallback。</small>
 <div class="source"><span>US 10Y</span><b class="ok">採用開始</b></div><small class="m">FRED DGS10 / Federal Reserve H.15</small>
 <div class="source"><span>USD/JPY</span><b class="ok">採用開始</b></div><small class="m">FRED DEXJPUS / Federal Reserve H.10</small></section></div>
 <div class="two" style="margin-top:12px"><section class="card"><h2>SOX → 翌JPX</h2><div class="row"><b>JPX日</b><b>US日</b><b>SOX</b><b class="hide">SOX騰落</b><b class="hide">Kioxia</b></div><div id="linked"></div></section>
@@ -54,10 +54,10 @@ function render(){
 }
 Promise.all([fetch('./data/market.json').then(r=>r.json()),fetch('./data/events.json').then(r=>r.json())]).then(([m,e])=>{
  ALL=(m.sessions||[]).sort((a,b)=>a.date.localeCompare(b.date));
- document.getElementById('kn').textContent=ALL.length+' / 242'; document.getElementById('kc').textContent=(ALL.length/242*100).toFixed(1)+'% loaded';
+ document.getElementById('un').textContent=(m.meta?.source_universe||ALL.length)+'日'; document.getElementById('kn').textContent=ALL.length+'日'; document.getElementById('kc').textContent='rolling history loaded';
  document.getElementById('sn').textContent=ALL.filter(x=>x.sox).length+'日';
  const st=m.meta?.automation_status||{};
- document.getElementById('autoStatus').innerHTML=`最終自動実行：<b>${m.meta?.last_automation_run_jst||'未実行'}</b><br><span class="m">SOX ${st.sox||'—'} / 10Y ${st.us10y||'—'} / USDJPY ${st.usdjpy||'—'} / SNDK ${st.sndk||'—'} / MU ${st.mu||'—'} / NVDA ${st.nvda||'—'}</span>`;
+ document.getElementById('autoStatus').innerHTML=`最終自動実行：<b>${m.meta?.last_automation_run_jst||'未実行'}</b><br><span class="m">SOX ${st.sox||'—'} / 10Y ${st.us10y||'—'} / USDJPY ${st.usdjpy||'—'} / SNDK ${st.sndk||'—'} / MU ${st.mu||'—'} / NVDA ${st.nvda||'—'} / KIOXIA ${st.kioxia||'—'}</span>`;
  const L=ALL.at(-1)||{}, factors=[['SOX',L.sox],['SNDK',L.sndk],['MU',L.mu],['NVDA',L.nvda],['米10年債',L.us10y],['USD/JPY',L.usdjpy]];
  const avail=factors.filter(x=>x[1]&&Number.isFinite(+x[1].change_pct));
  document.getElementById('todaySignal').innerHTML=`直近JPX日：<b>${L.date||'—'}</b>　利用可能ファクター：<b>${avail.length}/6</b><br><span class="m">予測確率ではなく、取得済み条件の状態表示です。</span>`;

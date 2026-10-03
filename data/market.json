@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "5.0-auto",
+    "version": "4.1-fast-track",
     "as_of": "2026-10-03",
     "target_period": {
       "from": "2025-10-03",
@@ -26,17 +26,7 @@
       "us10y": "FRED DGS10 / Federal Reserve H.15; verified observations only",
       "usdjpy": "FRED DEXJPUS / Federal Reserve H.10; verified observations only"
     },
-    "no_imputation": true,
-    "last_automation_run_jst": "2026-10-03T15:37:10+09:00",
-    "automation_status": {
-      "sox": "error:TimeoutError",
-      "us10y": "error:TimeoutError",
-      "usdjpy": "error:TimeoutError",
-      "sndk": "ok:0",
-      "mu": "ok:0",
-      "nvda": "ok:0",
-      "wdc": "ok:0"
-    }
+    "no_imputation": true
   },
   "sessions": [
     {
