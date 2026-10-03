@@ -27,7 +27,7 @@
       "usdjpy": "FRED DEXJPUS / Federal Reserve H.10; verified observations only"
     },
     "no_imputation": true,
-    "last_automation_run_jst": "2026-10-03T15:28:02+09:00",
+    "last_automation_run_jst": "2026-10-03T15:37:10+09:00",
     "automation_status": {
       "sox": "error:TimeoutError",
       "us10y": "error:TimeoutError",
