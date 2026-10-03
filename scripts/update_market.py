@@ -5,7 +5,7 @@ from datetime import datetime, timezone, timedelta
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data' / 'market.json'
-UA = {'User-Agent':'Mozilla/5.0 (compatible; KIOXIA-WATCH/7.0; +https://agent-insight.github.io/kioxia-watch/)'}
+UA = {'User-Agent':'Mozilla/5.0 (compatible; KIOXIA-WATCH/8.0; +https://agent-insight.github.io/kioxia-watch/)'}
 JST = timezone(timedelta(hours=9))
 
 def get(url, timeout=30):
@@ -179,7 +179,7 @@ for jd in kdates:
 
 m['sessions']=sessions
 meta=m.setdefault('meta',{})
-meta['version']='7.0-multifactor-auto'
+meta['version']='8.0-signal-lab'
 meta['as_of']=sessions[-1]['date'] if sessions else meta.get('as_of')
 meta['source_universe']=len(sessions)
 meta['loaded_kioxia_rows']=len(sessions)
@@ -187,6 +187,19 @@ meta['loaded_daily_rows']=len(sessions)
 meta['target_period']={'from':sessions[0]['date'] if sessions else None,'to':sessions[-1]['date'] if sessions else None,'source_rows':len(sessions)}
 meta['last_automation_run_jst']=datetime.now(JST).isoformat(timespec='seconds')
 meta['automation_status']=status
+# Latest independently available market observations for the NEXT JPX session signal.
+# These are deliberately not forced onto a future JPX date.
+latest_context={}
+for name,rows in feeds.items():
+    if rows:
+        d=max(rows)
+        latest_context[name]={'date':d,'value':rows[d],'change_pct':feedret[name].get(d)}
+for name,rows in stocks.items():
+    if rows:
+        d=max(rows)
+        latest_context[name]={'date':d,'close':rows[d].get('close'),'change_pct':stockret[name].get(d)}
+meta['latest_context']=latest_context
+meta['latest_context_generated_jst']=datetime.now(JST).isoformat(timespec='seconds')
 meta['no_imputation']=True
 meta['source_policy']={
  'kioxia':'Yahoo Finance chart 285A.T; Adj Close ratio used for split-consistent OHLC; reported daily volume',
