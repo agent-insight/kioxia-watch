@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "4.0-distributed",
+    "version": "4.1-fast-track",
     "as_of": "2026-10-03",
     "target_period": {
       "from": "2025-10-03",
@@ -23,8 +23,8 @@
       "sndk": "pending reliable bulk history",
       "mu": "pending reliable bulk history",
       "nvda": "pending reliable bulk history",
-      "us10y": "pending reliable bulk history",
-      "usdjpy": "pending reliable bulk history"
+      "us10y": "FRED DGS10 / Federal Reserve H.15; verified observations only",
+      "usdjpy": "FRED DEXJPUS / Federal Reserve H.10; verified observations only"
     },
     "no_imputation": true
   },
@@ -320,7 +320,12 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
+      "us10y": {
+        "value": 4.78,
+        "change_pct": null,
+        "date": "2026-09-04",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
       "usdjpy": null
     },
     {
@@ -341,7 +346,12 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
+      "us10y": {
+        "value": 4.78,
+        "change_pct": null,
+        "date": "2026-09-04",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
       "usdjpy": null
     },
     {
@@ -362,7 +372,12 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
+      "us10y": {
+        "value": 4.8,
+        "change_pct": 0.4184100418409997,
+        "date": "2026-09-08",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
       "usdjpy": null
     },
     {
@@ -383,7 +398,12 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
+      "us10y": {
+        "value": 4.83,
+        "change_pct": 0.6250000000000089,
+        "date": "2026-09-09",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
       "usdjpy": null
     },
     {
@@ -404,7 +424,12 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
+      "us10y": {
+        "value": 4.95,
+        "change_pct": 2.4844720496894457,
+        "date": "2026-09-10",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
       "usdjpy": null
     },
     {
@@ -425,7 +450,12 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
+      "us10y": {
+        "value": 4.96,
+        "change_pct": 0.20202020202020332,
+        "date": "2026-09-11",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
       "usdjpy": null
     },
     {
@@ -446,7 +476,12 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
+      "us10y": {
+        "value": 4.97,
+        "change_pct": 0.20161290322580072,
+        "date": "2026-09-14",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
       "usdjpy": null
     },
     {
@@ -467,7 +502,12 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
+      "us10y": {
+        "value": 5.0,
+        "change_pct": 0.6036217303823088,
+        "date": "2026-09-15",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
       "usdjpy": null
     },
     {
@@ -488,7 +528,12 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
+      "us10y": {
+        "value": 5.01,
+        "change_pct": 0.20000000000000018,
+        "date": "2026-09-16",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
       "usdjpy": null
     },
     {
@@ -509,7 +554,12 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
+      "us10y": {
+        "value": 5.01,
+        "change_pct": 0.20000000000000018,
+        "date": "2026-09-16",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
       "usdjpy": null
     },
     {
@@ -530,8 +580,18 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
-      "usdjpy": null
+      "us10y": {
+        "value": 5.01,
+        "change_pct": 0.20000000000000018,
+        "date": "2026-09-16",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
+      "usdjpy": {
+        "value": 158.3,
+        "change_pct": 0.4760393525864881,
+        "date": "2026-09-23",
+        "source": "FRED DEXJPUS / Federal Reserve"
+      }
     },
     {
       "date": "2026-09-25",
@@ -551,8 +611,18 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
-      "usdjpy": null
+      "us10y": {
+        "value": 5.01,
+        "change_pct": 0.20000000000000018,
+        "date": "2026-09-16",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
+      "usdjpy": {
+        "value": 158.92,
+        "change_pct": 0.3916614024005005,
+        "date": "2026-09-24",
+        "source": "FRED DEXJPUS / Federal Reserve"
+      }
     },
     {
       "date": "2026-09-28",
@@ -576,8 +646,18 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
-      "usdjpy": null
+      "us10y": {
+        "value": 5.01,
+        "change_pct": 0.20000000000000018,
+        "date": "2026-09-16",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
+      "usdjpy": {
+        "value": 157.18,
+        "change_pct": -1.0948905109488982,
+        "date": "2026-09-25",
+        "source": "FRED DEXJPUS / Federal Reserve"
+      }
     },
     {
       "date": "2026-09-29",
@@ -601,8 +681,18 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
-      "usdjpy": null
+      "us10y": {
+        "value": 5.01,
+        "change_pct": 0.20000000000000018,
+        "date": "2026-09-16",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
+      "usdjpy": {
+        "value": 157.18,
+        "change_pct": -1.0948905109488982,
+        "date": "2026-09-25",
+        "source": "FRED DEXJPUS / Federal Reserve"
+      }
     },
     {
       "date": "2026-09-30",
@@ -626,8 +716,18 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
-      "usdjpy": null
+      "us10y": {
+        "value": 5.01,
+        "change_pct": 0.20000000000000018,
+        "date": "2026-09-16",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
+      "usdjpy": {
+        "value": 157.18,
+        "change_pct": -1.0948905109488982,
+        "date": "2026-09-25",
+        "source": "FRED DEXJPUS / Federal Reserve"
+      }
     },
     {
       "date": "2026-10-01",
@@ -651,8 +751,18 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
-      "usdjpy": null
+      "us10y": {
+        "value": 5.01,
+        "change_pct": 0.20000000000000018,
+        "date": "2026-09-16",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
+      "usdjpy": {
+        "value": 157.18,
+        "change_pct": -1.0948905109488982,
+        "date": "2026-09-25",
+        "source": "FRED DEXJPUS / Federal Reserve"
+      }
     },
     {
       "date": "2026-10-02",
@@ -676,8 +786,18 @@
       "sndk": null,
       "mu": null,
       "nvda": null,
-      "us10y": null,
-      "usdjpy": null
+      "us10y": {
+        "value": 5.01,
+        "change_pct": 0.20000000000000018,
+        "date": "2026-09-16",
+        "source": "FRED DGS10 / Federal Reserve"
+      },
+      "usdjpy": {
+        "value": 157.18,
+        "change_pct": -1.0948905109488982,
+        "date": "2026-09-25",
+        "source": "FRED DEXJPUS / Federal Reserve"
+      }
     }
   ]
 }
