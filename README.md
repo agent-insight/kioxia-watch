@@ -1,14 +1,15 @@
-# KIOXIA WATCH Ver.9 — NEAREST ANALOG
+# KIOXIA WATCH Ver.10 — MORNING BRIEF
 
-Ver.9 upgrades SIGNAL LAB from exact buckets to distance-based nearest analogs.
+Ver.10 turns the Ver.9 nearest-analog engine into a morning dashboard with plain-language annotations.
 
 ## Main changes
-- TOP 15 nearest historical market regimes using SOX / SNDK / MU / NVDA / US10Y / USDJPY
-- Confidence indicator based on sample count and average similarity
-- Up ratio, mean, median, maximum rise and maximum fall for the analog set
-- TOP 10 historical analog dates displayed on the page
-- USD/JPY freshness extension: FRED DEXJPUS historical backbone + Yahoo JPY=X when newer
-- US 10Y freshness extension: FRED DGS10 historical backbone + Yahoo ^TNX only for newer observations
+- Morning Brief / Today’s Signal at the top
+- Automatic Japanese “今日のポイント” commentary based only on loaded market data
+- Explanation of how to read analog up-ratio, mean, median and range
+- Explicit warning when mean and median diverge
+- TOP 15 nearest analogs and TOP 10 dates retained
+- Threshold Study retained with an explanation of sample-size risk
+- USD/JPY and US10Y freshness extensions retained
 - Missing data are not imputed
 
-The statistics are descriptive historical summaries, not forecasts or investment advice.
+The commentary is deterministic and generated from the displayed data; it does not call an LLM or make a price forecast. Statistics are descriptive historical summaries, not investment advice.

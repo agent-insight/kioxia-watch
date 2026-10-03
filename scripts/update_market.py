@@ -191,7 +191,7 @@ for jd in kdates:
 
 m['sessions']=sessions
 meta=m.setdefault('meta',{})
-meta['version']='9.0-nearest-analog'
+meta['version']='10.0-morning-brief'
 meta['as_of']=sessions[-1]['date'] if sessions else meta.get('as_of')
 meta['source_universe']=len(sessions)
 meta['loaded_kioxia_rows']=len(sessions)
