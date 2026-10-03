@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schema_version": "2.0",
+    "updated_at_jst": "2026-10-03T14:20:00+09:00",
+    "method": "Only externally re-verified observations are stored as verified. Split-adjusted historical prices are used for continuity.",
+    "sources": [
+      {
+        "name": "StockAnalysis 285A history",
+        "url": "https://stockanalysis.com/quote/tyo/285A/history/"
+      },
+      {
+        "name": "Investing.com SOX history",
+        "url": "https://jp.investing.com/indices/phlx-semiconductor-historical-data"
+      },
+      {
+        "name": "StockAnalysis NVDA history",
+        "url": "https://stockanalysis.com/stocks/nvda/history/"
+      },
+      {
+        "name": "Investing.com MU history",
+        "url": "https://jp.investing.com/equities/micron-tech-historical-data"
+      }
+    ]
+  },
+  "sessions": [
+    {
+      "date": "2026-09-24",
+      "kioxia": {
+        "open": 18926.67,
+        "high": 19063.33,
+        "low": 18100.0,
+        "close": 18193.33,
+        "change_pct": 0.02,
+        "volume": 83428799
+      },
+      "verified": true
+    },
+    {
+      "date": "2026-09-25",
+      "kioxia": {
+        "open": 18130.0,
+        "high": 18746.67,
+        "low": 18103.33,
+        "close": 18593.33,
+        "change_pct": 2.2,
+        "volume": 65273399
+      },
+      "verified": true
+    },
+    {
+      "date": "2026-09-28",
+      "kioxia": {
+        "open": 18663.33,
+        "high": 18690.0,
+        "low": 17780.0,
+        "close": 17780.0,
+        "change_pct": -4.37,
+        "volume": 55197599
+      },
+      "us_context": {
+        "sox_change_pct": -1.61,
+        "nvda_change_pct": 1.68,
+        "mu_change_pct": -2.61
+      },
+      "verified": true
+    },
+    {
+      "date": "2026-09-29",
+      "kioxia": {
+        "open": 17960.0,
+        "high": 18050.0,
+        "low": 17185.0,
+        "close": 17880.0,
+        "change_pct": 0.56,
+        "volume": 41572200
+      },
+      "us_context": {
+        "sox_change_pct": 1.32,
+        "nvda_change_pct": -0.72,
+        "mu_change_pct": 1.05
+      },
+      "verified": true
+    },
+    {
+      "date": "2026-09-30",
+      "kioxia": {
+        "open": 18170.0,
+        "high": 18460.0,
+        "low": 17920.0,
+        "close": 18095.0,
+        "change_pct": 1.2,
+        "volume": 39125500
+      },
+      "us_context": {
+        "sox_change_pct": 0.0,
+        "nvda_change_pct": 0.51,
+        "mu_change_pct": 0.0
+      },
+      "verified": true
+    },
+    {
+      "date": "2026-10-01",
+      "kioxia": {
+        "open": 18635.0,
+        "high": 19265.0,
+        "low": 18530.0,
+        "close": 19100.0,
+        "change_pct": 5.55,
+        "volume": 52342100
+      },
+      "us_context": {
+        "sox_change_pct": 1.59,
+        "nvda_change_pct": 1.09,
+        "mu_change_pct": 3.03
+      },
+      "verified": true
+    },
+    {
+      "date": "2026-10-02",
+      "kioxia": {
+        "open": 19145.0,
+        "high": 19300.0,
+        "low": 18590.0,
+        "close": 19300.0,
+        "change_pct": 1.05,
+        "volume": 41082900
+      },
+      "us_context": {
+        "sox_change_pct": 2.4,
+        "nvda_change_pct": 1.34,
+        "mu_change_pct": -2.05
+      },
+      "verified": true
+    }
+  ]
+}
