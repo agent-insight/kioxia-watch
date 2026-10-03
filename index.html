@@ -1,62 +1,40 @@
-<!doctype html>
-<html lang="ja">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>KIOXIA WATCH | AGENT INSIGHT</title>
-<style>
-:root{--bg:#06111f;--card:#10243a;--line:#284057;--txt:#f4f7fb;--muted:#9fb3c8;--green:#3ee6ad;--red:#ff6b78;--amber:#ffc857}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
-.wrap{max-width:1180px;margin:auto;padding:28px 22px}.top{border-bottom:1px solid var(--line)}h1{font-size:clamp(38px,7vw,72px);margin:22px 0 8px}
-.kicker,.brand{color:var(--green);font-weight:800;letter-spacing:.12em}.muted{color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0}.card{background:linear-gradient(145deg,#10243a,#0b1c30);border:1px solid var(--line);border-radius:18px;padding:20px}
-.big{font-size:34px;font-weight:850}.green{color:var(--green)}.red{color:var(--red)}.amber{color:var(--amber)}
-.two{display:grid;grid-template-columns:1.35fr 1fr;gap:14px}.row{display:flex;justify-content:space-between;gap:18px;padding:13px 0;border-bottom:1px solid var(--line)}
-table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:right;padding:10px 7px;border-bottom:1px solid var(--line)}th:first-child,td:first-child{text-align:left}
-.badge{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:5px 9px;color:var(--muted)}
-.news{margin-top:14px}.news h3{margin-bottom:6px}.foot{margin-top:28px;padding:18px 0;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
-@media(max-width:800px){.grid,.two{grid-template-columns:1fr}.wrap{padding:20px 14px}table{font-size:12px}.hide-sm{display:none}}
-</style>
-</head>
-<body>
-<div class="top"><div class="wrap"><b class="brand">KIOXIA WATCH</b> <span class="muted">by AGENT INSIGHT · DATA MODEL v2</span></div></div>
-<main class="wrap">
-<div class="kicker">WEEKEND EDITION · 2026.10.03</div>
-<h1>KIOXIA WATCH</h1>
-<p class="muted">ニュース・米国市場・キオクシア実績を分離保存し、「予測時点 → 翌営業日 → 答え合わせ」を蓄積する検証型ダッシュボード。</p>
-
-<section class="grid">
- <div class="card"><small class="muted">MARKET BIAS / 10月5日</small><div class="big green">● 強め</div><p>SOX・NVIDIAは追い風。一方、Micronは10/2に下落。NANDへの直接材料と半導体センチメントを分離して観察。</p></div>
- <div class="card"><small class="muted">KIOXIA 285A / 10月2日</small><div class="big">¥19,300</div><div class="green">+1.05%</div><p class="muted">高値 19,300 · 安値 18,590<br>出来高 41,082,900</p></div>
- <div class="card"><small class="muted">NEXT TSE SESSION</small><div class="big">10/05 月</div><p>週末材料を10月5日の実績と結び付けて保存します。</p></div>
-</section>
-
-<section class="two">
- <div class="card"><h2>Verified Daily Data</h2><div id="daily">読み込み中…</div></div>
- <div class="card"><h2>Pattern Analysis</h2>
-   <p><span class="badge">PHASE 1 · DATA COLLECTION</span></p>
-   <p>現在は母数が少ないため、上昇確率などの数値は表示しません。</p>
-   <div class="row"><span>記録営業日</span><b id="count">–</b></div>
-   <div class="row"><span>検証済み</span><b class="green" id="verified">–</b></div>
-   <div class="row"><span>次の目標</span><b>30営業日</b></div>
-   <p class="muted">30日以降：単条件集計。50〜100日以降：複合条件・寄付ギャップ・最大順行/逆行幅を追加予定。</p>
- </div>
-</section>
-
-<section class="card news"><h2>News → Target Session</h2><div id="news">読み込み中…</div></section>
-<div class="foot">KIOXIA WATCH is a personal research dashboard. 投資判断そのものを代替するものではありません。ニュース公開日・米国市場日・対象TSE営業日・実績日を別々に管理します。</div>
-</main>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KIOXIA WATCH Ver.3</title><style>
+:root{--bg:#06101d;--panel:#0d2034;--line:#294158;--text:#f3f7fb;--muted:#9eb2c7;--g:#38e6a8;--r:#ff6f7d;--a:#ffcb62}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}.w{max-width:1200px;margin:auto;padding:24px}
+header{border-bottom:1px solid var(--line)}.brand,.g{color:var(--g)}.muted{color:var(--muted)}h1{font-size:clamp(42px,7vw,76px);margin:22px 0 5px}.tag{letter-spacing:.14em;color:var(--g);font-weight:800}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0}.card{background:linear-gradient(145deg,#10263d,#0a1b2d);border:1px solid var(--line);border-radius:18px;padding:18px}.big{font-size:32px;font-weight:850}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}.tab{border:1px solid var(--line);background:#09192a;color:var(--text);border-radius:999px;padding:8px 14px}.tab.on{border-color:var(--g);color:var(--g)}
+.two{display:grid;grid-template-columns:1.25fr 1fr;gap:12px}.row{display:grid;grid-template-columns:1.2fr repeat(4,1fr);gap:8px;padding:11px 0;border-bottom:1px solid var(--line);font-size:14px}.row>*:not(:first-child){text-align:right}
+.event{padding:12px 0;border-bottom:1px solid var(--line)}.badge{display:inline-block;padding:4px 8px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:12px}.warn{border-left:3px solid var(--a);padding:12px;background:#0a1b2d;margin-top:14px}
+.foot{border-top:1px solid var(--line);margin-top:24px;padding-top:16px;color:var(--muted);font-size:12px}@media(max-width:850px){.grid{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}.w{padding:16px}.row{grid-template-columns:1.4fr 1fr 1fr}.hide{display:none}}@media(max-width:500px){.grid{grid-template-columns:1fr}}
+</style></head><body><header><div class="w"><b class="brand">KIOXIA WATCH</b> <span class="muted">by AGENT INSIGHT · VER.3</span></div></header>
+<main class="w"><div class="tag">ONE-YEAR RESEARCH MODEL · 2026.10.03</div><h1>KIOXIA WATCH</h1><p class="muted">ニュース、需給、米国半導体市場、キオクシア実績を「日付」で接続する検証型ダッシュボード。</p>
+<div class="grid"><div class="card"><small>1Y SOURCE COVERAGE</small><div class="big">242営業日</div><p class="muted">2025/10/03〜2026/10/02</p></div>
+<div class="card"><small>LATEST KIOXIA</small><div class="big">¥19,300</div><div class="g">+1.05%</div><p class="muted">2026/10/02</p></div>
+<div class="card"><small>CORPORATE ACTION</small><div class="big">1 → 3</div><p class="muted">株式分割を遡及調整</p></div>
+<div class="card"><small>NEXT EARNINGS</small><div class="big">10/30</div><p class="muted">18:45 JST 予定</p></div></div>
+<div class="tabs"><button class="tab">3か月</button><button class="tab">6か月</button><button class="tab on">1年</button></div>
+<div class="two" style="margin-top:12px"><section class="card"><h2>Pattern Analysis</h2>
+<div class="warn"><b>DATA INTEGRITY MODE</b><br>1年のソース母集団は242営業日。静的ファイル内で再正規化が完了した日だけ統計対象にします。未検証値を埋めて「1年確率」を作ることはしません。</div>
+<div id="patterns" style="margin-top:14px"></div></section>
+<section class="card"><h2>重要イベント</h2><div id="events"></div></section></div>
+<section class="card" style="margin-top:12px"><h2>検証ルール</h2>
+<div class="row"><b>指標</b><b>基準</b><b>扱い</b><b class="hide">目的</b><b class="hide">状態</b></div>
+<div class="row"><span>KIOXIA</span><span>分割調整株価</span><span>実出来高</span><span class="hide">翌日実績</span><span class="hide g">採用</span></div>
+<div class="row"><span>SOX</span><span>Nasdaq</span><span>直前US営業日</span><span class="hide">半導体地合い</span><span class="hide g">採用</span></div>
+<div class="row"><span>SNDK / MU / NVDA</span><span>US日足</span><span>直前US営業日</span><span class="hide">個別連動</span><span class="hide">拡張枠</span></div>
+<div class="row"><span>10Y / USDJPY</span><span>日付対応</span><span>欠損はnull</span><span class="hide">マクロ</span><span class="hide">拡張枠</span></div></section>
+<div class="foot">過去実績は将来の値動きを保証しません。母数の小さい条件は確率として扱わず、記述統計として表示します。</div></main>
 <script>
-const yen=n=>new Intl.NumberFormat('ja-JP',{maximumFractionDigits:2}).format(n);
-fetch('./data/daily.json').then(r=>r.json()).then(d=>{
- const s=[...d.sessions].reverse();
- document.getElementById('count').textContent=d.sessions.length+'日';
- document.getElementById('verified').textContent=d.sessions.filter(x=>x.verified).length+'日';
- document.getElementById('daily').innerHTML=`<table><thead><tr><th>日付</th><th>終値</th><th>騰落</th><th class="hide-sm">出来高</th></tr></thead><tbody>`+
- s.map(x=>`<tr><td>${x.date.slice(5)}</td><td>¥${yen(x.kioxia.close)}</td><td class="${x.kioxia.change_pct>=0?'green':'red'}">${x.kioxia.change_pct>0?'+':''}${x.kioxia.change_pct.toFixed(2)}%</td><td class="hide-sm">${yen(x.kioxia.volume)}</td></tr>`).join('')+
- `</tbody></table>`;
-}).catch(()=>document.getElementById('daily').textContent='daily.json を読み込めませんでした');
-fetch('./data/news.json').then(r=>r.json()).then(d=>{
- document.getElementById('news').innerHTML=d.items.map(n=>`<article><h3>${n.headline}</h3><div class="muted">${n.published_date} · 対象TSE ${n.target_tse_session||'—'} · ${n.category}</div><p>${n.note}</p></article>`).join('');
-}).catch(()=>document.getElementById('news').textContent='news.json を読み込めませんでした');
-</script>
-</body></html>
+Promise.all([fetch('./data/market.json').then(r=>r.json()),fetch('./data/events.json').then(r=>r.json())]).then(([m,e])=>{
+ let s=m.sessions, n=s.length, up=s.filter(x=>x.kioxia.change_pct>0).length;
+ let avg=n?s.reduce((a,x)=>a+x.kioxia.change_pct,0)/n:0;
+ let big=s.filter(x=>Math.abs(x.kioxia.change_pct)>=5);
+ document.getElementById('patterns').innerHTML=
+ `<div class="row"><b>現在の正規化済み日次</b><b>${n}日</b><b>${(up/n*100).toFixed(1)}%上昇</b><b class="hide">平均 ${avg>=0?'+':''}${avg.toFixed(2)}%</b><b class="hide">検証済</b></div>`+
+ `<div class="row"><b>|騰落| 5%以上</b><b>${big.length}回</b><b>${big.filter(x=>x.kioxia.change_pct>0).length}回上昇</b><b class="hide">急変日</b><b class="hide">実測</b></div>`+
+ `<p class="muted">SOX・SNDK・MU・NVDAの1年結合値は、出所が一致した行だけ順次統計へ昇格します。</p>`;
+ document.getElementById('events').innerHTML=e.events.map(x=>`<div class="event"><span class="badge">${x.type}</span><h3>${x.date} · ${x.title}</h3><p class="muted">分類：${x.impact} · VERIFIED</p></div>`).join('');
+});
+</script></body></html>

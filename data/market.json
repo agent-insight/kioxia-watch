@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "version": "3.0",
+    "as_of": "2026-10-03",
+    "target_period": {
+      "from": "2025-10-03",
+      "to": "2026-10-02",
+      "source_rows": 242
+    },
+    "loaded_daily_rows": 30,
+    "integrity": "No unverified daily values are fabricated. The source confirms 242 rows for the 1Y period; rows not yet normalized into this static package are shown as source coverage, not as loaded observations.",
+    "split": {
+      "announcement": "2026-07-31",
+      "effective_history_marker": "2026-09-29",
+      "ratio": "1:3"
+    },
+    "next_earnings": "2026-10-30 18:45 JST"
+  },
+  "sessions": [
+    {
+      "date": "2026-08-19",
+      "kioxia": {
+        "open": 17516.67,
+        "high": 17880,
+        "low": 16526.67,
+        "close": 16650,
+        "change_pct": -12.6,
+        "volume": null
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "withheld_pending_source_normalization"
+    },
+    {
+      "date": "2026-08-20",
+      "kioxia": {
+        "open": 16833.33,
+        "high": 17993.33,
+        "low": 16666.67,
+        "close": 17650,
+        "change_pct": 6.01,
+        "volume": null
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "withheld_pending_source_normalization"
+    },
+    {
+      "date": "2026-08-21",
+      "kioxia": {
+        "open": 17316.67,
+        "high": 18490,
+        "low": 17303.33,
+        "close": 18106.67,
+        "change_pct": 2.59,
+        "volume": null
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "withheld_pending_source_normalization"
+    },
+    {
+      "date": "2026-08-24",
+      "kioxia": {
+        "open": 18336.67,
+        "high": 18346.67,
+        "low": 16770,
+        "close": 16976.67,
+        "change_pct": -6.24,
+        "volume": null
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "withheld_pending_source_normalization"
+    },
+    {
+      "date": "2026-08-25",
+      "kioxia": {
+        "open": 16636.67,
+        "high": 17233.33,
+        "low": 16360,
+        "close": 17086.67,
+        "change_pct": 0.65,
+        "volume": null
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "withheld_pending_source_normalization"
+    },
+    {
+      "date": "2026-08-26",
+      "kioxia": {
+        "open": 16753.33,
+        "high": 17070,
+        "low": 16586.67,
+        "close": 16666.67,
+        "change_pct": -2.46,
+        "volume": null
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "withheld_pending_source_normalization"
+    },
+    {
+      "date": "2026-08-27",
+      "kioxia": {
+        "open": 17466.67,
+        "high": 17816.67,
+        "low": 16860,
+        "close": 17500,
+        "change_pct": 5.0,
+        "volume": null
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "withheld_pending_source_normalization"
+    },
+    {
+      "date": "2026-08-28",
+      "kioxia": {
+        "open": 17260.0,
+        "high": 17396.67,
+        "low": 15933.33,
+        "close": 15966.65,
+        "change_pct": -8.76,
+        "volume": 31954100
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-08-31",
+      "kioxia": {
+        "open": 15366.67,
+        "high": 16663.33,
+        "low": 15326.67,
+        "close": 16663.32,
+        "change_pct": 4.36,
+        "volume": 40319000
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-01",
+      "kioxia": {
+        "open": 16500.0,
+        "high": 17303.33,
+        "low": 16236.67,
+        "close": 16999.98,
+        "change_pct": 2.02,
+        "volume": 29654100
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-02",
+      "kioxia": {
+        "open": 16666.67,
+        "high": 17213.33,
+        "low": 16610.0,
+        "close": 16999.98,
+        "change_pct": 0.0,
+        "volume": 26203700
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-03",
+      "kioxia": {
+        "open": 17333.33,
+        "high": 17470.0,
+        "low": 16720.0,
+        "close": 17223.32,
+        "change_pct": 1.31,
+        "volume": 22745000
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-04",
+      "kioxia": {
+        "open": 17276.67,
+        "high": 18400.0,
+        "low": 17110.0,
+        "close": 18153.32,
+        "change_pct": 5.4,
+        "volume": 30527100
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-07",
+      "kioxia": {
+        "open": 19333.33,
+        "high": 19930.0,
+        "low": 19216.67,
+        "close": 19843.31,
+        "change_pct": 9.31,
+        "volume": 31323500
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-08",
+      "kioxia": {
+        "open": 19510.0,
+        "high": 20346.67,
+        "low": 19013.33,
+        "close": 19136.65,
+        "change_pct": -3.56,
+        "volume": 34694700
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-09",
+      "kioxia": {
+        "open": 19250.0,
+        "high": 19503.33,
+        "low": 18673.33,
+        "close": 18999.98,
+        "change_pct": -0.71,
+        "volume": 30759700
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-10",
+      "kioxia": {
+        "open": 18993.33,
+        "high": 19406.67,
+        "low": 18510.0,
+        "close": 19363.31,
+        "change_pct": 1.91,
+        "volume": 28715100
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-11",
+      "kioxia": {
+        "open": 18363.33,
+        "high": 18453.33,
+        "low": 17716.67,
+        "close": 18009.98,
+        "change_pct": -6.99,
+        "volume": 28051100
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-14",
+      "kioxia": {
+        "open": 16500.0,
+        "high": 17060.0,
+        "low": 16243.33,
+        "close": 16863.32,
+        "change_pct": -6.37,
+        "volume": 28534900
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-15",
+      "kioxia": {
+        "open": 16640.0,
+        "high": 17563.33,
+        "low": 16566.67,
+        "close": 17249.98,
+        "change_pct": 2.29,
+        "volume": 29060500
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-16",
+      "kioxia": {
+        "open": 17116.67,
+        "high": 17230.0,
+        "low": 16370.0,
+        "close": 16926.65,
+        "change_pct": -1.87,
+        "volume": 27253000
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-17",
+      "kioxia": {
+        "open": 17260.0,
+        "high": 17360.0,
+        "low": 16470.0,
+        "close": 16626.65,
+        "change_pct": -1.77,
+        "volume": 25108400
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-18",
+      "kioxia": {
+        "open": 16933.33,
+        "high": 18190.0,
+        "low": 16866.67,
+        "close": 18189.98,
+        "change_pct": 9.4,
+        "volume": 34475500
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-24",
+      "kioxia": {
+        "open": 18926.67,
+        "high": 19063.33,
+        "low": 18100.0,
+        "close": 18193.32,
+        "change_pct": 0.02,
+        "volume": 27809600
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-25",
+      "kioxia": {
+        "open": 18130.0,
+        "high": 18746.67,
+        "low": 18103.33,
+        "close": 18593.31,
+        "change_pct": 2.2,
+        "volume": 21757800
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-28",
+      "kioxia": {
+        "open": 18663.33,
+        "high": 18690.0,
+        "low": 17780.0,
+        "close": 17779.98,
+        "change_pct": -4.37,
+        "volume": 18399200
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-29",
+      "kioxia": {
+        "open": 17960,
+        "high": 18050,
+        "low": 17185,
+        "close": 17880,
+        "change_pct": 0.56,
+        "volume": 41572200
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-09-30",
+      "kioxia": {
+        "open": 18170,
+        "high": 18460,
+        "low": 17920,
+        "close": 18095,
+        "change_pct": 1.2,
+        "volume": 39125500
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-10-01",
+      "kioxia": {
+        "open": 18635,
+        "high": 19265,
+        "low": 18530,
+        "close": 19100,
+        "change_pct": 5.55,
+        "volume": 52342100
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    },
+    {
+      "date": "2026-10-02",
+      "kioxia": {
+        "open": 19145,
+        "high": 19300,
+        "low": 18590,
+        "close": 19300,
+        "change_pct": 1.05,
+        "volume": 41082900
+      },
+      "verified": true,
+      "price_basis": "split_adjusted_1_to_3",
+      "volume_basis": "actual_traded_volume"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "date": "2026-07-31",
+      "type": "IR",
+      "title": "1株→3株の株式分割を発表",
+      "impact": "構造",
+      "verified": true
+    },
+    {
+      "date": "2026-08-27",
+      "type": "CAPEX",
+      "title": "Kioxia・SanDisk、日本で約5兆円投資",
+      "impact": "中長期",
+      "verified": true
+    },
+    {
+      "date": "2026-09-15",
+      "type": "ADS",
+      "title": "米国ADS上場準備について会社がコメント",
+      "impact": "需給/認知",
+      "verified": true
+    },
+    {
+      "date": "2026-10-30",
+      "type": "EARNINGS",
+      "title": "2027年3月期 Q2決算発表予定 18:45",
+      "impact": "イベント",
+      "verified": true
+    }
+  ]
+}
