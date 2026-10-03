@@ -5,7 +5,7 @@ from datetime import datetime, timezone, timedelta
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data' / 'market.json'
-UA = {'User-Agent':'Mozilla/5.0 (compatible; KIOXIA-WATCH/6.0; +https://agent-insight.github.io/kioxia-watch/)'}
+UA = {'User-Agent':'Mozilla/5.0 (compatible; KIOXIA-WATCH/7.0; +https://agent-insight.github.io/kioxia-watch/)'}
 JST = timezone(timedelta(hours=9))
 
 def get(url, timeout=30):
@@ -44,13 +44,24 @@ def yahoo_chart(symbol, days=500):
     return rows
 
 def fred(series):
+    # FRED CSV's date column has appeared as both DATE and observation_date.
+    # Detect it instead of hard-coding the header.
     txt = get(f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={series}')
+    reader = csv.DictReader(io.StringIO(txt))
     rows = {}
-    for row in csv.DictReader(io.StringIO(txt)):
-        v = row.get(series,'.')
-        if v not in ('','.'):
-            try: rows[row['DATE']] = float(v)
-            except (ValueError, KeyError): pass
+    fields = reader.fieldnames or []
+    date_col = next((c for c in fields if c.lower() in ('date','observation_date')), fields[0] if fields else None)
+    value_col = series if series in fields else next((c for c in fields if c != date_col), None)
+    if not date_col or not value_col:
+        raise ValueError(f'Unexpected FRED columns: {fields}')
+    for row in reader:
+        v = row.get(value_col,'.')
+        d = row.get(date_col)
+        if d and v not in ('','.'):
+            try: rows[d] = float(v)
+            except ValueError: pass
+    if not rows:
+        raise ValueError(f'FRED {series}: no observations parsed')
     return rows
 
 def stooq(symbol):
@@ -99,9 +110,24 @@ kret=returns(kioxia,'close')
 feeds={}
 for name,series in [('sox','NASDAQSOX'),('us10y','DGS10'),('usdjpy','DEXJPUS')]:
     try:
-        feeds[name]=fred(series); status[name]=f'ok:{len(feeds[name])}'
+        feeds[name]=fred(series); status[name]=f'fred-ok:{len(feeds[name])}'
     except Exception as e:
-        feeds[name]={}; status[name]=f'error:{type(e).__name__}'
+        feeds[name]={}; status[name]=f'fred-error:{type(e).__name__}'
+
+# Independent market-data fallbacks. FRED remains the preferred source.
+if not feeds['sox']:
+    try:
+        q=yahoo_chart('^SOX', days=520); feeds['sox']={d:x['close'] for d,x in q.items()}; status['sox']=f'yahoo-fallback-ok:{len(q)}'
+    except Exception as e: status['sox']+=f'/yahoo-error:{type(e).__name__}'
+if not feeds['usdjpy']:
+    try:
+        q=yahoo_chart('JPY=X', days=520); feeds['usdjpy']={d:x['close'] for d,x in q.items()}; status['usdjpy']=f'yahoo-fallback-ok:{len(q)}'
+    except Exception as e: status['usdjpy']+=f'/yahoo-error:{type(e).__name__}'
+# ^TNX is a market proxy for the US 10Y yield and is used only if DGS10 is unavailable.
+if not feeds['us10y']:
+    try:
+        q=yahoo_chart('^TNX', days=520); feeds['us10y']={d:x['close'] for d,x in q.items()}; status['us10y']=f'yahoo-tnx-fallback-ok:{len(q)}'
+    except Exception as e: status['us10y']+=f'/yahoo-error:{type(e).__name__}'
 feedret={k:returns(v) for k,v in feeds.items()}
 
 # 3) US peers: Yahoo first, Stooq fallback.
@@ -153,7 +179,7 @@ for jd in kdates:
 
 m['sessions']=sessions
 meta=m.setdefault('meta',{})
-meta['version']='6.0-full-auto'
+meta['version']='7.0-multifactor-auto'
 meta['as_of']=sessions[-1]['date'] if sessions else meta.get('as_of')
 meta['source_universe']=len(sessions)
 meta['loaded_kioxia_rows']=len(sessions)
