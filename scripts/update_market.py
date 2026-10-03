@@ -5,7 +5,7 @@ from datetime import datetime, timezone, timedelta
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data' / 'market.json'
-UA = {'User-Agent':'Mozilla/5.0 (compatible; KIOXIA-WATCH/9.0; +https://agent-insight.github.io/kioxia-watch/)'}
+UA = {'User-Agent':'Mozilla/5.0 (compatible; KIOXIA-WATCH/13; +https://agent-insight.github.io/kioxia-watch/)'}
 JST = timezone(timedelta(hours=9))
 
 def get(url, timeout=30):
@@ -191,7 +191,7 @@ for jd in kdates:
 
 m['sessions']=sessions
 meta=m.setdefault('meta',{})
-meta['version']='10.0-morning-brief'
+meta['version']='13'
 meta['as_of']=sessions[-1]['date'] if sessions else meta.get('as_of')
 meta['source_universe']=len(sessions)
 meta['loaded_kioxia_rows']=len(sessions)
