@@ -28,55 +28,55 @@
       "usdjpy": "FRED DEXJPUS / Federal Reserve H.10; Yahoo JPY=X freshness extension"
     },
     "no_imputation": true,
-    "last_automation_run_jst": "2026-10-21T17:08:52+09:00",
+    "last_automation_run_jst": "2026-10-22T07:59:28+09:00",
     "automation_status": {
-      "kioxia": "ok:349",
-      "sox": "fred-ok:5441",
-      "us10y": "fred+tnx-fresh:16188",
-      "usdjpy": "fred+yahoo-fresh:14050",
-      "sndk": "yahoo-ok:358",
-      "mu": "yahoo-ok:358",
-      "nvda": "yahoo-ok:358",
-      "wdc": "yahoo-ok:358"
+      "kioxia": "ok:348",
+      "sox": "yahoo-fallback-ok:359",
+      "us10y": "fred+tnx-fresh:359",
+      "usdjpy": "fred+yahoo-fresh:372",
+      "sndk": "yahoo-ok:359",
+      "mu": "yahoo-ok:359",
+      "nvda": "yahoo-ok:359",
+      "wdc": "yahoo-ok:359"
     },
     "latest_context": {
       "sox": {
-        "date": "2026-10-20",
-        "value": 11283.81,
-        "change_pct": -0.287460433320319
+        "date": "2026-10-21",
+        "value": 11505.5556640625,
+        "change_pct": 1.9651704716234342
       },
       "us10y": {
-        "date": "2026-10-20",
-        "value": 5.117000102996826,
-        "change_pct": -0.6407746990907626
+        "date": "2026-10-21",
+        "value": 5.145999908447266,
+        "change_pct": 0.5667345098049781
       },
       "usdjpy": {
         "date": "2026-10-21",
-        "value": 158.1439971923828,
-        "change_pct": -0.2390806474139917
+        "value": 158.1649932861328,
+        "change_pct": -0.06508711897860175
       },
       "sndk": {
-        "date": "2026-10-20",
-        "close": 1365.3800048828125,
-        "change_pct": -0.4186351489888662
+        "date": "2026-10-21",
+        "close": 1378.219970703125,
+        "change_pct": 0.9403950383332749
       },
       "mu": {
-        "date": "2026-10-20",
-        "close": 896.0700073242188,
-        "change_pct": -0.9758002930280951
+        "date": "2026-10-21",
+        "close": 913.6699829101562,
+        "change_pct": 1.964129525827274
       },
       "nvda": {
-        "date": "2026-10-20",
-        "close": 216.47000122070312,
-        "change_pct": -0.2855935914350072
+        "date": "2026-10-21",
+        "close": 221.97000122070312,
+        "change_pct": 2.540767759497742
       },
       "wdc": {
-        "date": "2026-10-20",
-        "close": 364.32000732421875,
-        "change_pct": 3.438294245745488
+        "date": "2026-10-21",
+        "close": 378.510009765625,
+        "change_pct": 3.8949281280558745
       }
     },
-    "latest_context_generated_jst": "2026-10-21T17:08:52+09:00"
+    "latest_context_generated_jst": "2026-10-22T07:59:28+09:00"
   },
   "sessions": [
     {
@@ -94,8 +94,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-10-15",
       "sox": {
-        "close": 6767.06,
-        "change_pct": 2.994217946434974,
+        "close": 6767.06005859375,
+        "change_pct": 2.994217613567618,
         "date": "2025-10-15",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -106,8 +106,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 191.72225952148438,
-        "change_pct": 2.6087896726054938,
+        "close": 191.72227478027344,
+        "change_pct": 2.608797839032695,
         "date": "2025-10-15",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -124,8 +124,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.05,
-        "change_pct": 0.4962779156327368,
+        "value": 4.046000003814697,
+        "change_pct": 0.5967222482718748,
         "date": "2025-10-15",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -151,8 +151,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-10-16",
       "sox": {
-        "close": 6800.02,
-        "change_pct": 0.4870652838899092,
+        "close": 6800.02001953125,
+        "change_pct": 0.4870647024278085,
         "date": "2025-10-16",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -163,8 +163,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 202.3002471923828,
-        "change_pct": 5.5173497836400465,
+        "close": 202.30023193359375,
+        "change_pct": 5.517333426928794,
         "date": "2025-10-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -181,8 +181,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 3.99,
-        "change_pct": -1.4814814814814725,
+        "value": 3.9760000705718994,
+        "change_pct": -1.7301021546416107,
         "date": "2025-10-16",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -208,8 +208,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-10-17",
       "sox": {
-        "close": 6777.98,
-        "change_pct": -0.3241166937744455,
+        "close": 6777.97998046875,
+        "change_pct": -0.32411726729032475,
         "date": "2025-10-17",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -220,8 +220,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 202.15042114257812,
-        "change_pct": -0.07406122922934966,
+        "close": 202.15040588378906,
+        "change_pct": -0.07406123481552562,
         "date": "2025-10-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -238,14 +238,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.02,
-        "change_pct": 0.7518796992481036,
+        "value": 4.006999969482422,
+        "change_pct": 0.7796755120797361,
         "date": "2025-10-17",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 150.89999389648438,
-        "change_pct": 0.3791617750843912,
+        "change_pct": 0.5195835362824086,
         "date": "2025-10-19",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -265,8 +265,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-10-20",
       "sox": {
-        "close": 6885.03,
-        "change_pct": 1.5793791070495944,
+        "close": 6885.02978515625,
+        "change_pct": 1.5793762300268188,
         "date": "2025-10-20",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -278,7 +278,7 @@
       },
       "mu": {
         "close": 206.5354461669922,
-        "change_pct": 2.1691891610363223,
+        "change_pct": 2.169196873007495,
         "date": "2025-10-20",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -295,8 +295,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.0,
-        "change_pct": -0.4975124378109319,
+        "value": 3.9860000610351562,
+        "change_pct": -0.5240805741752563,
         "date": "2025-10-20",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -322,8 +322,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-10-21",
       "sox": {
-        "close": 6839.27,
-        "change_pct": -0.6646303647188101,
+        "close": 6839.27001953125,
+        "change_pct": -0.6646269813335492,
         "date": "2025-10-21",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -334,8 +334,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 202.0605010986328,
-        "change_pct": -2.166671702803602,
+        "close": 202.06051635742188,
+        "change_pct": -2.16666431482766,
         "date": "2025-10-21",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -352,8 +352,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 3.98,
-        "change_pct": -0.5000000000000004,
+        "value": 3.9630000591278076,
+        "change_pct": -0.5770196075053691,
         "date": "2025-10-21",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -379,8 +379,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-10-22",
       "sox": {
-        "close": 6677.57,
-        "change_pct": -2.36428741663951,
+        "close": 6677.56982421875,
+        "change_pct": -2.364290265638358,
         "date": "2025-10-22",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -392,7 +392,7 @@
       },
       "mu": {
         "close": 198.24485778808594,
-        "change_pct": -1.8883667464945741,
+        "change_pct": -1.8883741554864053,
         "date": "2025-10-22",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -409,8 +409,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 3.97,
-        "change_pct": -0.2512562814070307,
+        "value": 3.953000068664551,
+        "change_pct": -0.25233384592625585,
         "date": "2025-10-22",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -436,8 +436,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-10-23",
       "sox": {
-        "close": 6847.39,
-        "change_pct": 2.543140693395962,
+        "close": 6847.39013671875,
+        "change_pct": 2.543145440188166,
         "date": "2025-10-23",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -466,8 +466,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.01,
-        "change_pct": 1.0075566750629594,
+        "value": 3.990999937057495,
+        "change_pct": 0.9612918728276743,
         "date": "2025-10-23",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -493,8 +493,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-10-24",
       "sox": {
-        "close": 6976.94,
-        "change_pct": 1.8919617547707768,
+        "close": 6976.93994140625,
+        "change_pct": 1.8919588646307162,
         "date": "2025-10-24",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -523,15 +523,15 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.02,
-        "change_pct": 0.24937655860348684,
+        "value": 3.996999979019165,
+        "change_pct": 0.15033931486587715,
         "date": "2025-10-24",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
-        "value": 152.82,
-        "change_pct": 0.1428519861912836,
-        "date": "2025-10-24",
+        "value": 152.6020050048828,
+        "change_pct": 0.42645160791476844,
+        "date": "2025-10-23",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
     },
@@ -550,8 +550,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-10-27",
       "sox": {
-        "close": 7167.98,
-        "change_pct": 2.738163148887618,
+        "close": 7167.97998046875,
+        "change_pct": 2.738163731763388,
         "date": "2025-10-27",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -580,14 +580,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.01,
-        "change_pct": -0.24875621890546595,
+        "value": 3.996999979019165,
+        "change_pct": 0.0,
         "date": "2025-10-27",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 153.06100463867188,
-        "change_pct": 0.15770490686550787,
+        "change_pct": 0.30078217764857307,
         "date": "2025-10-27",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -607,8 +607,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-10-28",
       "sox": {
-        "close": 7194.71,
-        "change_pct": 0.3729084065524857,
+        "close": 7194.7099609375,
+        "change_pct": 0.37290813508943366,
         "date": "2025-10-28",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -619,8 +619,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 221.65826416015625,
-        "change_pct": 0.8223562979460919,
+        "close": 221.6582794189453,
+        "change_pct": 0.8223632384816604,
         "date": "2025-10-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -637,8 +637,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 3.99,
-        "change_pct": -0.4987531172069737,
+        "value": 3.9830000400543213,
+        "change_pct": -0.3502611718371629,
         "date": "2025-10-28",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -664,8 +664,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-10-29",
       "sox": {
-        "close": 7327.93,
-        "change_pct": 1.8516382175237212,
+        "close": 7327.93017578125,
+        "change_pct": 1.851641213711841,
         "date": "2025-10-29",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -677,7 +677,7 @@
       },
       "mu": {
         "close": 226.37290954589844,
-        "change_pct": 2.126988318529688,
+        "change_pct": 2.126981288184693,
         "date": "2025-10-29",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -694,8 +694,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.08,
-        "change_pct": 2.2556390977443552,
+        "value": 4.058000087738037,
+        "change_pct": 1.8830039399822196,
         "date": "2025-10-29",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -722,7 +722,7 @@
       "us_session_date": "2025-10-30",
       "sox": {
         "close": 7216.0,
-        "change_pct": -1.527443630056513,
+        "change_pct": -1.527445992200882,
         "date": "2025-10-30",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -733,8 +733,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 223.75588989257812,
-        "change_pct": -1.1560657406268326,
+        "close": 223.75587463378906,
+        "change_pct": -1.156072481181214,
         "date": "2025-10-30",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -751,8 +751,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.11,
-        "change_pct": 0.7352941176470562,
+        "value": 4.0929999351501465,
+        "change_pct": 0.8624900605070929,
         "date": "2025-10-30",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -778,8 +778,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-03",
       "sox": {
-        "close": 7270.97,
-        "change_pct": 0.5853090337628375,
+        "close": 7270.97021484375,
+        "change_pct": 0.5853098316866978,
         "date": "2025-11-03",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -790,8 +790,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 234.4337615966797,
-        "change_pct": 4.884487362880496,
+        "close": 234.43374633789062,
+        "change_pct": 4.884480536174918,
         "date": "2025-11-03",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -808,8 +808,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.13,
-        "change_pct": 0.48661800486617945,
+        "value": 4.105999946594238,
+        "change_pct": 0.12192427811665851,
         "date": "2025-11-03",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -835,8 +835,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-04",
       "sox": {
-        "close": 6979.57,
-        "change_pct": -4.007718364949941,
+        "close": 6979.56982421875,
+        "change_pct": -4.007723618920944,
         "date": "2025-11-04",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -847,8 +847,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 217.78265380859375,
-        "change_pct": -7.10269189671261,
+        "close": 217.7826690673828,
+        "change_pct": -7.102679341441109,
         "date": "2025-11-04",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -865,8 +865,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.1,
-        "change_pct": -0.7263922518159882,
+        "value": 4.089000225067139,
+        "change_pct": -0.41402147462764605,
         "date": "2025-11-04",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -892,8 +892,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-05",
       "sox": {
-        "close": 7190.27,
-        "change_pct": 3.0188106144074967,
+        "close": 7190.27001953125,
+        "change_pct": 3.018813488782368,
         "date": "2025-11-05",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -904,8 +904,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 237.2305908203125,
-        "change_pct": 8.929975216856011,
+        "close": 237.23057556152344,
+        "change_pct": 8.929960578324692,
         "date": "2025-11-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -922,8 +922,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.17,
-        "change_pct": 1.7073170731707332,
+        "value": 4.1570000648498535,
+        "change_pct": 1.6629942783042528,
         "date": "2025-11-05",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -949,8 +949,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-06",
       "sox": {
-        "close": 7018.39,
-        "change_pct": -2.3904526533774173,
+        "close": 7018.39013671875,
+        "change_pct": -2.390451017077455,
         "date": "2025-11-06",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -961,8 +961,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 238.05963134765625,
-        "change_pct": 0.3494661141622002,
+        "close": 238.0596160888672,
+        "change_pct": 0.3494661366400198,
         "date": "2025-11-06",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -979,8 +979,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.11,
-        "change_pct": -1.4388489208633004,
+        "value": 4.0929999351501465,
+        "change_pct": -1.539574902605123,
         "date": "2025-11-06",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1006,8 +1006,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-07",
       "sox": {
-        "close": 6947.36,
-        "change_pct": -1.0120554714115437,
+        "close": 6947.35986328125,
+        "change_pct": -1.0120593477111584,
         "date": "2025-11-07",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1018,8 +1018,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 237.65008544921875,
-        "change_pct": -0.17203500489312296,
+        "close": 237.6501007080078,
+        "change_pct": -0.1720221966192259,
         "date": "2025-11-07",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1036,7 +1036,7 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.11,
+        "value": 4.0929999351501465,
         "change_pct": 0.0,
         "date": "2025-11-07",
         "source": "FRED DGS10 / Federal Reserve H.15"
@@ -1063,8 +1063,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-10",
       "sox": {
-        "close": 7156.95,
-        "change_pct": 3.0168294143386953,
+        "close": 7156.9501953125,
+        "change_pct": 3.0168342529511616,
         "date": "2025-11-10",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1076,7 +1076,7 @@
       },
       "mu": {
         "close": 253.0126495361328,
-        "change_pct": 6.464362955256231,
+        "change_pct": 6.464356119503778,
         "date": "2025-11-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1093,8 +1093,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.13,
-        "change_pct": 0.48661800486617945,
+        "value": 4.110000133514404,
+        "change_pct": 0.4153481220036781,
         "date": "2025-11-10",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1120,8 +1120,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-11",
       "sox": {
-        "close": 6979.7,
-        "change_pct": -2.476613641285741,
+        "close": 6979.7001953125,
+        "change_pct": -2.4766135736991934,
         "date": "2025-11-11",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1132,8 +1132,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 240.8364715576172,
-        "change_pct": -4.812477953509098,
+        "close": 240.83648681640625,
+        "change_pct": -4.8124719226687045,
         "date": "2025-11-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1151,7 +1151,7 @@
       },
       "us10y": {
         "value": 4.119999885559082,
-        "change_pct": -0.2421335215718634,
+        "change_pct": 0.2433029615531268,
         "date": "2025-11-11",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1177,8 +1177,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-12",
       "sox": {
-        "close": 7082.13,
-        "change_pct": 1.4675415848818707,
+        "close": 7082.1298828125,
+        "change_pct": 1.4675370665460763,
         "date": "2025-11-12",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1189,8 +1189,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 244.62216186523438,
-        "change_pct": 1.571892447656742,
+        "close": 244.62217712402344,
+        "change_pct": 1.5718923480656288,
         "date": "2025-11-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1207,8 +1207,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.08,
-        "change_pct": -0.970871035683385,
+        "value": 4.065000057220459,
+        "change_pct": -1.3349473268531309,
         "date": "2025-11-12",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1234,8 +1234,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-13",
       "sox": {
-        "close": 6818.74,
-        "change_pct": -3.7190788646918382,
+        "close": 6818.740234375,
+        "change_pct": -3.719073962152486,
         "date": "2025-11-13",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1247,7 +1247,7 @@
       },
       "mu": {
         "close": 236.68118286132812,
-        "change_pct": -3.246222232424323,
+        "change_pct": -3.246228267631368,
         "date": "2025-11-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1264,8 +1264,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.11,
-        "change_pct": 0.7352941176470562,
+        "value": 4.111999988555908,
+        "change_pct": 1.1562098566755274,
         "date": "2025-11-13",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1291,8 +1291,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-14",
       "sox": {
-        "close": 6811.2,
-        "change_pct": -0.11057761404599242,
+        "close": 6811.2001953125,
+        "change_pct": -0.11057818311495105,
         "date": "2025-11-14",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1303,8 +1303,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 246.5500030517578,
-        "change_pct": 4.169668273211169,
+        "close": 246.54998779296875,
+        "change_pct": 4.16966182623093,
         "date": "2025-11-14",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1321,8 +1321,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.14,
-        "change_pct": 0.7299270072992581,
+        "value": 4.1479997634887695,
+        "change_pct": 0.8754809103368677,
         "date": "2025-11-14",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1348,8 +1348,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-17",
       "sox": {
-        "close": 6705.74,
-        "change_pct": -1.548332158797272,
+        "close": 6705.740234375,
+        "change_pct": -1.5483315408946319,
         "date": "2025-11-17",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1360,8 +1360,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 241.67552185058594,
-        "change_pct": -1.9770761066056797,
+        "close": 241.675537109375,
+        "change_pct": -1.977063851119265,
         "date": "2025-11-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1378,8 +1378,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.13,
-        "change_pct": -0.24154589371979673,
+        "value": 4.132999897003174,
+        "change_pct": -0.36161685971215496,
         "date": "2025-11-17",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1405,8 +1405,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-18",
       "sox": {
-        "close": 6551.03,
-        "change_pct": -2.3071279232418807,
+        "close": 6551.02978515625,
+        "change_pct": -2.307134541622602,
         "date": "2025-11-18",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1418,7 +1418,7 @@
       },
       "mu": {
         "close": 228.24078369140625,
-        "change_pct": -5.558998303305874,
+        "change_pct": -5.5590042660745524,
         "date": "2025-11-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1435,8 +1435,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.12,
-        "change_pct": -0.2421307506053183,
+        "value": 4.123000144958496,
+        "change_pct": -0.24194900299727706,
         "date": "2025-11-18",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1462,8 +1462,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-19",
       "sox": {
-        "close": 6670.03,
-        "change_pct": 1.8165082437418212,
+        "close": 6670.02978515625,
+        "change_pct": 1.8165083033149676,
         "date": "2025-11-19",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1474,8 +1474,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 225.6636962890625,
-        "change_pct": -1.1291090753649535,
+        "close": 225.66371154785156,
+        "change_pct": -1.129102389973835,
         "date": "2025-11-19",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1492,8 +1492,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.13,
-        "change_pct": 0.24271844660193054,
+        "value": 4.132999897003174,
+        "change_pct": 0.24253581598596696,
         "date": "2025-11-19",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1519,8 +1519,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-20",
       "sox": {
-        "close": 6352.07,
-        "change_pct": -4.766995050996769,
+        "close": 6352.06982421875,
+        "change_pct": -4.76699461890111,
         "date": "2025-11-20",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1531,8 +1531,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 201.14157104492188,
-        "change_pct": -10.866668253421308,
+        "close": 201.1415557861328,
+        "change_pct": -10.866681042121773,
         "date": "2025-11-20",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1549,8 +1549,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.1,
-        "change_pct": -0.7263922518159882,
+        "value": 4.105999946594238,
+        "change_pct": -0.6532773066002973,
         "date": "2025-11-20",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1576,8 +1576,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-24",
       "sox": {
-        "close": 6703.2,
-        "change_pct": 4.632377158573497,
+        "close": 6703.2001953125,
+        "change_pct": 4.632377336338633,
         "date": "2025-11-24",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1606,8 +1606,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.04,
-        "change_pct": -0.49261083743841194,
+        "value": 4.038000106811523,
+        "change_pct": -0.6153112016589191,
         "date": "2025-11-24",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1633,8 +1633,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-25",
       "sox": {
-        "close": 6714.18,
-        "change_pct": 0.16380236305049145,
+        "close": 6714.18017578125,
+        "change_pct": 0.16380206690571608,
         "date": "2025-11-25",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1663,8 +1663,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.01,
-        "change_pct": -0.7425742574257432,
+        "value": 4.001999855041504,
+        "change_pct": -0.8915366720593232,
         "date": "2025-11-25",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1690,8 +1690,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-26",
       "sox": {
-        "close": 6899.46,
-        "change_pct": 2.759532809665499,
+        "close": 6899.4599609375,
+        "change_pct": 2.7595295375684614,
         "date": "2025-11-26",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1720,8 +1720,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.0,
-        "change_pct": -0.24937655860348684,
+        "value": 3.997999906539917,
+        "change_pct": -0.09994874179087843,
         "date": "2025-11-26",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1747,8 +1747,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-26",
       "sox": {
-        "close": 6899.46,
-        "change_pct": 2.759532809665499,
+        "close": 6899.4599609375,
+        "change_pct": 2.7595295375684614,
         "date": "2025-11-26",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1777,8 +1777,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.0,
-        "change_pct": -0.24937655860348684,
+        "value": 3.997999906539917,
+        "change_pct": -0.09994874179087843,
         "date": "2025-11-26",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1804,8 +1804,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-11-28",
       "sox": {
-        "close": 7025.15,
-        "change_pct": 1.8217367736025558,
+        "close": 7025.14990234375,
+        "change_pct": 1.8217359346654138,
         "date": "2025-11-28",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1816,8 +1816,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 236.21173095703125,
-        "change_pct": 2.7012976673831623,
+        "close": 236.2117156982422,
+        "change_pct": 2.701291033091846,
         "date": "2025-11-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1834,8 +1834,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.02,
-        "change_pct": 0.49999999999998934,
+        "value": 4.017000198364258,
+        "change_pct": 0.47524492917720984,
         "date": "2025-11-28",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1861,8 +1861,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-01",
       "sox": {
-        "close": 7020.53,
-        "change_pct": -0.06576372034761135,
+        "close": 7020.52978515625,
+        "change_pct": -0.06576538937566045,
         "date": "2025-12-01",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1873,8 +1873,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 240.1872100830078,
-        "change_pct": 1.6830151110063696,
+        "close": 240.18722534179688,
+        "change_pct": 1.6830281393126922,
         "date": "2025-12-01",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1891,8 +1891,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.09,
-        "change_pct": 1.7412935323383172,
+        "value": 4.0960001945495605,
+        "change_pct": 1.9666415803880621,
         "date": "2025-12-01",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1918,8 +1918,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-02",
       "sox": {
-        "close": 7149.47,
-        "change_pct": 1.836613475051041,
+        "close": 7149.47021484375,
+        "change_pct": 1.8366196516981237,
         "date": "2025-12-02",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -1931,7 +1931,7 @@
       },
       "mu": {
         "close": 239.21832275390625,
-        "change_pct": -0.40338839389770786,
+        "change_pct": -0.4033947211438238,
         "date": "2025-12-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1948,8 +1948,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.09,
-        "change_pct": 0.0,
+        "value": 4.085999965667725,
+        "change_pct": -0.2441462013391238,
         "date": "2025-12-02",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -1975,8 +1975,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-03",
       "sox": {
-        "close": 7280.51,
-        "change_pct": 1.832863135309326,
+        "close": 7280.509765625,
+        "change_pct": 1.8328567969859488,
         "date": "2025-12-03",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2005,8 +2005,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.06,
-        "change_pct": -0.7334963325183463,
+        "value": 4.057000160217285,
+        "change_pct": -0.7097358221759165,
         "date": "2025-12-03",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2032,8 +2032,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-04",
       "sox": {
-        "close": 7215.97,
-        "change_pct": -0.8864763594857994,
+        "close": 7215.97021484375,
+        "change_pct": -0.8864702178681738,
         "date": "2025-12-04",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2062,8 +2062,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.11,
-        "change_pct": 1.2315270935960854,
+        "value": 4.107999801635742,
+        "change_pct": 1.25707762889824,
         "date": "2025-12-04",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2089,8 +2089,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-05",
       "sox": {
-        "close": 7294.84,
-        "change_pct": 1.0929923489149784,
+        "close": 7294.83984375,
+        "change_pct": 1.0929871736999441,
         "date": "2025-12-05",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2101,8 +2101,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 236.95089721679688,
-        "change_pct": 4.663580304328052,
+        "close": 236.95091247558594,
+        "change_pct": 4.663587044287731,
         "date": "2025-12-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2119,8 +2119,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.14,
-        "change_pct": 0.7299270072992581,
+        "value": 4.138999938964844,
+        "change_pct": 0.7546285011201359,
         "date": "2025-12-05",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2146,8 +2146,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-08",
       "sox": {
-        "close": 7375.22,
-        "change_pct": 1.101874749823173,
+        "close": 7375.22021484375,
+        "change_pct": 1.101879860496413,
         "date": "2025-12-08",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2159,7 +2159,7 @@
       },
       "mu": {
         "close": 246.639892578125,
-        "change_pct": 4.089030881559919,
+        "change_pct": 4.089024178599598,
         "date": "2025-12-08",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2176,8 +2176,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.17,
-        "change_pct": 0.7246376811594235,
+        "value": 4.171999931335449,
+        "change_pct": 0.797293859802739,
         "date": "2025-12-08",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2203,8 +2203,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-09",
       "sox": {
-        "close": 7372.51,
-        "change_pct": -0.036744666599775044,
+        "close": 7372.509765625,
+        "change_pct": -0.036750756449210886,
         "date": "2025-12-09",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2215,8 +2215,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 252.13365173339844,
-        "change_pct": 2.2274414320599956,
+        "close": 252.1336669921875,
+        "change_pct": 2.2274476187270853,
         "date": "2025-12-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2233,8 +2233,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.18,
-        "change_pct": 0.23980815347721673,
+        "value": 4.185999870300293,
+        "change_pct": 0.3355690123504562,
         "date": "2025-12-09",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2260,8 +2260,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-10",
       "sox": {
-        "close": 7467.49,
-        "change_pct": 1.2882993715844338,
+        "close": 7467.490234375,
+        "change_pct": 1.288305770619047,
         "date": "2025-12-10",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2273,7 +2273,7 @@
       },
       "mu": {
         "close": 263.4107971191406,
-        "change_pct": 4.472685541264609,
+        "change_pct": 4.472679218718767,
         "date": "2025-12-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2290,8 +2290,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.13,
-        "change_pct": -1.1961722488038284,
+        "value": 4.164000034332275,
+        "change_pct": -0.5255574928252349,
         "date": "2025-12-10",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2317,8 +2317,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-11",
       "sox": {
-        "close": 7411.48,
-        "change_pct": -0.7500512220304345,
+        "close": 7411.47998046875,
+        "change_pct": -0.7500545986443896,
         "date": "2025-12-11",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2329,8 +2329,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 258.16680908203125,
-        "change_pct": -1.990802235315181,
+        "close": 258.1667785644531,
+        "change_pct": -1.990813820860815,
         "date": "2025-12-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2347,8 +2347,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.14,
-        "change_pct": 0.2421307506053294,
+        "value": 4.140999794006348,
+        "change_pct": -0.5523592732058158,
         "date": "2025-12-11",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2374,8 +2374,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-12",
       "sox": {
-        "close": 7033.57,
-        "change_pct": -5.098981579927353,
+        "close": 7033.56982421875,
+        "change_pct": -5.098983701580462,
         "date": "2025-12-12",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2387,7 +2387,7 @@
       },
       "mu": {
         "close": 240.86643981933594,
-        "change_pct": -6.701236818245759,
+        "change_pct": -6.701225789513443,
         "date": "2025-12-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2404,8 +2404,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.19,
-        "change_pct": 1.2077294685990614,
+        "value": 4.193999767303467,
+        "change_pct": 1.2798835047958868,
         "date": "2025-12-12",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2431,8 +2431,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-15",
       "sox": {
-        "close": 6990.41,
-        "change_pct": -0.6136286409319847,
+        "close": 6990.41015625,
+        "change_pct": -0.6136239356029138,
         "date": "2025-12-15",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2443,8 +2443,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 237.2305908203125,
-        "change_pct": -1.5094875823093212,
+        "close": 237.23057556152344,
+        "change_pct": -1.5094939172678457,
         "date": "2025-12-15",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2461,8 +2461,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.18,
-        "change_pct": -0.23866348448688957,
+        "value": 4.182000160217285,
+        "change_pct": -0.2861136803042008,
         "date": "2025-12-15",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2488,8 +2488,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-16",
       "sox": {
-        "close": 6958.44,
-        "change_pct": -0.45734084266874087,
+        "close": 6958.43994140625,
+        "change_pct": -0.4573439058531692,
         "date": "2025-12-16",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2500,8 +2500,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 232.24623107910156,
-        "change_pct": -2.101061133800519,
+        "close": 232.2462158203125,
+        "change_pct": -2.1010612689418284,
         "date": "2025-12-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2518,8 +2518,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.15,
-        "change_pct": -0.7177033492822837,
+        "value": 4.14900016784668,
+        "change_pct": -0.7890959135900877,
         "date": "2025-12-16",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2545,8 +2545,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-17",
       "sox": {
-        "close": 6695.31,
-        "change_pct": -3.781451014882631,
+        "close": 6695.31005859375,
+        "change_pct": -3.7814493626185275,
         "date": "2025-12-17",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2558,7 +2558,7 @@
       },
       "mu": {
         "close": 225.26416015625,
-        "change_pct": -3.0063225958114725,
+        "change_pct": -3.006316223238048,
         "date": "2025-12-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2575,8 +2575,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.16,
-        "change_pct": 0.24096385542167198,
+        "value": 4.151000022888184,
+        "change_pct": 0.04820089083152901,
         "date": "2025-12-17",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2602,8 +2602,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-18",
       "sox": {
-        "close": 6863.63,
-        "change_pct": 2.513998604993639,
+        "close": 6863.6298828125,
+        "change_pct": 2.5139959575539494,
         "date": "2025-12-18",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2632,8 +2632,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.12,
-        "change_pct": -0.9615384615384581,
+        "value": 4.116000175476074,
+        "change_pct": -0.8431666398247106,
         "date": "2025-12-18",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2659,8 +2659,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-19",
       "sox": {
-        "close": 7067.86,
-        "change_pct": 2.9755391826191024,
+        "close": 7067.8701171875,
+        "change_pct": 2.9756883436626858,
         "date": "2025-12-19",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2671,8 +2671,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 265.6183166503906,
-        "change_pct": 6.9885212465877755,
+        "close": 265.61834716796875,
+        "change_pct": 6.9885335387767755,
         "date": "2025-12-19",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2689,8 +2689,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.16,
-        "change_pct": 0.9708737864077666,
+        "value": 4.151000022888184,
+        "change_pct": 0.8503363926135155,
         "date": "2025-12-19",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2716,8 +2716,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-22",
       "sox": {
-        "close": 7145.57,
-        "change_pct": 1.0994841437153458,
+        "close": 7145.56982421875,
+        "change_pct": 1.0993369394593389,
         "date": "2025-12-22",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2728,8 +2728,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 276.2762145996094,
-        "change_pct": 4.012486067836485,
+        "close": 276.2762451171875,
+        "change_pct": 4.012485606831606,
         "date": "2025-12-22",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2746,8 +2746,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.17,
-        "change_pct": 0.24038461538460343,
+        "value": 4.169000148773193,
+        "change_pct": 0.43363348074580976,
         "date": "2025-12-22",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2773,8 +2773,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-23",
       "sox": {
-        "close": 7184.54,
-        "change_pct": 0.5453728673849634,
+        "close": 7184.5400390625,
+        "change_pct": 0.5453758874717884,
         "date": "2025-12-23",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2785,8 +2785,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 275.9565734863281,
-        "change_pct": -0.11569621139644326,
+        "close": 275.95654296875,
+        "change_pct": -0.11571829069194628,
         "date": "2025-12-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2803,8 +2803,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.18,
-        "change_pct": 0.23980815347721673,
+        "value": 4.169000148773193,
+        "change_pct": 0.0,
         "date": "2025-12-23",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2830,8 +2830,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-24",
       "sox": {
-        "close": 7204.37,
-        "change_pct": 0.2760093200121272,
+        "close": 7204.3701171875,
+        "change_pct": 0.2760104059158053,
         "date": "2025-12-24",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2843,7 +2843,7 @@
       },
       "mu": {
         "close": 286.35479736328125,
-        "change_pct": 3.7680652957768013,
+        "change_pct": 3.768076771315676,
         "date": "2025-12-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2860,8 +2860,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.15,
-        "change_pct": -0.7177033492822837,
+        "value": 4.136000156402588,
+        "change_pct": -0.7915565169820504,
         "date": "2025-12-24",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2887,8 +2887,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-24",
       "sox": {
-        "close": 7204.37,
-        "change_pct": 0.2760093200121272,
+        "close": 7204.3701171875,
+        "change_pct": 0.2760104059158053,
         "date": "2025-12-24",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2900,7 +2900,7 @@
       },
       "mu": {
         "close": 286.35479736328125,
-        "change_pct": 3.7680652957768013,
+        "change_pct": 3.768076771315676,
         "date": "2025-12-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2917,8 +2917,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.15,
-        "change_pct": -0.7177033492822837,
+        "value": 4.136000156402588,
+        "change_pct": -0.7915565169820504,
         "date": "2025-12-24",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -2944,8 +2944,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-26",
       "sox": {
-        "close": 7207.64,
-        "change_pct": 0.045389117993677175,
+        "close": 7207.64013671875,
+        "change_pct": 0.04538938835816353,
         "date": "2025-12-26",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -2974,8 +2974,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.14,
-        "change_pct": -0.2409638554217053,
+        "value": 4.136000156402588,
+        "change_pct": 0.0,
         "date": "2025-12-26",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3001,8 +3001,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2025-12-29",
       "sox": {
-        "close": 7178.27,
-        "change_pct": -0.40748428056894825,
+        "close": 7178.27001953125,
+        "change_pct": -0.40748589871845153,
         "date": "2025-12-29",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3031,8 +3031,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.12,
-        "change_pct": -0.48309178743960457,
+        "value": 4.116000175476074,
+        "change_pct": -0.483558514753768,
         "date": "2025-12-29",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3058,8 +3058,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-02",
       "sox": {
-        "close": 7367.47,
-        "change_pct": 4.014326999504458,
+        "close": 7367.47021484375,
+        "change_pct": 4.014331753554501,
         "date": "2026-01-02",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3088,8 +3088,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.19,
-        "change_pct": 0.23923444976077235,
+        "value": 4.186999797821045,
+        "change_pct": 0.5764998893527107,
         "date": "2026-01-02",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3115,8 +3115,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-05",
       "sox": {
-        "close": 7446.45,
-        "change_pct": 1.072009794407025,
+        "close": 7446.4501953125,
+        "change_pct": 1.0720094980448458,
         "date": "2026-01-05",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3145,8 +3145,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.17,
-        "change_pct": -0.4773269689737569,
+        "value": 4.164999961853027,
+        "change_pct": -0.5254319806622942,
         "date": "2026-01-05",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3172,8 +3172,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-06",
       "sox": {
-        "close": 7650.93,
-        "change_pct": 2.746006486312269,
+        "close": 7650.93017578125,
+        "change_pct": 2.746006151998026,
         "date": "2026-01-06",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3202,8 +3202,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.18,
-        "change_pct": 0.23980815347721673,
+        "value": 4.178999900817871,
+        "change_pct": 0.3361329914302047,
         "date": "2026-01-06",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3229,8 +3229,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-07",
       "sox": {
-        "close": 7574.87,
-        "change_pct": -0.9941275112960168,
+        "close": 7574.8701171875,
+        "change_pct": -0.9941282542940355,
         "date": "2026-01-07",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3259,8 +3259,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.15,
-        "change_pct": -0.7177033492822837,
+        "value": 4.138000011444092,
+        "change_pct": -0.9810933320614668,
         "date": "2026-01-07",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3286,8 +3286,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-08",
       "sox": {
-        "close": 7436.1,
-        "change_pct": -1.8319786346168265,
+        "close": 7436.10009765625,
+        "change_pct": -1.8319788641178003,
         "date": "2026-01-08",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3316,8 +3316,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.19,
-        "change_pct": 0.9638554216867545,
+        "value": 4.183000087738037,
+        "change_pct": 1.0874837160341322,
         "date": "2026-01-08",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3343,8 +3343,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-12",
       "sox": {
-        "close": 7674.84,
-        "change_pct": 0.4720649108889141,
+        "close": 7674.83984375,
+        "change_pct": 0.4720656912223342,
         "date": "2026-01-12",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3373,8 +3373,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.19,
-        "change_pct": 0.23923444976077235,
+        "value": 4.186999797821045,
+        "change_pct": 0.38359611584066755,
         "date": "2026-01-12",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3400,8 +3400,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-13",
       "sox": {
-        "close": 7747.99,
-        "change_pct": 0.9531143320251623,
+        "close": 7747.990234375,
+        "change_pct": 0.9531194411121158,
         "date": "2026-01-13",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3430,8 +3430,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.18,
-        "change_pct": -0.23866348448688957,
+        "value": 4.171000003814697,
+        "change_pct": -0.3821302789332348,
         "date": "2026-01-13",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3457,8 +3457,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-14",
       "sox": {
-        "close": 7701.47,
-        "change_pct": -0.6004137847364199,
+        "close": 7701.47021484375,
+        "change_pct": -0.6004140186555484,
         "date": "2026-01-14",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3487,8 +3487,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.15,
-        "change_pct": -0.7177033492822837,
+        "value": 4.139999866485596,
+        "change_pct": -0.7432303356688985,
         "date": "2026-01-14",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3514,8 +3514,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-15",
       "sox": {
-        "close": 7837.3,
-        "change_pct": 1.7636892697108442,
+        "close": 7837.2998046875,
+        "change_pct": 1.7636838948224876,
         "date": "2026-01-15",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3544,8 +3544,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.17,
-        "change_pct": 0.48192771084336616,
+        "value": 4.159999847412109,
+        "change_pct": 0.4830913423070182,
         "date": "2026-01-15",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3571,8 +3571,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-16",
       "sox": {
-        "close": 7927.41,
-        "change_pct": 1.14975820754597,
+        "close": 7927.41015625,
+        "change_pct": 1.1497627219594797,
         "date": "2026-01-16",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3601,8 +3601,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.24,
-        "change_pct": 1.6786570743405393,
+        "value": 4.230999946594238,
+        "change_pct": 1.7067332160191517,
         "date": "2026-01-16",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3628,8 +3628,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-16",
       "sox": {
-        "close": 7927.41,
-        "change_pct": 1.14975820754597,
+        "close": 7927.41015625,
+        "change_pct": 1.1497627219594797,
         "date": "2026-01-16",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3658,8 +3658,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.24,
-        "change_pct": 1.6786570743405393,
+        "value": 4.230999946594238,
+        "change_pct": 1.7067332160191517,
         "date": "2026-01-16",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3685,8 +3685,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-20",
       "sox": {
-        "close": 7794.19,
-        "change_pct": -1.680498422561727,
+        "close": 7794.18994140625,
+        "change_pct": -1.6805010995768699,
         "date": "2026-01-20",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3715,8 +3715,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.3,
-        "change_pct": 1.4150943396226356,
+        "value": 4.295000076293945,
+        "change_pct": 1.512647849386628,
         "date": "2026-01-20",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3742,8 +3742,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-21",
       "sox": {
-        "close": 8042.07,
-        "change_pct": 3.180317646862596,
+        "close": 8042.06982421875,
+        "change_pct": 3.1803161672472324,
         "date": "2026-01-21",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3772,8 +3772,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.26,
-        "change_pct": -0.9302325581395321,
+        "value": 4.252999782562256,
+        "change_pct": -0.977888078827005,
         "date": "2026-01-21",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3799,8 +3799,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-22",
       "sox": {
-        "close": 8055.17,
-        "change_pct": 0.16289338441470846,
+        "close": 8055.169921875,
+        "change_pct": 0.16289460229255148,
         "date": "2026-01-22",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3829,8 +3829,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.26,
-        "change_pct": 0.0,
+        "value": 4.249000072479248,
+        "change_pct": -0.09404444597921335,
         "date": "2026-01-22",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3856,8 +3856,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-23",
       "sox": {
-        "close": 7957.93,
-        "change_pct": -1.2071750192733322,
+        "close": 7957.93017578125,
+        "change_pct": -1.207171878890867,
         "date": "2026-01-23",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3886,8 +3886,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.24,
-        "change_pct": -0.46948356807510194,
+        "value": 4.238999843597412,
+        "change_pct": -0.2353548767063396,
         "date": "2026-01-23",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3913,8 +3913,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-26",
       "sox": {
-        "close": 7927.04,
-        "change_pct": -0.3881662693690502,
+        "close": 7927.0400390625,
+        "change_pct": -0.3881679788138803,
         "date": "2026-01-26",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -3943,8 +3943,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.22,
-        "change_pct": -0.4716981132075526,
+        "value": 4.2129998207092285,
+        "change_pct": -0.613352768282216,
         "date": "2026-01-26",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -3970,8 +3970,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-27",
       "sox": {
-        "close": 8117.18,
-        "change_pct": 2.3986254642338167,
+        "close": 8117.18017578125,
+        "change_pct": 2.3986271771277323,
         "date": "2026-01-27",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4000,8 +4000,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.24,
-        "change_pct": 0.4739336492891155,
+        "value": 4.2230000495910645,
+        "change_pct": 0.23736599352981447,
         "date": "2026-01-27",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4027,8 +4027,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-28",
       "sox": {
-        "close": 8306.74,
-        "change_pct": 2.3352937842945343,
+        "close": 8306.740234375,
+        "change_pct": 2.3352944555712796,
         "date": "2026-01-28",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4057,8 +4057,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.26,
-        "change_pct": 0.4716981132075304,
+        "value": 4.250999927520752,
+        "change_pct": 0.6630328581786138,
         "date": "2026-01-28",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4084,8 +4084,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-29",
       "sox": {
-        "close": 8320.39,
-        "change_pct": 0.16432439199973725,
+        "close": 8320.3896484375,
+        "change_pct": 0.1643173336035808,
         "date": "2026-01-29",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4114,8 +4114,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.24,
-        "change_pct": -0.46948356807510194,
+        "value": 4.2270002365112305,
+        "change_pct": -0.5645657826091388,
         "date": "2026-01-29",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4141,8 +4141,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-01-30",
       "sox": {
-        "close": 7998.47,
-        "change_pct": -3.869049407539782,
+        "close": 7998.47021484375,
+        "change_pct": -3.869042763570618,
         "date": "2026-01-30",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4171,8 +4171,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.26,
-        "change_pct": 0.4716981132075304,
+        "value": 4.241000175476074,
+        "change_pct": 0.3312027012422947,
         "date": "2026-01-30",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4198,8 +4198,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-02",
       "sox": {
-        "close": 8134.49,
-        "change_pct": 1.7005752350136794,
+        "close": 8134.490234375,
+        "change_pct": 1.7005754335225332,
         "date": "2026-02-02",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4228,8 +4228,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.29,
-        "change_pct": 0.7042253521126751,
+        "value": 4.275000095367432,
+        "change_pct": 0.8016957907232447,
         "date": "2026-02-02",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4255,8 +4255,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-03",
       "sox": {
-        "close": 7966.33,
-        "change_pct": -2.0672469939725713,
+        "close": 7966.330078125,
+        "change_pct": -2.0672488552433643,
         "date": "2026-02-03",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4285,8 +4285,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.28,
-        "change_pct": -0.2331002331002252,
+        "value": 4.27400016784668,
+        "change_pct": -0.02339011692269466,
         "date": "2026-02-03",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4312,8 +4312,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-04",
       "sox": {
-        "close": 7619.16,
-        "change_pct": -4.357966591893636,
+        "close": 7619.16015625,
+        "change_pct": -4.357965568465527,
         "date": "2026-02-04",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4342,8 +4342,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.29,
-        "change_pct": 0.2336448598130758,
+        "value": 4.275000095367432,
+        "change_pct": 0.023395589178365483,
         "date": "2026-02-04",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4369,8 +4369,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-05",
       "sox": {
-        "close": 7614.64,
-        "change_pct": -0.05932412496915118,
+        "close": 7614.64013671875,
+        "change_pct": -0.059324380096437146,
         "date": "2026-02-05",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4399,8 +4399,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.21,
-        "change_pct": -1.8648018648018683,
+        "value": 4.210000038146973,
+        "change_pct": -1.5204691408286952,
         "date": "2026-02-05",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4426,8 +4426,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-06",
       "sox": {
-        "close": 8048.62,
-        "change_pct": 5.699284536104132,
+        "close": 8048.6201171875,
+        "change_pct": 5.699284177279029,
         "date": "2026-02-06",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4456,8 +4456,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.22,
-        "change_pct": 0.23752969121140222,
+        "value": 4.205999851226807,
+        "change_pct": -0.09501631553254786,
         "date": "2026-02-06",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4483,8 +4483,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-09",
       "sox": {
-        "close": 8162.58,
-        "change_pct": 1.415894898752823,
+        "close": 8162.580078125,
+        "change_pct": 1.4158943928058276,
         "date": "2026-02-09",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4513,8 +4513,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.22,
-        "change_pct": 0.0,
+        "value": 4.197999954223633,
+        "change_pct": -0.1902020277257166,
         "date": "2026-02-09",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4540,8 +4540,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-11",
       "sox": {
-        "close": 8291.86,
-        "change_pct": 2.278611543172504,
+        "close": 8291.8603515625,
+        "change_pct": 2.2786173580571,
         "date": "2026-02-11",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4570,8 +4570,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.18,
-        "change_pct": 0.48076923076922906,
+        "value": 4.171999931335449,
+        "change_pct": 0.6028477539497201,
         "date": "2026-02-11",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4597,8 +4597,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-12",
       "sox": {
-        "close": 8084.7,
-        "change_pct": -2.4983538072278155,
+        "close": 8084.7001953125,
+        "change_pct": -2.498355585679435,
         "date": "2026-02-12",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4627,8 +4627,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.09,
-        "change_pct": -2.1531100478468845,
+        "value": 4.104000091552734,
+        "change_pct": -1.6299098969771109,
         "date": "2026-02-12",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4654,8 +4654,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-13",
       "sox": {
-        "close": 8137.86,
-        "change_pct": 0.657538313109951,
+        "close": 8137.85986328125,
+        "change_pct": 0.6575341903163112,
         "date": "2026-02-13",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4684,8 +4684,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.04,
-        "change_pct": -1.2224938875305624,
+        "value": 4.056000232696533,
+        "change_pct": -1.1695871780071143,
         "date": "2026-02-13",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4711,8 +4711,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-13",
       "sox": {
-        "close": 8137.86,
-        "change_pct": 0.657538313109951,
+        "close": 8137.85986328125,
+        "change_pct": 0.6575341903163112,
         "date": "2026-02-13",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4741,8 +4741,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.04,
-        "change_pct": -1.2224938875305624,
+        "value": 4.056000232696533,
+        "change_pct": -1.1695871780071143,
         "date": "2026-02-13",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4768,8 +4768,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-17",
       "sox": {
-        "close": 8136.04,
-        "change_pct": -0.022364601996094358,
+        "close": 8136.0498046875,
+        "change_pct": -0.022242439955466597,
         "date": "2026-02-17",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4798,8 +4798,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.05,
-        "change_pct": 0.24752475247524774,
+        "value": 4.052000045776367,
+        "change_pct": -0.09862393221576893,
         "date": "2026-02-17",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4825,8 +4825,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-18",
       "sox": {
-        "close": 8214.35,
-        "change_pct": 0.9625075589599019,
+        "close": 8214.349609375,
+        "change_pct": 0.962381088699682,
         "date": "2026-02-18",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4855,8 +4855,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.09,
-        "change_pct": 0.9876543209876631,
+        "value": 4.078999996185303,
+        "change_pct": 0.666336379662158,
         "date": "2026-02-18",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4882,8 +4882,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-19",
       "sox": {
-        "close": 8173.3,
-        "change_pct": -0.4997352194635041,
+        "close": 8173.2998046875,
+        "change_pct": -0.4997328655290012,
         "date": "2026-02-19",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4912,8 +4912,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.08,
-        "change_pct": -0.24449877750610804,
+        "value": 4.074999809265137,
+        "change_pct": -0.09806783338826008,
         "date": "2026-02-19",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4939,8 +4939,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-23",
       "sox": {
-        "close": 8213.46,
-        "change_pct": -0.5683737247909049,
+        "close": 8213.4599609375,
+        "change_pct": -0.5684936284309439,
         "date": "2026-02-23",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -4969,8 +4969,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.03,
-        "change_pct": -1.225490196078427,
+        "value": 4.0289998054504395,
+        "change_pct": -1.395011274993252,
         "date": "2026-02-23",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -4996,8 +4996,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-24",
       "sox": {
-        "close": 8332.34,
-        "change_pct": 1.4473802757912102,
+        "close": 8332.33984375,
+        "change_pct": 1.4473788559009604,
         "date": "2026-02-24",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5026,8 +5026,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.04,
-        "change_pct": 0.2481389578163684,
+        "value": 4.0329999923706055,
+        "change_pct": 0.09928486257939628,
         "date": "2026-02-24",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5053,8 +5053,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-25",
       "sox": {
-        "close": 8467.43,
-        "change_pct": 1.6212732557720821,
+        "close": 8467.4296875,
+        "change_pct": 1.6212714109510307,
         "date": "2026-02-25",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5083,8 +5083,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.05,
-        "change_pct": 0.24752475247524774,
+        "value": 4.047999858856201,
+        "change_pct": 0.37192825474761104,
         "date": "2026-02-25",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5110,8 +5110,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-26",
       "sox": {
-        "close": 8197.26,
-        "change_pct": -3.1906965868037873,
+        "close": 8197.259765625,
+        "change_pct": -3.1906957819069603,
         "date": "2026-02-26",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5140,8 +5140,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.02,
-        "change_pct": -0.7407407407407418,
+        "value": 4.017000198364258,
+        "change_pct": -0.7658019163247376,
         "date": "2026-02-26",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5167,8 +5167,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-02-27",
       "sox": {
-        "close": 8098.37,
-        "change_pct": -1.2063787167907347,
+        "close": 8098.3701171875,
+        "change_pct": -1.2063744625025907,
         "date": "2026-02-27",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5197,8 +5197,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 3.97,
-        "change_pct": -1.243781094527352,
+        "value": 3.9619998931884766,
+        "change_pct": -1.3691885103261248,
         "date": "2026-02-27",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5224,8 +5224,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-02",
       "sox": {
-        "close": 8137.36,
-        "change_pct": 0.48145491006215124,
+        "close": 8137.35986328125,
+        "change_pct": 0.48145176781930754,
         "date": "2026-03-02",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5254,8 +5254,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.05,
-        "change_pct": 2.015113350125941,
+        "value": 4.047999858856201,
+        "change_pct": 2.1706200905148076,
         "date": "2026-03-02",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5281,8 +5281,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-03",
       "sox": {
-        "close": 7764.88,
-        "change_pct": -4.577405940010026,
+        "close": 7764.8798828125,
+        "change_pct": -4.577405776897203,
         "date": "2026-03-03",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5311,8 +5311,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.06,
-        "change_pct": 0.24691358024691024,
+        "value": 4.056000232696533,
+        "change_pct": 0.19763770057523722,
         "date": "2026-03-03",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5338,8 +5338,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-04",
       "sox": {
-        "close": 7914.48,
-        "change_pct": 1.9266234635950452,
+        "close": 7914.47998046875,
+        "change_pct": 1.92662475033758,
         "date": "2026-03-04",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5368,8 +5368,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.09,
-        "change_pct": 0.7389162561576512,
+        "value": 4.079999923706055,
+        "change_pct": 0.5917083242760635,
         "date": "2026-03-04",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5395,8 +5395,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-05",
       "sox": {
-        "close": 7821.76,
-        "change_pct": -1.1715235871465834,
+        "close": 7821.759765625,
+        "change_pct": -1.1715263046032542,
         "date": "2026-03-05",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5425,8 +5425,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.13,
-        "change_pct": 0.9779951100244544,
+        "value": 4.145999908447266,
+        "change_pct": 1.6176467150827767,
         "date": "2026-03-05",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5452,8 +5452,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-06",
       "sox": {
-        "close": 7514.74,
-        "change_pct": -3.925203534754329,
+        "close": 7514.740234375,
+        "change_pct": -3.925197659474111,
         "date": "2026-03-06",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5482,8 +5482,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.15,
-        "change_pct": 0.4842615012106588,
+        "value": 4.132999897003174,
+        "change_pct": -0.31355551691173433,
         "date": "2026-03-06",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5509,8 +5509,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-09",
       "sox": {
-        "close": 7810.4,
-        "change_pct": 3.934400924050596,
+        "close": 7810.39990234375,
+        "change_pct": 3.9343963829421735,
         "date": "2026-03-09",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5539,8 +5539,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.12,
-        "change_pct": -0.7228915662650715,
+        "value": 4.136000156402588,
+        "change_pct": 0.07259277701867628,
         "date": "2026-03-09",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5566,8 +5566,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-10",
       "sox": {
-        "close": 7865.12,
-        "change_pct": 0.7006043224418779,
+        "close": 7865.1201171875,
+        "change_pct": 0.700607081941218,
         "date": "2026-03-10",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5596,8 +5596,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.15,
-        "change_pct": 0.728155339805836,
+        "value": 4.136000156402588,
+        "change_pct": 0.0,
         "date": "2026-03-10",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5623,8 +5623,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-11",
       "sox": {
-        "close": 7914.56,
-        "change_pct": 0.6285981650629768,
+        "close": 7914.56982421875,
+        "change_pct": 0.6287215744256613,
         "date": "2026-03-11",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5653,8 +5653,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.21,
-        "change_pct": 1.4457831325301207,
+        "value": 4.208000183105469,
+        "change_pct": 1.7408129589024268,
         "date": "2026-03-11",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5680,8 +5680,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-12",
       "sox": {
-        "close": 7643.17,
-        "change_pct": -3.4289966845914455,
+        "close": 7643.169921875,
+        "change_pct": -3.4291175436125476,
         "date": "2026-03-12",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5710,8 +5710,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.27,
-        "change_pct": 1.425178147268391,
+        "value": 4.2729997634887695,
+        "change_pct": 1.5446667669898106,
         "date": "2026-03-12",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5737,8 +5737,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-13",
       "sox": {
-        "close": 7646.64,
-        "change_pct": 0.045400010728546825,
+        "close": 7646.64013671875,
+        "change_pct": 0.04540282211726865,
         "date": "2026-03-13",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5767,8 +5767,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.28,
-        "change_pct": 0.23419203747074846,
+        "value": 4.284999847412109,
+        "change_pct": 0.28083511789249727,
         "date": "2026-03-13",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5794,8 +5794,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-16",
       "sox": {
-        "close": 7796.24,
-        "change_pct": 1.9564148436437279,
+        "close": 7796.240234375,
+        "change_pct": 1.9564160857770574,
         "date": "2026-03-16",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5824,8 +5824,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.23,
-        "change_pct": -1.1682242990654124,
+        "value": 4.21999979019165,
+        "change_pct": -1.516920875964911,
         "date": "2026-03-16",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5851,8 +5851,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-17",
       "sox": {
-        "close": 7836.83,
-        "change_pct": 0.5206355884375125,
+        "close": 7836.830078125,
+        "change_pct": 0.5206335686146701,
         "date": "2026-03-17",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5881,8 +5881,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.2,
-        "change_pct": -0.7092198581560294,
+        "value": 4.202000141143799,
+        "change_pct": -0.42653198916472457,
         "date": "2026-03-17",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5908,8 +5908,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-18",
       "sox": {
-        "close": 7795.13,
-        "change_pct": -0.5321029038527048,
+        "close": 7795.1298828125,
+        "change_pct": -0.5321053907867412,
         "date": "2026-03-18",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5938,8 +5938,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.26,
-        "change_pct": 1.4285714285714235,
+        "value": 4.258999824523926,
+        "change_pct": 1.3564893256907684,
         "date": "2026-03-18",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -5965,8 +5965,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-20",
       "sox": {
-        "close": 7670.61,
-        "change_pct": -2.450497882568392,
+        "close": 7670.60986328125,
+        "change_pct": -2.4504971982803325,
         "date": "2026-03-20",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -5995,8 +5995,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.39,
-        "change_pct": 3.294117647058825,
+        "value": 4.390999794006348,
+        "change_pct": 2.569485006974892,
         "date": "2026-03-20",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6022,8 +6022,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-23",
       "sox": {
-        "close": 7773.13,
-        "change_pct": 1.3365299500300631,
+        "close": 7773.1298828125,
+        "change_pct": 1.3365302284764402,
         "date": "2026-03-23",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6052,8 +6052,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.34,
-        "change_pct": -1.1389521640091105,
+        "value": 4.334000110626221,
+        "change_pct": -1.2981026202262824,
         "date": "2026-03-23",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6079,8 +6079,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-24",
       "sox": {
-        "close": 7872.71,
-        "change_pct": 1.2810798224138775,
+        "close": 7872.7099609375,
+        "change_pct": 1.281080846792304,
         "date": "2026-03-24",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6109,8 +6109,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.39,
-        "change_pct": 1.1520737327188835,
+        "value": 4.392000198364258,
+        "change_pct": 1.3382576432296567,
         "date": "2026-03-24",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6136,8 +6136,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-25",
       "sox": {
-        "close": 7967.74,
-        "change_pct": 1.2070811702704631,
+        "close": 7967.75,
+        "change_pct": 1.2072086935002835,
         "date": "2026-03-25",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6166,8 +6166,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.33,
-        "change_pct": -1.3667425968109215,
+        "value": 4.328000068664551,
+        "change_pct": -1.4571977870935227,
         "date": "2026-03-25",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6193,8 +6193,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-26",
       "sox": {
-        "close": 7585.87,
-        "change_pct": -4.792701569077307,
+        "close": 7585.8701171875,
+        "change_pct": -4.792819589124909,
         "date": "2026-03-26",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6223,8 +6223,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.42,
-        "change_pct": 2.0785219399538146,
+        "value": 4.415999889373779,
+        "change_pct": 2.0332675442027437,
         "date": "2026-03-26",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6250,8 +6250,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-27",
       "sox": {
-        "close": 7457.67,
-        "change_pct": -1.689984141568468,
+        "close": 7457.669921875,
+        "change_pct": -1.6899866901495364,
         "date": "2026-03-27",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6280,8 +6280,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.44,
-        "change_pct": 0.452488687782826,
+        "value": 4.440000057220459,
+        "change_pct": 0.5434820753603464,
         "date": "2026-03-27",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6307,8 +6307,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-30",
       "sox": {
-        "close": 7142.33,
-        "change_pct": -4.228398413981848,
+        "close": 7142.330078125,
+        "change_pct": -4.228396363119236,
         "date": "2026-03-30",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6337,8 +6337,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.35,
-        "change_pct": -2.0270270270270396,
+        "value": 4.3420000076293945,
+        "change_pct": -2.2072082956776984,
         "date": "2026-03-30",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6364,8 +6364,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-03-31",
       "sox": {
-        "close": 7588.2,
-        "change_pct": 6.242640706884162,
+        "close": 7588.2001953125,
+        "change_pct": 6.242642279346322,
         "date": "2026-03-31",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6394,8 +6394,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.3,
-        "change_pct": -1.1494252873563204,
+        "value": 4.310999870300293,
+        "change_pct": -0.7139598635336419,
         "date": "2026-03-31",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6421,8 +6421,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-01",
       "sox": {
-        "close": 7802.31,
-        "change_pct": 2.8216177749664118,
+        "close": 7802.31005859375,
+        "change_pct": 2.8216159006125396,
         "date": "2026-04-01",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6451,8 +6451,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.33,
-        "change_pct": 0.6976744186046657,
+        "value": 4.318999767303467,
+        "change_pct": 0.18556940950722467,
         "date": "2026-04-01",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6478,8 +6478,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-02",
       "sox": {
-        "close": 7833.39,
-        "change_pct": 0.3983435674819402,
+        "close": 7833.39013671875,
+        "change_pct": 0.39834456579648236,
         "date": "2026-04-02",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6508,8 +6508,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.31,
-        "change_pct": -0.46189376443419583,
+        "value": 4.313000202178955,
+        "change_pct": -0.13891098512972544,
         "date": "2026-04-02",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6535,8 +6535,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-02",
       "sox": {
-        "close": 7833.39,
-        "change_pct": 0.3983435674819402,
+        "close": 7833.39013671875,
+        "change_pct": 0.39834456579648236,
         "date": "2026-04-02",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6565,14 +6565,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.35,
-        "change_pct": 0.9280742459396807,
-        "date": "2026-04-03",
+        "value": 4.313000202178955,
+        "change_pct": -0.13891098512972544,
+        "date": "2026-04-02",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 159.77999877929688,
-        "change_pct": 0.08769655430773682,
+        "change_pct": 0.18120236860388328,
         "date": "2026-04-05",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -6592,8 +6592,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-06",
       "sox": {
-        "close": 7916.1,
-        "change_pct": 1.055864702255338,
+        "close": 7916.10986328125,
+        "change_pct": 1.055988851809575,
         "date": "2026-04-06",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6622,8 +6622,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.34,
-        "change_pct": -0.22988505747125743,
+        "value": 4.335000038146973,
+        "change_pct": 0.5100819600449613,
         "date": "2026-04-06",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6649,8 +6649,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-07",
       "sox": {
-        "close": 8003.87,
-        "change_pct": 1.1087530475865526,
+        "close": 8003.8701171875,
+        "change_pct": 1.108628548895263,
         "date": "2026-04-07",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6679,8 +6679,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.33,
-        "change_pct": -0.23041474654377225,
+        "value": 4.3429999351501465,
+        "change_pct": 0.1845420284377619,
         "date": "2026-04-07",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6706,8 +6706,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-08",
       "sox": {
-        "close": 8510.92,
-        "change_pct": 6.335060414524474,
+        "close": 8510.919921875,
+        "change_pct": 6.335057881544848,
         "date": "2026-04-08",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6736,8 +6736,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.29,
-        "change_pct": -0.9237875288683584,
+        "value": 4.290999889373779,
+        "change_pct": -1.197330107134098,
         "date": "2026-04-08",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6763,8 +6763,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-09",
       "sox": {
-        "close": 8689.53,
-        "change_pct": 2.098598036404997,
+        "close": 8689.5302734375,
+        "change_pct": 2.098602186391507,
         "date": "2026-04-09",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6793,8 +6793,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.29,
-        "change_pct": 0.0,
+        "value": 4.293000221252441,
+        "change_pct": 0.04661691750715846,
         "date": "2026-04-09",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6820,8 +6820,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-10",
       "sox": {
-        "close": 8889.83,
-        "change_pct": 2.3050728865657844,
+        "close": 8889.830078125,
+        "change_pct": 2.3050705663548277,
         "date": "2026-04-10",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6850,14 +6850,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.31,
-        "change_pct": 0.4662004662004504,
+        "value": 4.316999912261963,
+        "change_pct": 0.5590423892994689,
         "date": "2026-04-10",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 159.67999267578125,
-        "change_pct": 0.28890382852735375,
+        "change_pct": 0.35697695070489033,
         "date": "2026-04-12",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -6877,8 +6877,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-13",
       "sox": {
-        "close": 9039.52,
-        "change_pct": 1.6838342240515392,
+        "close": 9039.51953125,
+        "change_pct": 1.6838280575613762,
         "date": "2026-04-13",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6907,8 +6907,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.3,
-        "change_pct": -0.23201856148491462,
+        "value": 4.296999931335449,
+        "change_pct": -0.46328425603405776,
         "date": "2026-04-13",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6934,8 +6934,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-14",
       "sox": {
-        "close": 9224.12,
-        "change_pct": 2.0421438306458706,
+        "close": 9224.1201171875,
+        "change_pct": 2.0421504184965578,
         "date": "2026-04-14",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -6964,8 +6964,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.26,
-        "change_pct": -0.9302325581395321,
+        "value": 4.25600004196167,
+        "change_pct": -0.9541515017208124,
         "date": "2026-04-14",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -6991,8 +6991,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-15",
       "sox": {
-        "close": 9239.29,
-        "change_pct": 0.16446013278230698,
+        "close": 9239.2900390625,
+        "change_pct": 0.16445928372867957,
         "date": "2026-04-15",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7021,8 +7021,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.29,
-        "change_pct": 0.7042253521126751,
+        "value": 4.2820000648498535,
+        "change_pct": 0.6109027874022122,
         "date": "2026-04-15",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7048,8 +7048,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-16",
       "sox": {
-        "close": 9329.35,
-        "change_pct": 0.9747502243137696,
+        "close": 9329.349609375,
+        "change_pct": 0.9747455695376939,
         "date": "2026-04-16",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7078,8 +7078,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.32,
-        "change_pct": 0.6993006993007089,
+        "value": 4.309000015258789,
+        "change_pct": 0.6305453059324506,
         "date": "2026-04-16",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7105,8 +7105,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-17",
       "sox": {
-        "close": 9555.88,
-        "change_pct": 2.4281434397894763,
+        "close": 9555.8798828125,
+        "change_pct": 2.428146472395687,
         "date": "2026-04-17",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7135,14 +7135,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.26,
-        "change_pct": -1.388888888888895,
+        "value": 4.245999813079834,
+        "change_pct": -1.4620608483606912,
         "date": "2026-04-17",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 159.16099548339844,
-        "change_pct": 0.6710913873487989,
+        "change_pct": -0.021364891645780926,
         "date": "2026-04-19",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -7162,8 +7162,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-20",
       "sox": {
-        "close": 9599.21,
-        "change_pct": 0.45343809256708223,
+        "close": 9599.2099609375,
+        "change_pct": 0.45343891568723205,
         "date": "2026-04-20",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7192,8 +7192,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.26,
-        "change_pct": 0.0,
+        "value": 4.25,
+        "change_pct": 0.09421071823516591,
         "date": "2026-04-20",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7219,8 +7219,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-21",
       "sox": {
-        "close": 9647.21,
-        "change_pct": 0.5000411492195767,
+        "close": 9647.2099609375,
+        "change_pct": 0.5000411512544156,
         "date": "2026-04-21",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7249,8 +7249,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.3,
-        "change_pct": 0.9389671361502261,
+        "value": 4.291999816894531,
+        "change_pct": 0.9882309857536686,
         "date": "2026-04-21",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7276,8 +7276,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-22",
       "sox": {
-        "close": 9909.27,
-        "change_pct": 2.7164330412627224,
+        "close": 9909.26953125,
+        "change_pct": 2.7164285982538505,
         "date": "2026-04-22",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7306,8 +7306,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.3,
-        "change_pct": 0.0,
+        "value": 4.294000148773193,
+        "change_pct": 0.04660605694315478,
         "date": "2026-04-22",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7333,8 +7333,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-23",
       "sox": {
-        "close": 10078.57,
-        "change_pct": 1.708501231674986,
+        "close": 10078.5703125,
+        "change_pct": 1.7085091965264532,
         "date": "2026-04-23",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7363,8 +7363,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.34,
-        "change_pct": 0.9302325581395321,
+        "value": 4.322999954223633,
+        "change_pct": 0.6753564146644297,
         "date": "2026-04-23",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7390,8 +7390,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-24",
       "sox": {
-        "close": 10513.66,
-        "change_pct": 4.316981476538828,
+        "close": 10513.66015625,
+        "change_pct": 4.3169797923657605,
         "date": "2026-04-24",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7420,14 +7420,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.31,
-        "change_pct": -0.691244239631339,
+        "value": 4.309999942779541,
+        "change_pct": -0.30071736252021974,
         "date": "2026-04-24",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 159.5760040283203,
-        "change_pct": 0.14182869678087684,
+        "change_pct": -0.10703800173824662,
         "date": "2026-04-26",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -7447,8 +7447,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-27",
       "sox": {
-        "close": 10408.04,
-        "change_pct": -1.0045978279685563,
+        "close": 10408.0400390625,
+        "change_pct": -1.004598927659961,
         "date": "2026-04-27",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7477,8 +7477,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.35,
-        "change_pct": 0.9280742459396807,
+        "value": 4.335999965667725,
+        "change_pct": 0.6032487989179991,
         "date": "2026-04-27",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7504,8 +7504,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-29",
       "sox": {
-        "close": 10271.3,
-        "change_pct": 2.3488428172562026,
+        "close": 10271.2998046875,
+        "change_pct": 2.3488400742903703,
         "date": "2026-04-29",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7534,8 +7534,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.42,
-        "change_pct": 1.3761467889908063,
+        "value": 4.418000221252441,
+        "change_pct": 1.4699156718869677,
         "date": "2026-04-29",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7561,8 +7561,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-04-30",
       "sox": {
-        "close": 10503.7,
-        "change_pct": 2.262615248313282,
+        "close": 10503.7001953125,
+        "change_pct": 2.262619094410434,
         "date": "2026-04-30",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7591,8 +7591,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.4,
-        "change_pct": -0.4524886877827927,
+        "value": 4.389999866485596,
+        "change_pct": -0.6337789353688117,
         "date": "2026-04-30",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7619,7 +7619,7 @@
       "us_session_date": "2026-05-06",
       "sox": {
         "close": 11472.75,
-        "change_pct": 4.482185822606821,
+        "change_pct": 4.482185079233458,
         "date": "2026-05-06",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7648,8 +7648,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.36,
-        "change_pct": -1.5801354401805745,
+        "value": 4.355999946594238,
+        "change_pct": -1.3586943904577264,
         "date": "2026-05-06",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7675,8 +7675,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-07",
       "sox": {
-        "close": 11160.99,
-        "change_pct": -2.717395567758385,
+        "close": 11160.990234375,
+        "change_pct": -2.7173935248741565,
         "date": "2026-05-07",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7705,8 +7705,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.41,
-        "change_pct": 1.1467889908256756,
+        "value": 4.392000198364258,
+        "change_pct": 0.8264520709686085,
         "date": "2026-05-07",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7733,7 +7733,7 @@
       "us_session_date": "2026-05-08",
       "sox": {
         "close": 11775.5,
-        "change_pct": 5.505873582899001,
+        "change_pct": 5.5058713673304505,
         "date": "2026-05-08",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7762,14 +7762,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.38,
-        "change_pct": -0.6802721088435382,
+        "value": 4.363999843597412,
+        "change_pct": -0.6375308174456418,
         "date": "2026-05-08",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 156.85800170898438,
-        "change_pct": 0.1391737161544837,
+        "change_pct": 0.01849591528266803,
         "date": "2026-05-10",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -7789,8 +7789,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-11",
       "sox": {
-        "close": 12081.04,
-        "change_pct": 2.594709354167568,
+        "close": 12081.0400390625,
+        "change_pct": 2.5947096858944363,
         "date": "2026-05-11",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7819,8 +7819,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.42,
-        "change_pct": 0.9132420091324311,
+        "value": 4.409999847412109,
+        "change_pct": 1.054078951954729,
         "date": "2026-05-11",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7846,8 +7846,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-12",
       "sox": {
-        "close": 11717.26,
-        "change_pct": -3.0111646017230376,
+        "close": 11717.259765625,
+        "change_pct": -3.0111668553474136,
         "date": "2026-05-12",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7876,8 +7876,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.46,
-        "change_pct": 0.9049773755656076,
+        "value": 4.4629998207092285,
+        "change_pct": 1.2018134950326775,
         "date": "2026-05-12",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7903,8 +7903,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-13",
       "sox": {
-        "close": 12017.98,
-        "change_pct": 2.5664703181460524,
+        "close": 12017.98046875,
+        "change_pct": 2.5664763702450744,
         "date": "2026-05-13",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7933,8 +7933,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.46,
-        "change_pct": 0.0,
+        "value": 4.480999946594238,
+        "change_pct": 0.40331899189163245,
         "date": "2026-05-13",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -7960,8 +7960,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-14",
       "sox": {
-        "close": 12073.78,
-        "change_pct": 0.4643043173644834,
+        "close": 12073.7802734375,
+        "change_pct": 0.4643026740856815,
         "date": "2026-05-14",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -7990,8 +7990,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.47,
-        "change_pct": 0.22421524663676085,
+        "value": 4.460999965667725,
+        "change_pct": -0.44632852409906,
         "date": "2026-05-14",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8017,8 +8017,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-15",
       "sox": {
-        "close": 11588.46,
-        "change_pct": -4.019619373551631,
+        "close": 11588.4599609375,
+        "change_pct": -4.019621870771594,
         "date": "2026-05-15",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8047,14 +8047,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.59,
-        "change_pct": 2.684563758389258,
+        "value": 4.59499979019165,
+        "change_pct": 3.0038068943107232,
         "date": "2026-05-15",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 158.843994140625,
-        "change_pct": 0.09704085993131883,
+        "change_pct": 0.2916937186088653,
         "date": "2026-05-17",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -8074,8 +8074,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-18",
       "sox": {
-        "close": 11302.52,
-        "change_pct": -2.4674546919952967,
+        "close": 11302.51953125,
+        "change_pct": -2.4674584082039486,
         "date": "2026-05-18",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8104,8 +8104,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.61,
-        "change_pct": 0.43572984749455923,
+        "value": 4.623000144958496,
+        "change_pct": 0.6093657463622559,
         "date": "2026-05-18",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8132,7 +8132,7 @@
       "us_session_date": "2026-05-19",
       "sox": {
         "close": 11305.5,
-        "change_pct": 0.026365801608840833,
+        "change_pct": 0.026369950007687493,
         "date": "2026-05-19",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8161,8 +8161,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.67,
-        "change_pct": 1.3015184381778733,
+        "value": 4.666999816894531,
+        "change_pct": 0.9517557983210967,
         "date": "2026-05-19",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8188,8 +8188,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-20",
       "sox": {
-        "close": 11813.29,
-        "change_pct": 4.491530670912391,
+        "close": 11813.2900390625,
+        "change_pct": 4.49153101643005,
         "date": "2026-05-20",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8218,8 +8218,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.57,
-        "change_pct": -2.1413276231263323,
+        "value": 4.572000026702881,
+        "change_pct": -2.035564472227991,
         "date": "2026-05-20",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8245,8 +8245,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-21",
       "sox": {
-        "close": 11964.09,
-        "change_pct": 1.2765283845567188,
+        "close": 11964.080078125,
+        "change_pct": 1.2764440605782967,
         "date": "2026-05-21",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8275,8 +8275,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.57,
-        "change_pct": 0.0,
+        "value": 4.585999965667725,
+        "change_pct": 0.30621038676896806,
         "date": "2026-05-21",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8302,8 +8302,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-22",
       "sox": {
-        "close": 12202.54,
-        "change_pct": 1.9930475280610649,
+        "close": 12202.5400390625,
+        "change_pct": 1.993132437933931,
         "date": "2026-05-22",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8332,14 +8332,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.56,
-        "change_pct": -0.2188183807440014,
+        "value": 4.558000087738037,
+        "change_pct": -0.6105512023398041,
         "date": "2026-05-22",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 158.9459991455078,
-        "change_pct": -0.15954827543478434,
+        "change_pct": -0.045281806558883364,
         "date": "2026-05-24",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -8359,8 +8359,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-22",
       "sox": {
-        "close": 12202.54,
-        "change_pct": 1.9930475280610649,
+        "close": 12202.5400390625,
+        "change_pct": 1.993132437933931,
         "date": "2026-05-22",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8389,8 +8389,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.56,
-        "change_pct": -0.2188183807440014,
+        "value": 4.558000087738037,
+        "change_pct": -0.6105512023398041,
         "date": "2026-05-22",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8416,8 +8416,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-26",
       "sox": {
-        "close": 12876.91,
-        "change_pct": 5.52647235739443,
+        "close": 12876.91015625,
+        "change_pct": 5.526473300056556,
         "date": "2026-05-26",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8446,8 +8446,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.5,
-        "change_pct": -1.3157894736842035,
+        "value": 4.493000030517578,
+        "change_pct": -1.426065291120171,
         "date": "2026-05-26",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8473,8 +8473,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-27",
       "sox": {
-        "close": 12702.19,
-        "change_pct": -1.3568472560575473,
+        "close": 12702.1904296875,
+        "change_pct": -1.3568451161220296,
         "date": "2026-05-27",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8503,8 +8503,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.48,
-        "change_pct": -0.4444444444444362,
+        "value": 4.480999946594238,
+        "change_pct": -0.2670839938088698,
         "date": "2026-05-27",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8530,8 +8530,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-28",
       "sox": {
-        "close": 12829.14,
-        "change_pct": 0.9994339558768939,
+        "close": 12829.1396484375,
+        "change_pct": 0.9994277715542177,
         "date": "2026-05-28",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8560,8 +8560,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.45,
-        "change_pct": -0.6696428571428603,
+        "value": 4.454999923706055,
+        "change_pct": -0.5802281454599156,
         "date": "2026-05-28",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8587,8 +8587,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-05-29",
       "sox": {
-        "close": 12829.38,
-        "change_pct": 0.0018707411408636077,
+        "close": 12829.3798828125,
+        "change_pct": 0.0018725680878350914,
         "date": "2026-05-29",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8617,14 +8617,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.45,
-        "change_pct": 0.0,
+        "value": 4.453000068664551,
+        "change_pct": -0.04489012515718205,
         "date": "2026-05-29",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 159.35299682617188,
-        "change_pct": 0.077244756749284,
+        "change_pct": 0.05210808782862841,
         "date": "2026-05-31",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -8644,8 +8644,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-01",
       "sox": {
-        "close": 12965.65,
-        "change_pct": 1.062171359800712,
+        "close": 12965.650390625,
+        "change_pct": 1.0621753277027857,
         "date": "2026-06-01",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8674,8 +8674,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.47,
-        "change_pct": 0.44943820224718767,
+        "value": 4.474999904632568,
+        "change_pct": 0.494045264513443,
         "date": "2026-06-01",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8701,8 +8701,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-02",
       "sox": {
-        "close": 13726.27,
-        "change_pct": 5.8664239741162305,
+        "close": 13726.26953125,
+        "change_pct": 5.866417169284288,
         "date": "2026-06-02",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8731,8 +8731,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.46,
-        "change_pct": -0.22371364653243075,
+        "value": 4.454999923706055,
+        "change_pct": -0.44692695760304435,
         "date": "2026-06-02",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8758,8 +8758,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-03",
       "sox": {
-        "close": 13916.96,
-        "change_pct": 1.3892339288094968,
+        "close": 13916.9599609375,
+        "change_pct": 1.3892371066542397,
         "date": "2026-06-03",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8788,8 +8788,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.49,
-        "change_pct": 0.672645739910327,
+        "value": 4.491000175476074,
+        "change_pct": 0.808086473323022,
         "date": "2026-06-03",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8815,8 +8815,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-04",
       "sox": {
-        "close": 13617.49,
-        "change_pct": -2.151834883480297,
+        "close": 13617.5,
+        "change_pct": -2.1517627540643347,
         "date": "2026-06-04",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8845,8 +8845,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.47,
-        "change_pct": -0.44543429844099425,
+        "value": 4.4770002365112305,
+        "change_pct": -0.31173320903643553,
         "date": "2026-06-04",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8872,8 +8872,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-05",
       "sox": {
-        "close": 12220.76,
-        "change_pct": -10.256882876359741,
+        "close": 12220.759765625,
+        "change_pct": -10.256950500275385,
         "date": "2026-06-05",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8902,14 +8902,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.55,
-        "change_pct": 1.7897091722595126,
+        "value": 4.535999774932861,
+        "change_pct": 1.317836392780869,
         "date": "2026-06-05",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 160.32699584960938,
-        "change_pct": 0.04180447373605123,
+        "change_pct": 0.21063213005496628,
         "date": "2026-06-07",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -8929,8 +8929,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-08",
       "sox": {
-        "close": 12906.69,
-        "change_pct": 5.612826043552133,
+        "close": 12906.6904296875,
+        "change_pct": 5.612831585086142,
         "date": "2026-06-08",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -8959,8 +8959,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.56,
-        "change_pct": 0.219780219780219,
+        "value": 4.552000045776367,
+        "change_pct": 0.35273967454600985,
         "date": "2026-06-08",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -8986,8 +8986,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-09",
       "sox": {
-        "close": 12657.81,
-        "change_pct": -1.9283022990402743,
+        "close": 12657.8095703125,
+        "change_pct": -1.9283088932119496,
         "date": "2026-06-09",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9016,8 +9016,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.53,
-        "change_pct": -0.6578947368420907,
+        "value": 4.5279998779296875,
+        "change_pct": -0.5272444553015454,
         "date": "2026-06-09",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9043,8 +9043,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-10",
       "sox": {
-        "close": 12206.46,
-        "change_pct": -3.5657827064871417,
+        "close": 12206.4599609375,
+        "change_pct": -3.565779741493269,
         "date": "2026-06-10",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9073,8 +9073,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.55,
-        "change_pct": 0.44150110375273943,
+        "value": 4.541999816894531,
+        "change_pct": 0.3091859395377261,
         "date": "2026-06-10",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9100,8 +9100,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-11",
       "sox": {
-        "close": 13171.44,
-        "change_pct": 7.9054861114524755,
+        "close": 13171.4404296875,
+        "change_pct": 7.905489976930924,
         "date": "2026-06-11",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9130,8 +9130,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.45,
-        "change_pct": -2.19780219780219,
+        "value": 4.4629998207092285,
+        "change_pct": -1.739321870763899,
         "date": "2026-06-11",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9157,8 +9157,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-12",
       "sox": {
-        "close": 13371.47,
-        "change_pct": 1.5186646258875225,
+        "close": 13371.4697265625,
+        "change_pct": 1.5186592380902253,
         "date": "2026-06-12",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9187,14 +9187,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.48,
-        "change_pct": 0.6741573033707926,
+        "value": 4.486999988555908,
+        "change_pct": 0.5377586558555025,
         "date": "2026-06-12",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 159.9550018310547,
-        "change_pct": -0.17785706998584283,
+        "change_pct": -0.10928810742614203,
         "date": "2026-06-14",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -9214,8 +9214,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-15",
       "sox": {
-        "close": 14099.62,
-        "change_pct": 5.445549367421854,
+        "close": 14099.6201171875,
+        "change_pct": 5.445552400111442,
         "date": "2026-06-15",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9244,8 +9244,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.47,
-        "change_pct": -0.22321428571430157,
+        "value": 4.468999862670898,
+        "change_pct": -0.4011617100717402,
         "date": "2026-06-15",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9271,8 +9271,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-16",
       "sox": {
-        "close": 13294.22,
-        "change_pct": -5.712210683692199,
+        "close": 13294.2197265625,
+        "change_pct": -5.712213406680466,
         "date": "2026-06-16",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9301,8 +9301,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.43,
-        "change_pct": -0.8948545861297563,
+        "value": 4.427999973297119,
+        "change_pct": -0.9174287454391528,
         "date": "2026-06-16",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9328,8 +9328,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-17",
       "sox": {
-        "close": 13477.07,
-        "change_pct": 1.3754097645442886,
+        "close": 13477.0703125,
+        "change_pct": 1.3754142002945446,
         "date": "2026-06-17",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9358,8 +9358,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.49,
-        "change_pct": 1.3544018058690765,
+        "value": 4.4629998207092285,
+        "change_pct": 0.7904211297013131,
         "date": "2026-06-17",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9385,8 +9385,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-18",
       "sox": {
-        "close": 14341.78,
-        "change_pct": 6.416157221117058,
+        "close": 14341.7802734375,
+        "change_pct": 6.41615678249805,
         "date": "2026-06-18",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9415,8 +9415,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.46,
-        "change_pct": -0.6681514476614803,
+        "value": 4.451000213623047,
+        "change_pct": -0.2688686436979282,
         "date": "2026-06-18",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9442,8 +9442,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-18",
       "sox": {
-        "close": 14341.78,
-        "change_pct": 6.416157221117058,
+        "close": 14341.7802734375,
+        "change_pct": 6.41615678249805,
         "date": "2026-06-18",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9472,8 +9472,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.46,
-        "change_pct": -0.6681514476614803,
+        "value": 4.451000213623047,
+        "change_pct": -0.2688686436979282,
         "date": "2026-06-18",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9499,8 +9499,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-22",
       "sox": {
-        "close": 14634.72,
-        "change_pct": 2.0425637542899056,
+        "close": 14634.7197265625,
+        "change_pct": 2.0425599021870022,
         "date": "2026-06-22",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9529,8 +9529,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.51,
-        "change_pct": 1.1210762331838486,
+        "value": 4.508999824523926,
+        "change_pct": 1.3030691556329632,
         "date": "2026-06-22",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9556,8 +9556,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-23",
       "sox": {
-        "close": 13482.51,
-        "change_pct": -7.87312637344616,
+        "close": 13482.509765625,
+        "change_pct": -7.873126253632323,
         "date": "2026-06-23",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9586,8 +9586,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.5,
-        "change_pct": -0.22172949002217113,
+        "value": 4.493000030517578,
+        "change_pct": -0.354841309137488,
         "date": "2026-06-23",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9613,8 +9613,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-24",
       "sox": {
-        "close": 13458.19,
-        "change_pct": -0.18038184284676628,
+        "close": 13458.2001953125,
+        "change_pct": -0.18030448881616312,
         "date": "2026-06-24",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9643,8 +9643,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.41,
-        "change_pct": -2.0000000000000018,
+        "value": 4.4019999504089355,
+        "change_pct": -2.025374571345362,
         "date": "2026-06-24",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9670,8 +9670,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-25",
       "sox": {
-        "close": 13940.87,
-        "change_pct": 3.5865149771254545,
+        "close": 13940.8701171875,
+        "change_pct": 3.5864373755051915,
         "date": "2026-06-25",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9700,8 +9700,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.4,
-        "change_pct": -0.22675736961450532,
+        "value": 4.392000198364258,
+        "change_pct": -0.22716383819469943,
         "date": "2026-06-25",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9727,8 +9727,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-26",
       "sox": {
-        "close": 13203.57,
-        "change_pct": -5.28876605262083,
+        "close": 13203.5703125,
+        "change_pct": -5.288764607156715,
         "date": "2026-06-26",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9757,14 +9757,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.38,
-        "change_pct": -0.454545454545463,
+        "value": 4.372000217437744,
+        "change_pct": -0.45537295134827627,
         "date": "2026-06-26",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 161.78700256347656,
-        "change_pct": 0.0723712274859789,
+        "change_pct": -0.011118391347009204,
         "date": "2026-06-28",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -9784,8 +9784,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-29",
       "sox": {
-        "close": 13709.66,
-        "change_pct": 3.8329785050558396,
+        "close": 13709.66015625,
+        "change_pct": 3.832977230945467,
         "date": "2026-06-29",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9814,8 +9814,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.38,
-        "change_pct": 0.0,
+        "value": 4.374000072479248,
+        "change_pct": 0.04574233627727686,
         "date": "2026-06-29",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9841,8 +9841,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-06-30",
       "sox": {
-        "close": 14246.96,
-        "change_pct": 3.919134391370749,
+        "close": 14246.9599609375,
+        "change_pct": 3.9191329220699567,
         "date": "2026-06-30",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9871,8 +9871,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.44,
-        "change_pct": 1.3698630136986356,
+        "value": 4.418000221252441,
+        "change_pct": 1.0059476004593115,
         "date": "2026-06-30",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9898,8 +9898,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-01",
       "sox": {
-        "close": 13353.28,
-        "change_pct": -6.2727767888728465,
+        "close": 13353.2802734375,
+        "change_pct": -6.272774612621235,
         "date": "2026-07-01",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9928,8 +9928,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.48,
-        "change_pct": 0.9009009009008917,
+        "value": 4.474999904632568,
+        "change_pct": 1.2901693192755914,
         "date": "2026-07-01",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -9955,8 +9955,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-02",
       "sox": {
-        "close": 12626.22,
-        "change_pct": -5.444804572359763,
+        "close": 12626.2197265625,
+        "change_pct": -5.444808556301162,
         "date": "2026-07-02",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -9985,8 +9985,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.49,
-        "change_pct": 0.22321428571427937,
+        "value": 4.485000133514404,
+        "change_pct": 0.22346880659112056,
         "date": "2026-07-02",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10012,8 +10012,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-02",
       "sox": {
-        "close": 12626.22,
-        "change_pct": -5.444804572359763,
+        "close": 12626.2197265625,
+        "change_pct": -5.444808556301162,
         "date": "2026-07-02",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10042,8 +10042,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.49,
-        "change_pct": 0.22321428571427937,
+        "value": 4.485000133514404,
+        "change_pct": 0.22346880659112056,
         "date": "2026-07-02",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10069,8 +10069,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-06",
       "sox": {
-        "close": 12900.14,
-        "change_pct": 2.169453724075776,
+        "close": 12900.1396484375,
+        "change_pct": 2.1694531523060556,
         "date": "2026-07-06",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10099,8 +10099,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.48,
-        "change_pct": -0.22271714922048602,
+        "value": 4.479000091552734,
+        "change_pct": -0.13378019583175638,
         "date": "2026-07-06",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10126,8 +10126,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-07",
       "sox": {
-        "close": 12300.52,
-        "change_pct": -4.648166609044546,
+        "close": 12300.51953125,
+        "change_pct": -4.648167644139633,
         "date": "2026-07-07",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10156,8 +10156,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.55,
-        "change_pct": 1.5624999999999778,
+        "value": 4.5289998054504395,
+        "change_pct": 1.1163141968226986,
         "date": "2026-07-07",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10183,8 +10183,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-08",
       "sox": {
-        "close": 12574.97,
-        "change_pct": 2.231206485579462,
+        "close": 12574.9697265625,
+        "change_pct": 2.231208158446041,
         "date": "2026-07-08",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10213,8 +10213,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.56,
-        "change_pct": 0.219780219780219,
+        "value": 4.568999767303467,
+        "change_pct": 0.8831963694255318,
         "date": "2026-07-08",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10241,7 +10241,7 @@
       "us_session_date": "2026-07-09",
       "sox": {
         "close": 12960.0,
-        "change_pct": 3.0618760919509214,
+        "change_pct": 3.0618783329886545,
         "date": "2026-07-09",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10270,8 +10270,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.54,
-        "change_pct": -0.43859649122806044,
+        "value": 4.539000034332275,
+        "change_pct": -0.6565930072020221,
         "date": "2026-07-09",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10297,8 +10297,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-10",
       "sox": {
-        "close": 12967.16,
-        "change_pct": 0.055246913580253576,
+        "close": 12967.16015625,
+        "change_pct": 0.05524811921295836,
         "date": "2026-07-10",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10327,14 +10327,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.56,
-        "change_pct": 0.4405286343612147,
+        "value": 4.568999767303467,
+        "change_pct": 0.6609326447296393,
         "date": "2026-07-10",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 161.8780059814453,
-        "change_pct": 0.35212074976462837,
+        "change_pct": -0.29871374060651545,
         "date": "2026-07-12",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -10354,8 +10354,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-13",
       "sox": {
-        "close": 12347.78,
-        "change_pct": -4.776527782490536,
+        "close": 12347.7802734375,
+        "change_pct": -4.776526821209703,
         "date": "2026-07-13",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10384,8 +10384,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.62,
-        "change_pct": 1.3157894736842257,
+        "value": 4.609000205993652,
+        "change_pct": 0.8754747368655114,
         "date": "2026-07-13",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10411,8 +10411,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-14",
       "sox": {
-        "close": 12661.93,
-        "change_pct": 2.544182031101938,
+        "close": 12661.9296875,
+        "change_pct": 2.544177229475797,
         "date": "2026-07-14",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10441,8 +10441,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.58,
-        "change_pct": -0.8658008658008698,
+        "value": 4.585000038146973,
+        "change_pct": -0.5207239482321824,
         "date": "2026-07-14",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10468,8 +10468,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-15",
       "sox": {
-        "close": 12398.89,
-        "change_pct": -2.0774084203593057,
+        "close": 12398.8896484375,
+        "change_pct": -2.077408780133849,
         "date": "2026-07-15",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10498,8 +10498,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.55,
-        "change_pct": -0.6550218340611424,
+        "value": 4.545000076293945,
+        "change_pct": -0.8724091934619316,
         "date": "2026-07-15",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10526,7 +10526,7 @@
       "us_session_date": "2026-07-16",
       "sox": {
         "close": 11867.5,
-        "change_pct": -4.285786872857167,
+        "change_pct": -4.28578415894253,
         "date": "2026-07-16",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10555,8 +10555,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.57,
-        "change_pct": 0.4395604395604602,
+        "value": 4.568999767303467,
+        "change_pct": 0.5280459979461805,
         "date": "2026-07-16",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10582,8 +10582,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-20",
       "sox": {
-        "close": 11743.85,
-        "change_pct": 0.5992860991494764,
+        "close": 11743.849609375,
+        "change_pct": 0.5992857825828812,
         "date": "2026-07-20",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10612,8 +10612,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.6,
-        "change_pct": 1.098901098901095,
+        "value": 4.5980000495910645,
+        "change_pct": 1.2552336843405065,
         "date": "2026-07-20",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10639,8 +10639,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-21",
       "sox": {
-        "close": 12356.16,
-        "change_pct": 5.213877902050856,
+        "close": 12356.16015625,
+        "change_pct": 5.21388273216814,
         "date": "2026-07-21",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10669,8 +10669,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.63,
-        "change_pct": 0.6521739130434856,
+        "value": 4.627999782562256,
+        "change_pct": 0.6524517757206194,
         "date": "2026-07-21",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10696,8 +10696,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-22",
       "sox": {
-        "close": 12410.66,
-        "change_pct": 0.4410755445057424,
+        "close": 12410.669921875,
+        "change_pct": 0.4411545733925104,
         "date": "2026-07-22",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10726,8 +10726,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.67,
-        "change_pct": 0.8639308855291628,
+        "value": 4.6570000648498535,
+        "change_pct": 0.6266266994408021,
         "date": "2026-07-22",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10753,8 +10753,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-23",
       "sox": {
-        "close": 12343.84,
-        "change_pct": -0.5384081104469862,
+        "close": 12343.83984375,
+        "change_pct": -0.5384888853357195,
         "date": "2026-07-23",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10783,8 +10783,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.71,
-        "change_pct": 0.8565310492505418,
+        "value": 4.703000068664551,
+        "change_pct": 0.9877604289056485,
         "date": "2026-07-23",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10810,8 +10810,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-24",
       "sox": {
-        "close": 11818.89,
-        "change_pct": -4.252728486435342,
+        "close": 11818.8798828125,
+        "change_pct": -4.2528092358821485,
         "date": "2026-07-24",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10840,14 +10840,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.69,
-        "change_pct": -0.4246284501061459,
+        "value": 4.678999900817871,
+        "change_pct": -0.5103161279241597,
         "date": "2026-07-24",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 163.61099243164062,
-        "change_pct": -0.06047741027388476,
+        "change_pct": -0.1348993479864835,
         "date": "2026-07-26",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -10867,8 +10867,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-27",
       "sox": {
-        "close": 11554.88,
-        "change_pct": -2.2337969132465108,
+        "close": 11554.8798828125,
+        "change_pct": -2.2337142150325007,
         "date": "2026-07-27",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10897,8 +10897,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.65,
-        "change_pct": -0.8528784648187626,
+        "value": 4.640999794006348,
+        "change_pct": -0.8121416460145969,
         "date": "2026-07-27",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10924,8 +10924,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-28",
       "sox": {
-        "close": 11035.68,
-        "change_pct": -4.493339610623382,
+        "close": 11035.6796875,
+        "change_pct": -4.493341346497193,
         "date": "2026-07-28",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -10954,8 +10954,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.61,
-        "change_pct": -0.8602150537634468,
+        "value": 4.604000091552734,
+        "change_pct": -0.7972355978424495,
         "date": "2026-07-28",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -10981,8 +10981,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-29",
       "sox": {
-        "close": 10447.49,
-        "change_pct": -5.329893581546408,
+        "close": 10447.490234375,
+        "change_pct": -5.329888776957126,
         "date": "2026-07-29",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11011,8 +11011,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.67,
-        "change_pct": 1.3015184381778733,
+        "value": 4.622000217437744,
+        "change_pct": 0.39096710527950496,
         "date": "2026-07-29",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -11038,8 +11038,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-30",
       "sox": {
-        "close": 11302.99,
-        "change_pct": 8.188569694730496,
+        "close": 11302.990234375,
+        "change_pct": 8.188569511031263,
         "date": "2026-07-30",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11068,8 +11068,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.68,
-        "change_pct": 0.21413276231263545,
+        "value": 4.663000106811523,
+        "change_pct": 0.8870594427732081,
         "date": "2026-07-30",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -11095,8 +11095,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-07-31",
       "sox": {
-        "close": 11311.08,
-        "change_pct": 0.07157398175172691,
+        "close": 11311.080078125,
+        "change_pct": 0.071572597890035,
         "date": "2026-07-31",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11125,14 +11125,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.75,
-        "change_pct": 1.4957264957265126,
+        "value": 4.744999885559082,
+        "change_pct": 1.758519769874689,
         "date": "2026-07-31",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 157.58200073242188,
-        "change_pct": -0.9914546793026613,
+        "change_pct": -1.6237665336572449,
         "date": "2026-08-02",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -11152,8 +11152,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-03",
       "sox": {
-        "close": 11430.35,
-        "change_pct": 1.0544528020312915,
+        "close": 11430.349609375,
+        "change_pct": 1.054448650581663,
         "date": "2026-08-03",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11182,8 +11182,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.7,
-        "change_pct": -1.0526315789473606,
+        "value": 4.685999870300293,
+        "change_pct": -1.2434144716915507,
         "date": "2026-08-03",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -11209,8 +11209,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-04",
       "sox": {
-        "close": 12179.26,
-        "change_pct": 6.5519428538933555,
+        "close": 12179.259765625,
+        "change_pct": 6.551944444776692,
         "date": "2026-08-04",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11239,8 +11239,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.63,
-        "change_pct": -1.4893617021276673,
+        "value": 4.626999855041504,
+        "change_pct": -1.2590699294024565,
         "date": "2026-08-04",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -11266,8 +11266,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-05",
       "sox": {
-        "close": 12008.88,
-        "change_pct": -1.3989355675139592,
+        "close": 12008.8798828125,
+        "change_pct": -1.3989346322457408,
         "date": "2026-08-05",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11296,8 +11296,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.63,
-        "change_pct": 0.0,
+        "value": 4.617000102996826,
+        "change_pct": -0.21611740561828796,
         "date": "2026-08-05",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -11323,8 +11323,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-06",
       "sox": {
-        "close": 12048.69,
-        "change_pct": 0.3315046865319804,
+        "close": 12048.6904296875,
+        "change_pct": 0.33150924368872126,
         "date": "2026-08-06",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11353,8 +11353,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.69,
-        "change_pct": 1.2958963282937441,
+        "value": 4.670000076293945,
+        "change_pct": 1.1479309533200421,
         "date": "2026-08-06",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -11380,8 +11380,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-07",
       "sox": {
-        "close": 12356.79,
-        "change_pct": 2.5571244674732263,
+        "close": 12356.7900390625,
+        "change_pct": 2.5571211342259703,
         "date": "2026-08-07",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11410,14 +11410,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.65,
-        "change_pct": -0.8528784648187626,
+        "value": 4.659999847412109,
+        "change_pct": -0.2141376599242406,
         "date": "2026-08-07",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 157.89100646972656,
-        "change_pct": 0.2228046653082183,
+        "change_pct": -0.3269953875608578,
         "date": "2026-08-09",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -11437,8 +11437,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-11",
       "sox": {
-        "close": 12098.47,
-        "change_pct": 0.872196273760073,
+        "close": 12098.4697265625,
+        "change_pct": 0.8721910371948915,
         "date": "2026-08-11",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11467,8 +11467,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.7,
-        "change_pct": -0.4237288135593098,
+        "value": 4.684000015258789,
+        "change_pct": -0.3192140213467587,
         "date": "2026-08-11",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -11494,8 +11494,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-12",
       "sox": {
-        "close": 12399.38,
-        "change_pct": 2.4871739980344643,
+        "close": 12399.3798828125,
+        "change_pct": 2.4871753457327284,
         "date": "2026-08-12",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11524,8 +11524,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.68,
-        "change_pct": -0.42553191489362874,
+        "value": 4.682000160217285,
+        "change_pct": -0.04269545335160441,
         "date": "2026-08-12",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -11552,7 +11552,7 @@
       "us_session_date": "2026-08-13",
       "sox": {
         "close": 12456.0,
-        "change_pct": 0.45663573501255605,
+        "change_pct": 0.456636684436007,
         "date": "2026-08-13",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11581,8 +11581,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.63,
-        "change_pct": -1.0683760683760646,
+        "value": 4.640999794006348,
+        "change_pct": -0.8757019395111421,
         "date": "2026-08-13",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -11608,8 +11608,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-14",
       "sox": {
-        "close": 12417.05,
-        "change_pct": -0.3127007064868348,
+        "close": 12417.0498046875,
+        "change_pct": -0.3127022745062602,
         "date": "2026-08-14",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11638,14 +11638,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.68,
-        "change_pct": 1.0799136069114423,
+        "value": 4.696000099182129,
+        "change_pct": 1.1850960486318396,
         "date": "2026-08-14",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 159.22300720214844,
-        "change_pct": 0.00816983992741882,
+        "change_pct": -0.12732407350513064,
         "date": "2026-08-16",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -11666,7 +11666,7 @@
       "us_session_date": "2026-08-17",
       "sox": {
         "close": 12621.0,
-        "change_pct": 1.6424996275282933,
+        "change_pct": 1.642501226301829,
         "date": "2026-08-17",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11695,8 +11695,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.72,
-        "change_pct": 0.8547008547008517,
+        "value": 4.723999977111816,
+        "change_pct": 0.5962495174257842,
         "date": "2026-08-17",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -11722,8 +11722,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-18",
       "sox": {
-        "close": 11992.46,
-        "change_pct": -4.980112510894552,
+        "close": 11992.4599609375,
+        "change_pct": -4.980112820398541,
         "date": "2026-08-18",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11752,8 +11752,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.71,
-        "change_pct": -0.21186440677966045,
+        "value": 4.705999851226807,
+        "change_pct": -0.3810356895051159,
         "date": "2026-08-18",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -11779,8 +11779,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-19",
       "sox": {
-        "close": 11738.23,
-        "change_pct": -2.1199153468095755,
+        "close": 11738.23046875,
+        "change_pct": -2.119911119283202,
         "date": "2026-08-19",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11809,8 +11809,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.65,
-        "change_pct": -1.27388535031846,
+        "value": 4.6529998779296875,
+        "change_pct": -1.1262213126356668,
         "date": "2026-08-19",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -11836,8 +11836,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-20",
       "sox": {
-        "close": 11800.02,
-        "change_pct": 0.5263996360609813,
+        "close": 11800.01953125,
+        "change_pct": 0.526391628316536,
         "date": "2026-08-20",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11866,8 +11866,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.69,
-        "change_pct": 0.8602150537634357,
+        "value": 4.696000099182129,
+        "change_pct": 0.9241397459819778,
         "date": "2026-08-20",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -11893,8 +11893,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-21",
       "sox": {
-        "close": 11740.37,
-        "change_pct": -0.5055076177836959,
+        "close": 11740.3701171875,
+        "change_pct": -0.5055026723009282,
         "date": "2026-08-21",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11923,14 +11923,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.74,
-        "change_pct": 1.0660980810234477,
+        "value": 4.73799991607666,
+        "change_pct": 0.8943742761386764,
         "date": "2026-08-21",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 158.9040069580078,
-        "change_pct": -0.003771343522862569,
+        "change_pct": 0.01322441867299684,
         "date": "2026-08-23",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -11950,8 +11950,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-24",
       "sox": {
-        "close": 11423.17,
-        "change_pct": -2.7017887851916167,
+        "close": 11423.169921875,
+        "change_pct": -2.7017904218209376,
         "date": "2026-08-24",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -11980,8 +11980,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.7,
-        "change_pct": -0.8438818565400852,
+        "value": 4.703999996185303,
+        "change_pct": -0.717600685808184,
         "date": "2026-08-24",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12007,8 +12007,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-25",
       "sox": {
-        "close": 11588.04,
-        "change_pct": 1.4432946371278899,
+        "close": 11588.0400390625,
+        "change_pct": 1.4432956728742896,
         "date": "2026-08-25",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12037,8 +12037,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.64,
-        "change_pct": -1.276595744680864,
+        "value": 4.638999938964844,
+        "change_pct": -1.3818039386303327,
         "date": "2026-08-25",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12064,8 +12064,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-26",
       "sox": {
-        "close": 11611.24,
-        "change_pct": 0.20020641972240405,
+        "close": 11611.240234375,
+        "change_pct": 0.20020810451373272,
         "date": "2026-08-26",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12094,8 +12094,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.66,
-        "change_pct": 0.4310344827586299,
+        "value": 4.664000034332275,
+        "change_pct": 0.5389113105487509,
         "date": "2026-08-26",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12121,8 +12121,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-27",
       "sox": {
-        "close": 11882.17,
-        "change_pct": 2.333342519834236,
+        "close": 11882.169921875,
+        "change_pct": 2.3333397813776635,
         "date": "2026-08-27",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12151,8 +12151,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.67,
-        "change_pct": 0.21459227467810482,
+        "value": 4.671999931335449,
+        "change_pct": 0.1715243770215702,
         "date": "2026-08-27",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12178,8 +12178,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-28",
       "sox": {
-        "close": 11469.66,
-        "change_pct": -3.4716722618848284,
+        "close": 11469.66015625,
+        "change_pct": -3.471670312217734,
         "date": "2026-08-28",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12208,14 +12208,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.73,
-        "change_pct": 1.2847965738758127,
+        "value": 4.71999979019165,
+        "change_pct": 1.0273942543162828,
         "date": "2026-08-28",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 160.1219940185547,
-        "change_pct": 0.09501407673606632,
+        "change_pct": 0.5027553664255668,
         "date": "2026-08-30",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -12235,8 +12235,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-08-31",
       "sox": {
-        "close": 11535.05,
-        "change_pct": 0.5701128019487856,
+        "close": 11535.0498046875,
+        "change_pct": 0.5701097290303547,
         "date": "2026-08-31",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12265,8 +12265,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.75,
-        "change_pct": 0.42283298097249844,
+        "value": 4.757999897003174,
+        "change_pct": 0.8050870445055702,
         "date": "2026-08-31",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12292,8 +12292,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-01",
       "sox": {
-        "close": 11288.61,
-        "change_pct": -2.136445008907617,
+        "close": 11288.6103515625,
+        "change_pct": -2.1364403040969426,
         "date": "2026-09-01",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12322,8 +12322,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.79,
-        "change_pct": 0.8421052631578885,
+        "value": 4.796000003814697,
+        "change_pct": 0.798657159186944,
         "date": "2026-09-01",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12350,7 +12350,7 @@
       "us_session_date": "2026-09-02",
       "sox": {
         "close": 11339.25,
-        "change_pct": 0.4485937595505529,
+        "change_pct": 0.44859063126836407,
         "date": "2026-09-02",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12379,7 +12379,7 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.79,
+        "value": 4.796000003814697,
         "change_pct": 0.0,
         "date": "2026-09-02",
         "source": "FRED DGS10 / Federal Reserve H.15"
@@ -12406,8 +12406,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-03",
       "sox": {
-        "close": 11352.13,
-        "change_pct": 0.11358775933152376,
+        "close": 11352.1298828125,
+        "change_pct": 0.11358672586370133,
         "date": "2026-09-03",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12436,8 +12436,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.77,
-        "change_pct": -0.41753653444677186,
+        "value": 4.76200008392334,
+        "change_pct": -0.7089224325336541,
         "date": "2026-09-03",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12463,8 +12463,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-04",
       "sox": {
-        "close": 11735.26,
-        "change_pct": 3.3749613508654353,
+        "close": 11735.259765625,
+        "change_pct": 3.3749603534097172,
         "date": "2026-09-04",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12493,14 +12493,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.78,
-        "change_pct": 0.20964360587003572,
+        "value": 4.783999919891357,
+        "change_pct": 0.46198730744020367,
         "date": "2026-09-04",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 156.19700622558594,
-        "change_pct": 0.05573392196907001,
+        "change_pct": 0.3449842932306657,
         "date": "2026-09-06",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -12520,8 +12520,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-04",
       "sox": {
-        "close": 11735.26,
-        "change_pct": 3.3749613508654353,
+        "close": 11735.259765625,
+        "change_pct": 3.3749603534097172,
         "date": "2026-09-04",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12550,8 +12550,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.78,
-        "change_pct": 0.20964360587003572,
+        "value": 4.783999919891357,
+        "change_pct": 0.46198730744020367,
         "date": "2026-09-04",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12577,8 +12577,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-08",
       "sox": {
-        "close": 11887.87,
-        "change_pct": 1.3004398709530074,
+        "close": 11887.8701171875,
+        "change_pct": 1.3004428927046563,
         "date": "2026-09-08",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12607,8 +12607,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.8,
-        "change_pct": 0.4184100418409997,
+        "value": 4.806000232696533,
+        "change_pct": 0.459872767006142,
         "date": "2026-09-08",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12634,8 +12634,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-09",
       "sox": {
-        "close": 11931.32,
-        "change_pct": 0.3654986132923588,
+        "close": 11931.3203125,
+        "change_pct": 0.3655002526455897,
         "date": "2026-09-09",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12664,8 +12664,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.83,
-        "change_pct": 0.6250000000000089,
+        "value": 4.836999893188477,
+        "change_pct": 0.6450199540367185,
         "date": "2026-09-09",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12691,8 +12691,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-10",
       "sox": {
-        "close": 11614.17,
-        "change_pct": -2.6581300308767153,
+        "close": 11614.169921875,
+        "change_pct": -2.6581332352022535,
         "date": "2026-09-10",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12721,8 +12721,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.95,
-        "change_pct": 2.4844720496894457,
+        "value": 4.943999767303467,
+        "change_pct": 2.2121123935865405,
         "date": "2026-09-10",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12749,7 +12749,7 @@
       "us_session_date": "2026-09-11",
       "sox": {
         "close": 11824.0,
-        "change_pct": 1.8066723666004592,
+        "change_pct": 1.80667305142308,
         "date": "2026-09-11",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12778,14 +12778,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.96,
-        "change_pct": 0.20202020202020332,
+        "value": 4.974999904632568,
+        "change_pct": 0.6270254609257231,
         "date": "2026-09-11",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 153.4239959716797,
-        "change_pct": -0.18606728795804717,
+        "change_pct": -0.6848685892281936,
         "date": "2026-09-13",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -12805,8 +12805,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-14",
       "sox": {
-        "close": 11131.28,
-        "change_pct": -5.858592692828135,
+        "close": 11131.2802734375,
+        "change_pct": -5.858590380264717,
         "date": "2026-09-14",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12835,8 +12835,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.97,
-        "change_pct": 0.20161290322580072,
+        "value": 4.960999965667725,
+        "change_pct": -0.2814058137329267,
         "date": "2026-09-14",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12862,8 +12862,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-15",
       "sox": {
-        "close": 11175.55,
-        "change_pct": 0.3977080802926469,
+        "close": 11175.5498046875,
+        "change_pct": 0.39770385941715336,
         "date": "2026-09-15",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12892,8 +12892,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.0,
-        "change_pct": 0.6036217303823088,
+        "value": 4.995999813079834,
+        "change_pct": 0.7054998519315347,
         "date": "2026-09-15",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12919,8 +12919,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-16",
       "sox": {
-        "close": 11246.11,
-        "change_pct": 0.6313783214249025,
+        "close": 11246.1103515625,
+        "change_pct": 0.6313832259546182,
         "date": "2026-09-16",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -12949,8 +12949,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.01,
-        "change_pct": 0.20000000000000018,
+        "value": 5.00600004196167,
+        "change_pct": 0.20016471689319193,
         "date": "2026-09-16",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -12976,8 +12976,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-17",
       "sox": {
-        "close": 11599.49,
-        "change_pct": 3.142242073036794,
+        "close": 11599.490234375,
+        "change_pct": 3.1422409327808376,
         "date": "2026-09-17",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13006,8 +13006,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 4.94,
-        "change_pct": -1.3972055888223478,
+        "value": 4.947000026702881,
+        "change_pct": -1.1785859920941832,
         "date": "2026-09-17",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13033,8 +13033,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-23",
       "sox": {
-        "close": 12534.27,
-        "change_pct": -1.2257857085443247,
+        "close": 12534.2802734375,
+        "change_pct": -1.2257071828612576,
         "date": "2026-09-23",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13063,8 +13063,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.11,
-        "change_pct": 3.0241935483870996,
+        "value": 5.113999843597412,
+        "change_pct": 2.9388065691038134,
         "date": "2026-09-23",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13090,8 +13090,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-24",
       "sox": {
-        "close": 12492.54,
-        "change_pct": -0.3329272466605526,
+        "close": 12492.5400390625,
+        "change_pct": -0.3330086248626185,
         "date": "2026-09-24",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13120,8 +13120,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.18,
-        "change_pct": 1.3698630136986134,
+        "value": 5.1620001792907715,
+        "change_pct": 0.9386065146923084,
         "date": "2026-09-24",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13147,8 +13147,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-25",
       "sox": {
-        "close": 12668.93,
-        "change_pct": 1.4119626593150691,
+        "close": 12668.9296875,
+        "change_pct": 1.411959840720578,
         "date": "2026-09-25",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13177,14 +13177,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.17,
-        "change_pct": -0.19305019305019266,
+        "value": 5.184000015258789,
+        "change_pct": 0.4261882061972422,
         "date": "2026-09-25",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 157.46299743652344,
-        "change_pct": 0.18004672128988375,
+        "change_pct": -0.8488122124883146,
         "date": "2026-09-27",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -13204,8 +13204,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-28",
       "sox": {
-        "close": 12465.24,
-        "change_pct": -1.607791660384894,
+        "close": 12465.240234375,
+        "change_pct": -1.607787383380721,
         "date": "2026-09-28",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13234,8 +13234,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.24,
-        "change_pct": 1.3539651837524147,
+        "value": 5.239999771118164,
+        "change_pct": 1.0802422008978185,
         "date": "2026-09-28",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13261,8 +13261,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-29",
       "sox": {
-        "close": 12629.16,
-        "change_pct": 1.315016798713864,
+        "close": 12629.16015625,
+        "change_pct": 1.3150161472457178,
         "date": "2026-09-29",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13291,8 +13291,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.26,
-        "change_pct": 0.3816793893129722,
+        "value": 5.255000114440918,
+        "change_pct": 0.2862661064497063,
         "date": "2026-09-29",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13318,8 +13318,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-09-30",
       "sox": {
-        "close": 12628.62,
-        "change_pct": -0.004275818819299282,
+        "close": 12628.6201171875,
+        "change_pct": -0.00427612807042399,
         "date": "2026-09-30",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13348,8 +13348,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.29,
-        "change_pct": 0.5703422053231932,
+        "value": 5.293000221252441,
+        "change_pct": 0.7231228541194179,
         "date": "2026-09-30",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13376,7 +13376,7 @@
       "us_session_date": "2026-10-01",
       "sox": {
         "close": 12829.0,
-        "change_pct": 1.5867133542698975,
+        "change_pct": 1.5867124115942266,
         "date": "2026-10-01",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13405,8 +13405,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.24,
-        "change_pct": -0.9451795841209809,
+        "value": 5.236999988555908,
+        "change_pct": -1.0580054856540788,
         "date": "2026-10-01",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13432,8 +13432,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-10-02",
       "sox": {
-        "close": 13136.67,
-        "change_pct": 2.398238366201566,
+        "close": 13136.669921875,
+        "change_pct": 2.3982377572297153,
         "date": "2026-10-02",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13462,14 +13462,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.28,
-        "change_pct": 0.7633587786259444,
+        "value": 5.2769999504089355,
+        "change_pct": 0.7637953397066299,
         "date": "2026-10-02",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 157.73399353027344,
-        "change_pct": -0.04816327845292845,
+        "change_pct": -0.12221369396276938,
         "date": "2026-10-04",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -13489,8 +13489,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-10-05",
       "sox": {
-        "close": 13172.74,
-        "change_pct": 0.2745749112979201,
+        "close": 13172.740234375,
+        "change_pct": 0.27457729176811885,
         "date": "2026-10-05",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13519,8 +13519,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.31,
-        "change_pct": 0.5681818181818121,
+        "value": 5.310999870300293,
+        "change_pct": 0.6443039645797732,
         "date": "2026-10-05",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13546,8 +13546,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-10-06",
       "sox": {
-        "close": 13217.82,
-        "change_pct": 0.34222189157304683,
+        "close": 13217.8203125,
+        "change_pct": 0.34222247856494636,
         "date": "2026-10-06",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13576,8 +13576,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.27,
-        "change_pct": -0.7532956685499026,
+        "value": 5.269000053405762,
+        "change_pct": -0.7908080949012852,
         "date": "2026-10-06",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13603,8 +13603,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-10-07",
       "sox": {
-        "close": 13066.15,
-        "change_pct": -1.1474660723175267,
+        "close": 13066.150390625,
+        "change_pct": -1.1474654541306362,
         "date": "2026-10-07",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13633,8 +13633,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.28,
-        "change_pct": 0.189753320683117,
+        "value": 5.2769999504089355,
+        "change_pct": 0.15182951076273543,
         "date": "2026-10-07",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13660,8 +13660,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-10-08",
       "sox": {
-        "close": 12623.71,
-        "change_pct": -3.38615429946848,
+        "close": 12623.7099609375,
+        "change_pct": -3.386157486790853,
         "date": "2026-10-08",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13690,8 +13690,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.22,
-        "change_pct": -1.1363636363636465,
+        "value": 5.230999946594238,
+        "change_pct": -0.8717074899940558,
         "date": "2026-10-08",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13717,8 +13717,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-10-12",
       "sox": {
-        "close": 12236.79,
-        "change_pct": -2.669573558630711,
+        "close": 12236.7900390625,
+        "change_pct": -2.6695726431196554,
         "date": "2026-10-12",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13748,7 +13748,7 @@
       },
       "us10y": {
         "value": 5.239999771118164,
-        "change_pct": -4.367973971408645e-06,
+        "change_pct": -0.07628121571653379,
         "date": "2026-10-12",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13774,8 +13774,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-10-13",
       "sox": {
-        "close": 12208.79,
-        "change_pct": -0.2288181786236465,
+        "close": 12208.7900390625,
+        "change_pct": -0.22881817789320857,
         "date": "2026-10-13",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13804,8 +13804,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.21,
-        "change_pct": -0.5725147410027942,
+        "value": 5.2170000076293945,
+        "change_pct": -0.43892680330903655,
         "date": "2026-10-13",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13831,8 +13831,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-10-14",
       "sox": {
-        "close": 11684.38,
-        "change_pct": -4.295347860025456,
+        "close": 11684.3798828125,
+        "change_pct": -4.295349126097914,
         "date": "2026-10-14",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13861,8 +13861,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.19,
-        "change_pct": -0.38387715930900956,
+        "value": 5.190000057220459,
+        "change_pct": -0.5175378640876138,
         "date": "2026-10-14",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13888,8 +13888,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-10-15",
       "sox": {
-        "close": 11581.22,
-        "change_pct": -0.8828880950465523,
+        "close": 11581.2099609375,
+        "change_pct": -0.8829730196187935,
         "date": "2026-10-15",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13918,8 +13918,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.1,
-        "change_pct": -1.7341040462427904,
+        "value": 5.089000225067139,
+        "change_pct": -1.9460468408436071,
         "date": "2026-10-15",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -13945,8 +13945,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-10-16",
       "sox": {
-        "close": 11137.29,
-        "change_pct": -3.8331885587183256,
+        "close": 11137.2900390625,
+        "change_pct": -3.83310486013384,
         "date": "2026-10-16",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -13975,14 +13975,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.09,
-        "change_pct": -0.19607843137254832,
+        "value": 5.0980000495910645,
+        "change_pct": 0.1768485778325335,
         "date": "2026-10-16",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
         "value": 157.80599975585938,
-        "change_pct": -0.12278496464596111,
+        "change_pct": -0.21310181531175587,
         "date": "2026-10-18",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
@@ -14002,8 +14002,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-10-19",
       "sox": {
-        "close": 11316.34,
-        "change_pct": 1.6076621871209174,
+        "close": 11316.33984375,
+        "change_pct": 1.607660427801627,
         "date": "2026-10-19",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -14032,8 +14032,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "us10y": {
-        "value": 5.15,
-        "change_pct": 1.1787819253438192,
+        "value": 5.136000156402588,
+        "change_pct": 0.7453924370709242,
         "date": "2026-10-19",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
@@ -14059,8 +14059,8 @@
       "volume_basis": "reported_daily_volume",
       "us_session_date": "2026-10-20",
       "sox": {
-        "close": 11283.81,
-        "change_pct": -0.287460433320319,
+        "close": 11283.8095703125,
+        "change_pct": -0.28746285359630974,
         "date": "2026-10-20",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
@@ -14090,14 +14090,14 @@
       },
       "us10y": {
         "value": 5.117000102996826,
-        "change_pct": -0.6407746990907626,
+        "change_pct": -0.3699387232704021,
         "date": "2026-10-20",
         "source": "FRED DGS10 / Federal Reserve H.15"
       },
       "usdjpy": {
-        "value": 158.5229949951172,
-        "change_pct": 0.45435233157615773,
-        "date": "2026-10-19",
+        "value": 158.26800537109375,
+        "change_pct": -0.1608533979762905,
+        "date": "2026-10-20",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
     }
