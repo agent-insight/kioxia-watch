@@ -28,65 +28,65 @@
       "usdjpy": "FRED DEXJPUS / Federal Reserve H.10; Yahoo JPY=X freshness extension"
     },
     "no_imputation": true,
-    "last_automation_run_jst": "2026-11-03T08:13:33+09:00",
+    "last_automation_run_jst": "2026-11-04T00:25:03+09:00",
     "automation_status": {
       "kioxia": "ok:347",
-      "sox": "fred-ok:5448",
-      "us10y": "fred+tnx-fresh:16197",
-      "usdjpy": "fred+yahoo-fresh:14056",
-      "sndk": "yahoo-ok:358",
-      "mu": "yahoo-ok:358",
-      "nvda": "yahoo-ok:358",
-      "wdc": "yahoo-ok:358"
+      "sox": "fred-ok:5450",
+      "us10y": "fred+tnx-fresh:16198",
+      "usdjpy": "fred+yahoo-fresh:14057",
+      "sndk": "yahoo-ok:359",
+      "mu": "yahoo-ok:359",
+      "nvda": "yahoo-ok:359",
+      "wdc": "yahoo-ok:359"
     },
     "latest_context": {
       "sox": {
-        "date": "2026-10-29",
-        "value": 11518.2,
-        "change_pct": -1.419034577199585
+        "date": "2026-11-02",
+        "value": 10328.33,
+        "change_pct": -3.3724085023576045
       },
       "us10y": {
-        "date": "2026-11-02",
-        "value": 4.894000053405762,
-        "change_pct": -0.9311730079805347
+        "date": "2026-11-03",
+        "value": 4.966000080108643,
+        "change_pct": 1.4711897408496322
       },
       "usdjpy": {
-        "date": "2026-11-02",
-        "value": 157.93800354003906,
-        "change_pct": 0.08491716611827016
+        "date": "2026-11-03",
+        "value": 158.5590057373047,
+        "change_pct": 0.5593737661513165
       },
       "sndk": {
-        "date": "2026-11-02",
-        "close": 1075.0799560546875,
-        "change_pct": -6.587081096268587
+        "date": "2026-11-03",
+        "close": 1129.1199951171875,
+        "change_pct": 5.026606510348808
       },
       "mu": {
-        "date": "2026-11-02",
-        "close": 833.5900268554688,
-        "change_pct": -5.781355420065982
+        "date": "2026-11-03",
+        "close": 856.2449951171875,
+        "change_pct": 2.717759034039724
       },
       "nvda": {
-        "date": "2026-11-02",
-        "close": 202.05999755859375,
-        "change_pct": -1.2607514849246049
+        "date": "2026-11-03",
+        "close": 207.6699981689453,
+        "change_pct": 2.7764033842100577
       },
       "wdc": {
-        "date": "2026-11-02",
-        "close": 338.5899963378906,
-        "change_pct": -7.516863815458463
+        "date": "2026-11-03",
+        "close": 349.9200134277344,
+        "change_pct": 3.3462350371796346
       }
     },
-    "latest_context_generated_jst": "2026-11-03T08:13:33+09:00"
+    "latest_context_generated_jst": "2026-11-04T00:25:03+09:00"
   },
   "sessions": [
     {
       "date": "2025-10-28",
       "kioxia": {
-        "open": 3160.0,
-        "high": 3230.0,
-        "low": 3066.666748046875,
-        "close": 3126.666748046875,
-        "change_pct": -4.3832798762423515,
+        "open": 3154.668121932154,
+        "high": 3224.550010709132,
+        "low": 3061.4923514724114,
+        "close": 3121.39111328125,
+        "change_pct": -4.3832841945833145,
         "volume": 57644700
       },
       "verified": true,
@@ -112,8 +112,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 191.03233337402344,
-        "change_pct": 2.8079190583268687,
+        "close": 191.03231811523438,
+        "change_pct": 2.8079108465005165,
         "date": "2025-10-27",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -139,11 +139,11 @@
     {
       "date": "2025-10-29",
       "kioxia": {
-        "open": 3176.666748046875,
-        "high": 3406.666748046875,
-        "low": 3116.666748046875,
-        "close": 3360.0,
-        "change_pct": 7.462683770148537,
+        "open": 3171.3068892301726,
+        "high": 3400.918819714036,
+        "low": 3111.408124756121,
+        "close": 3354.330810546875,
+        "change_pct": 7.462688551732155,
         "volume": 89215200
       },
       "verified": true,
@@ -170,13 +170,13 @@
       },
       "nvda": {
         "close": 200.54953002929688,
-        "change_pct": 4.981982100715721,
+        "change_pct": 4.981990486196963,
         "date": "2025-10-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 124.6873779296875,
-        "change_pct": -1.3815434046386632,
+        "close": 124.68738555908203,
+        "change_pct": -1.3815373703541467,
         "date": "2025-10-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -196,11 +196,11 @@
     {
       "date": "2025-10-30",
       "kioxia": {
-        "open": 3460.0,
-        "high": 3643.333251953125,
-        "low": 3400.0,
-        "close": 3633.333251953125,
-        "change_pct": 8.134918212890629,
+        "open": 3454.1620868460186,
+        "high": 3637.1860082780054,
+        "low": 3394.263322334238,
+        "close": 3627.202880859375,
+        "change_pct": 8.13491828100319,
         "volume": 93375300
       },
       "verified": true,
@@ -226,14 +226,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 206.54515075683594,
-        "change_pct": 2.9895959998825328,
+        "close": 206.545166015625,
+        "change_pct": 2.989603608371594,
         "date": "2025-10-29",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 141.11672973632812,
-        "change_pct": 13.176435401428765,
+        "close": 141.1167449951172,
+        "change_pct": 13.176440714004901,
         "date": "2025-10-29",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -253,11 +253,11 @@
     {
       "date": "2025-10-31",
       "kioxia": {
-        "open": 3653.333251953125,
-        "high": 3703.333251953125,
-        "low": 3488.333251953125,
-        "close": 3608.333251953125,
-        "change_pct": -0.6880734099070307,
+        "open": 3647.1689440703503,
+        "high": 3697.0845785408783,
+        "low": 3482.4473503176077,
+        "close": 3602.244873046875,
+        "change_pct": -0.6880786278650852,
         "volume": 72220800
       },
       "verified": true,
@@ -277,20 +277,20 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 223.75588989257812,
-        "change_pct": -1.1560657406268326,
+        "close": 223.75587463378906,
+        "change_pct": -1.156072481181214,
         "date": "2025-10-30",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
         "close": 202.4050750732422,
-        "change_pct": -2.0044409991827106,
+        "change_pct": -2.0044482387303164,
         "date": "2025-10-30",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 137.87277221679688,
-        "change_pct": -2.298776003095082,
+        "close": 137.87278747558594,
+        "change_pct": -2.2987757545311127,
         "date": "2025-10-30",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -310,11 +310,11 @@
     {
       "date": "2025-11-04",
       "kioxia": {
-        "open": 3786.666748046875,
-        "high": 3948.333251953125,
-        "low": 3560.0,
-        "close": 3586.666748046875,
-        "change_pct": -0.6004573966254978,
+        "open": 3780.2775316279517,
+        "high": 3941.6712567686345,
+        "low": 3553.9932368056684,
+        "close": 3580.614990234375,
+        "change_pct": -0.6004556484857981,
         "volume": 93091200
       },
       "verified": true,
@@ -334,14 +334,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 234.4337615966797,
-        "change_pct": 4.884487362880496,
+        "close": 234.43374633789062,
+        "change_pct": 4.884480536174918,
         "date": "2025-11-03",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 206.3855438232422,
-        "change_pct": 2.1680051195482886,
+        "close": 206.38552856445312,
+        "change_pct": 2.167997565918256,
         "date": "2025-11-03",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -367,11 +367,11 @@
     {
       "date": "2025-11-05",
       "kioxia": {
-        "open": 3136.666748046875,
-        "high": 3545.0,
-        "low": 3103.333251953125,
-        "close": 3515.0,
-        "change_pct": -1.9981434875682602,
+        "open": 3131.3742067818794,
+        "high": 3539.0184723812013,
+        "low": 3098.0969547579502,
+        "close": 3509.069091796875,
+        "change_pct": -1.9981455317768404,
         "volume": 100427400
       },
       "verified": true,
@@ -392,13 +392,13 @@
       },
       "mu": {
         "close": 217.7826690673828,
-        "change_pct": -7.10268538792781,
+        "change_pct": -7.102679341441109,
         "date": "2025-11-04",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 198.21511840820312,
-        "change_pct": -3.9588167192739943,
+        "close": 198.21510314941406,
+        "change_pct": -3.9588170119628674,
         "date": "2025-11-04",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -424,11 +424,11 @@
     {
       "date": "2025-11-06",
       "kioxia": {
-        "open": 3773.333251953125,
-        "high": 3863.333251953125,
-        "low": 3633.333251953125,
-        "close": 3833.333251953125,
-        "change_pct": 9.056422530672116,
+        "open": 3766.9664729131546,
+        "high": 3856.8146151059227,
+        "low": 3627.202696168849,
+        "close": 3826.865234375,
+        "change_pct": 9.056423064482688,
         "volume": 56479500
       },
       "verified": true,
@@ -448,20 +448,20 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 237.2305908203125,
-        "change_pct": 8.92996758475415,
+        "close": 237.23057556152344,
+        "change_pct": 8.929960578324692,
         "date": "2025-11-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
         "close": 194.74343872070312,
-        "change_pct": -1.7514706826501691,
+        "change_pct": -1.7514631193840002,
         "date": "2025-11-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 159.8018798828125,
-        "change_pct": 5.204377913700231,
+        "close": 159.80186462402344,
+        "change_pct": 5.204367868190052,
         "date": "2025-11-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -481,11 +481,11 @@
     {
       "date": "2025-11-07",
       "kioxia": {
-        "open": 3813.333251953125,
-        "high": 4045.0,
-        "low": 3740.0,
-        "close": 4013.333251953125,
-        "change_pct": 4.6956522735999595,
+        "open": 3806.8989849982777,
+        "high": 4038.1748399332714,
+        "low": 3733.6894688134576,
+        "close": 4006.5615234375,
+        "change_pct": 4.695652395813932,
         "volume": 99901500
       },
       "verified": true,
@@ -505,20 +505,20 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 238.05963134765625,
-        "change_pct": 0.3494661141622002,
+        "close": 238.0596160888672,
+        "change_pct": 0.3494661366400198,
         "date": "2025-11-06",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 187.63047790527344,
-        "change_pct": -3.652477773914087,
+        "close": 187.6304931640625,
+        "change_pct": -3.6524699385851234,
         "date": "2025-11-06",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 163.2953643798828,
-        "change_pct": 2.186134793678396,
+        "change_pct": 2.186144550990554,
         "date": "2025-11-06",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -538,11 +538,11 @@
     {
       "date": "2025-11-10",
       "kioxia": {
-        "open": 4363.33349609375,
-        "high": 4545.0,
-        "low": 4218.33349609375,
-        "close": 4440.0,
-        "change_pct": 10.631231479200821,
+        "open": 4355.971157773068,
+        "high": 4537.331132218645,
+        "low": 4211.215819121428,
+        "close": 4432.50830078125,
+        "change_pct": 10.631230167116001,
         "volume": 104331900
       },
       "verified": true,
@@ -562,20 +562,20 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 237.65008544921875,
-        "change_pct": -0.17203500489312296,
+        "close": 237.6501007080078,
+        "change_pct": -0.1720221966192259,
         "date": "2025-11-07",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 187.70028686523438,
-        "change_pct": 0.03720555463071484,
+        "close": 187.70030212402344,
+        "change_pct": 0.03720555160504624,
         "date": "2025-11-07",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 162.65655517578125,
-        "change_pct": -0.39119861517652454,
+        "close": 162.6565704345703,
+        "change_pct": -0.39118927088857003,
         "date": "2025-11-07",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -595,11 +595,11 @@
     {
       "date": "2025-11-11",
       "kioxia": {
-        "open": 4600.0,
-        "high": 4801.66650390625,
-        "low": 4085.0,
-        "close": 4398.33349609375,
-        "change_pct": -0.938434772663288,
+        "open": 4592.238337784852,
+        "high": 4793.564566194705,
+        "low": 4078.107306489374,
+        "close": 4390.912109375,
+        "change_pct": -0.9384345969283059,
         "volume": 157294500
       },
       "verified": true,
@@ -619,20 +619,20 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 253.01266479492188,
-        "change_pct": 6.464369375952028,
+        "close": 253.0126495361328,
+        "change_pct": 6.464356119503778,
         "date": "2025-11-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 198.57427978515625,
-        "change_pct": 5.793274534380033,
+        "close": 198.5742645263672,
+        "change_pct": 5.793257804752372,
         "date": "2025-11-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 173.8955841064453,
-        "change_pct": 6.909668607280017,
+        "change_pct": 6.909658578099664,
         "date": "2025-11-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -652,11 +652,11 @@
     {
       "date": "2025-11-12",
       "kioxia": {
-        "open": 4298.33349609375,
-        "high": 4475.0,
-        "low": 4181.66650390625,
-        "close": 4413.33349609375,
-        "change_pct": 0.34103825945261956,
+        "open": 4291.080762412299,
+        "high": 4467.449170532257,
+        "low": 4174.6106266633515,
+        "close": 4405.88671875,
+        "change_pct": 0.3410364179922354,
         "volume": 69118200
       },
       "verified": true,
@@ -676,14 +676,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 240.8364715576172,
-        "change_pct": -4.812483694116276,
+        "close": 240.83648681640625,
+        "change_pct": -4.8124719226687045,
         "date": "2025-11-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
         "close": 192.69833374023438,
-        "change_pct": -2.959067030875928,
+        "change_pct": -2.9590595740832226,
         "date": "2025-11-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -709,11 +709,11 @@
     {
       "date": "2025-11-13",
       "kioxia": {
-        "open": 4333.33349609375,
-        "high": 4591.66650390625,
-        "low": 4276.66650390625,
-        "close": 4341.66650390625,
-        "change_pct": -1.6238743854488313,
+        "open": 4326.021872764317,
+        "high": 4583.918995905492,
+        "low": 4269.450494658322,
+        "close": 4334.3408203125,
+        "change_pct": -1.623870585074838,
         "volume": 82545600
       },
       "verified": true,
@@ -733,14 +733,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 244.62216186523438,
-        "change_pct": 1.571892447656742,
+        "close": 244.62217712402344,
+        "change_pct": 1.5718923480656288,
         "date": "2025-11-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 193.33680725097656,
-        "change_pct": 0.33133317675848595,
+        "close": 193.3367919921875,
+        "change_pct": 0.33132525827326287,
         "date": "2025-11-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -766,11 +766,11 @@
     {
       "date": "2025-11-14",
       "kioxia": {
-        "open": 3341.666748046875,
-        "high": 3341.666748046875,
-        "low": 3341.666748046875,
-        "close": 3341.666748046875,
-        "change_pct": -23.032624798787815,
+        "open": 3336.0283203125,
+        "high": 3336.0283203125,
+        "low": 3336.0283203125,
+        "close": 3336.0283203125,
+        "change_pct": -23.03262575295182,
         "volume": 16494000
       },
       "verified": true,
@@ -791,13 +791,13 @@
       },
       "mu": {
         "close": 236.68118286132812,
-        "change_pct": -3.246222232424323,
+        "change_pct": -3.246228267631368,
         "date": "2025-11-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
         "close": 186.41339111328125,
-        "change_pct": -3.5810129670279522,
+        "change_pct": -3.5810053573176126,
         "date": "2025-11-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -823,11 +823,11 @@
     {
       "date": "2025-11-17",
       "kioxia": {
-        "open": 3333.333251953125,
-        "high": 3883.333251953125,
-        "low": 3298.333251953125,
-        "close": 3721.666748046875,
-        "change_pct": 11.371570795385288,
+        "open": 3327.7089431980835,
+        "high": 3876.7809322308453,
+        "low": 3292.7679984414535,
+        "close": 3715.38720703125,
+        "change_pct": 11.371572729430968,
         "volume": 150731700
       },
       "verified": true,
@@ -847,8 +847,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 246.5500030517578,
-        "change_pct": 4.169668273211169,
+        "close": 246.54998779296875,
+        "change_pct": 4.16966182623093,
         "date": "2025-11-14",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -880,11 +880,11 @@
     {
       "date": "2025-11-18",
       "kioxia": {
-        "open": 3650.0,
-        "high": 3681.666748046875,
-        "low": 3320.333251953125,
-        "close": 3420.0,
-        "change_pct": -8.10568942544867,
+        "open": 3643.8414171006943,
+        "high": 3675.4547343823647,
+        "low": 3314.7309101488854,
+        "close": 3414.2294921875,
+        "change_pct": -8.105688534261478,
         "volume": 129372900
       },
       "verified": true,
@@ -904,8 +904,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 241.67552185058594,
-        "change_pct": -1.9770761066056797,
+        "close": 241.675537109375,
+        "change_pct": -1.977063851119265,
         "date": "2025-11-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -916,8 +916,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 162.1475067138672,
-        "change_pct": 2.9272048449645816,
+        "close": 162.14749145507812,
+        "change_pct": 2.927195159064744,
         "date": "2025-11-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -937,11 +937,11 @@
     {
       "date": "2025-11-19",
       "kioxia": {
-        "open": 3345.0,
-        "high": 3665.0,
-        "low": 3157.333251953125,
-        "close": 3611.666748046875,
-        "change_pct": 5.6042908785636,
+        "open": 3339.355954792503,
+        "high": 3658.8160162375257,
+        "low": 3152.005858347996,
+        "close": 3605.57275390625,
+        "change_pct": 5.604288234185351,
         "volume": 131958900
       },
       "verified": true,
@@ -962,19 +962,19 @@
       },
       "mu": {
         "close": 228.24078369140625,
-        "change_pct": -5.558998303305874,
+        "change_pct": -5.5590042660745524,
         "date": "2025-11-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 180.926513671875,
-        "change_pct": -2.8081630913318945,
+        "close": 180.92652893066406,
+        "change_pct": -2.8081548944694945,
         "date": "2025-11-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 152.57534790039062,
-        "change_pct": -5.903364786464483,
+        "change_pct": -5.903355931559018,
         "date": "2025-11-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -994,11 +994,11 @@
     {
       "date": "2025-11-20",
       "kioxia": {
-        "open": 4166.66650390625,
-        "high": 4196.66650390625,
-        "low": 3591.666748046875,
-        "close": 3778.333251953125,
-        "change_pct": 4.6146700549373865,
+        "open": 4159.636018651611,
+        "high": 4189.585399155801,
+        "low": 3585.6064693833328,
+        "close": 3771.9580078125,
+        "change_pct": 4.614669159733076,
         "volume": 184246800
       },
       "verified": true,
@@ -1018,14 +1018,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 225.6636962890625,
-        "change_pct": -1.1291090753649535,
+        "close": 225.66371154785156,
+        "change_pct": -1.129102389973835,
         "date": "2025-11-19",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 186.07418823242188,
-        "change_pct": 2.8451742401241376,
+        "close": 186.07420349121094,
+        "change_pct": 2.845174000170858,
         "date": "2025-11-19",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1051,11 +1051,11 @@
     {
       "date": "2025-11-21",
       "kioxia": {
-        "open": 3176.666748046875,
-        "high": 3343.333251953125,
-        "low": 3113.333251953125,
-        "close": 3343.333251953125,
-        "change_pct": -11.513013040211217,
+        "open": 3171.3068465258275,
+        "high": 3337.692138671875,
+        "low": 3108.0802112799315,
+        "close": 3337.692138671875,
+        "change_pct": -11.513009112009499,
         "volume": 193605300
       },
       "verified": true,
@@ -1075,14 +1075,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 201.14157104492188,
-        "change_pct": -10.866668253421308,
+        "close": 201.1415557861328,
+        "change_pct": -10.866681042121773,
         "date": "2025-11-20",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
         "close": 180.208251953125,
-        "change_pct": -3.1524717829051307,
+        "change_pct": -3.152479724769053,
         "date": "2025-11-20",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1108,11 +1108,11 @@
     {
       "date": "2025-11-25",
       "kioxia": {
-        "open": 3600.0,
-        "high": 3763.333251953125,
-        "low": 3266.666748046875,
-        "close": 3284.333251953125,
-        "change_pct": -1.764705925307719,
+        "open": 3593.925886159501,
+        "high": 3756.9835534553195,
+        "low": 3261.155052017261,
+        "close": 3278.791748046875,
+        "change_pct": -1.7647041182305534,
         "volume": 101433900
       },
       "verified": true,
@@ -1138,14 +1138,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 182.1136932373047,
-        "change_pct": 2.051661128715887,
+        "close": 182.11367797851562,
+        "change_pct": 2.051652578097074,
         "date": "2025-11-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 150.64894104003906,
-        "change_pct": 8.434515263039334,
+        "close": 150.64895629882812,
+        "change_pct": 8.43451433667546,
         "date": "2025-11-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1165,11 +1165,11 @@
     {
       "date": "2025-11-26",
       "kioxia": {
-        "open": 2950.0,
-        "high": 3004.666748046875,
-        "low": 2784.333251953125,
-        "close": 2795.333251953125,
-        "change_pct": -14.88886670404722,
+        "open": 2945.022478784351,
+        "high": 2999.5969878826854,
+        "low": 2779.635259467351,
+        "close": 2790.61669921875,
+        "change_pct": -14.888870240658726,
         "volume": 188545800
       },
       "verified": true,
@@ -1189,20 +1189,20 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 224.27529907226562,
-        "change_pct": 0.2679477513481965,
+        "close": 224.27528381347656,
+        "change_pct": 0.26794092952042714,
         "date": "2025-11-25",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 177.39500427246094,
-        "change_pct": -2.5910676352574047,
+        "close": 177.39498901367188,
+        "change_pct": -2.591067852355622,
         "date": "2025-11-25",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 155.12062072753906,
-        "change_pct": 2.9682782080170833,
+        "close": 155.12060546875,
+        "change_pct": 2.968257649958006,
         "date": "2025-11-25",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1222,11 +1222,11 @@
     {
       "date": "2025-11-27",
       "kioxia": {
-        "open": 2850.0,
-        "high": 3050.0,
-        "low": 2816.666748046875,
-        "close": 3016.333251953125,
-        "change_pct": 7.906034096134529,
+        "open": 2845.191292912829,
+        "high": 3044.8538397839043,
+        "low": 2811.9142830105475,
+        "close": 3011.243896484375,
+        "change_pct": 7.906037304492264,
         "volume": 171876600
       },
       "verified": true,
@@ -1247,19 +1247,19 @@
       },
       "mu": {
         "close": 229.998779296875,
-        "change_pct": 2.551988671193417,
+        "change_pct": 2.5519956484186146,
         "date": "2025-11-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
         "close": 179.8291473388672,
-        "change_pct": 1.3721598736048168,
+        "change_pct": 1.372168593222045,
         "date": "2025-11-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 157.4462890625,
-        "change_pct": 1.4992644588792903,
+        "close": 157.44627380371094,
+        "change_pct": 1.4992646063578308,
         "date": "2025-11-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1279,11 +1279,11 @@
     {
       "date": "2025-11-28",
       "kioxia": {
-        "open": 3058.0,
-        "high": 3158.0,
-        "low": 2943.333251953125,
-        "close": 3135.333251953125,
-        "change_pct": 3.9451874199558645,
+        "open": 3052.8402020662147,
+        "high": 3152.6714709369217,
+        "low": 2938.3669325182427,
+        "close": 3130.04296875,
+        "change_pct": 3.9451826670142243,
         "volume": 134852100
       },
       "verified": true,
@@ -1304,19 +1304,19 @@
       },
       "mu": {
         "close": 229.998779296875,
-        "change_pct": 2.551988671193417,
+        "change_pct": 2.5519956484186146,
         "date": "2025-11-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
         "close": 179.8291473388672,
-        "change_pct": 1.3721598736048168,
+        "change_pct": 1.372168593222045,
         "date": "2025-11-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 157.4462890625,
-        "change_pct": 1.4992644588792903,
+        "close": 157.44627380371094,
+        "change_pct": 1.4992646063578308,
         "date": "2025-11-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1336,11 +1336,11 @@
     {
       "date": "2025-12-01",
       "kioxia": {
-        "open": 3235.333251953125,
-        "high": 3240.333251953125,
-        "low": 2937.0,
-        "close": 2960.666748046875,
-        "change_pct": -5.570907137142223,
+        "open": 3229.874194969644,
+        "high": 3234.865758347265,
+        "low": 2932.0443280144927,
+        "close": 2955.671142578125,
+        "change_pct": -5.570908384095164,
         "volume": 141795900
       },
       "verified": true,
@@ -1360,20 +1360,20 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 236.21173095703125,
-        "change_pct": 2.7012976673831623,
+        "close": 236.2117156982422,
+        "change_pct": 2.701291033091846,
         "date": "2025-11-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 176.57696533203125,
-        "change_pct": -1.8084843613852986,
+        "close": 176.5769500732422,
+        "change_pct": -1.808492846544285,
         "date": "2025-11-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 163.02584838867188,
-        "change_pct": 3.5437858582725967,
+        "change_pct": 3.5437958931419544,
         "date": "2025-11-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1393,11 +1393,11 @@
     {
       "date": "2025-12-02",
       "kioxia": {
-        "open": 2990.0,
-        "high": 3118.333251953125,
-        "low": 2960.666748046875,
-        "close": 3072.333251953125,
-        "change_pct": 3.7716674455142707,
+        "open": 2984.9550800574402,
+        "high": 3113.0717999095377,
+        "low": 2955.671321050054,
+        "close": 3067.1494140625,
+        "change_pct": 3.771673711546164,
         "volume": 138840000
       },
       "verified": true,
@@ -1417,14 +1417,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 240.1872100830078,
-        "change_pct": 1.6830151110063696,
+        "close": 240.18722534179688,
+        "change_pct": 1.6830281393126922,
         "date": "2025-12-01",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 179.48997497558594,
-        "change_pct": 1.649711013028865,
+        "close": 179.489990234375,
+        "change_pct": 1.6497284384652255,
         "date": "2025-12-01",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1450,11 +1450,11 @@
     {
       "date": "2025-12-03",
       "kioxia": {
-        "open": 3133.333251953125,
-        "high": 3196.0,
-        "low": 2984.0,
-        "close": 3003.666748046875,
-        "change_pct": -2.2349953040607717,
+        "open": 3128.046349203703,
+        "high": 3190.6073590555293,
+        "low": 2978.9650686551,
+        "close": 2998.5986328125,
+        "change_pct": -2.2349997341408634,
         "volume": 135168000
       },
       "verified": true,
@@ -1475,13 +1475,13 @@
       },
       "mu": {
         "close": 239.21832275390625,
-        "change_pct": -0.40338839389770786,
+        "change_pct": -0.4033947211438238,
         "date": "2025-12-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
         "close": 181.02630615234375,
-        "change_pct": 0.8559426101467649,
+        "change_pct": 0.8559340361892431,
         "date": "2025-12-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1507,11 +1507,11 @@
     {
       "date": "2025-12-04",
       "kioxia": {
-        "open": 2992.333251953125,
-        "high": 3044.333251953125,
-        "low": 2909.0,
-        "close": 3023.333251953125,
-        "change_pct": 0.6547498626150228,
+        "open": 2987.284240387597,
+        "high": 3039.1964999592083,
+        "low": 2904.091597958037,
+        "close": 3018.23193359375,
+        "change_pct": 0.6547492073934347,
         "volume": 104463300
       },
       "verified": true,
@@ -1564,11 +1564,11 @@
     {
       "date": "2025-12-05",
       "kioxia": {
-        "open": 3001.0,
-        "high": 3185.0,
-        "low": 2989.0,
-        "close": 3143.333251953125,
-        "change_pct": 3.969129103530933,
+        "open": 2995.9364463619795,
+        "high": 3179.625985225893,
+        "low": 2983.9566938273765,
+        "close": 3138.029541015625,
+        "change_pct": 3.969131930800107,
         "volume": 101658900
       },
       "verified": true,
@@ -1600,8 +1600,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 160.8293914794922,
-        "change_pct": 3.560272944171694,
+        "close": 160.82940673828125,
+        "change_pct": 3.5602827695173422,
         "date": "2025-12-04",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1621,11 +1621,11 @@
     {
       "date": "2025-12-08",
       "kioxia": {
-        "open": 3193.333251953125,
-        "high": 3426.666748046875,
-        "low": 3161.333251953125,
-        "close": 3383.333251953125,
-        "change_pct": 7.635206984524312,
+        "open": 3187.9451010795246,
+        "high": 3420.884890666117,
+        "low": 3155.999095077129,
+        "close": 3377.62451171875,
+        "change_pct": 7.63520443550636,
         "volume": 97544100
       },
       "verified": true,
@@ -1645,8 +1645,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 236.95089721679688,
-        "change_pct": 4.663580304328052,
+        "close": 236.95091247558594,
+        "change_pct": 4.663587044287731,
         "date": "2025-12-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1658,7 +1658,7 @@
       },
       "wdc": {
         "close": 168.71104431152344,
-        "change_pct": 4.90062964208644,
+        "change_pct": 4.900619689574581,
         "date": "2025-12-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1678,11 +1678,11 @@
     {
       "date": "2025-12-09",
       "kioxia": {
-        "open": 3366.666748046875,
-        "high": 3380.0,
-        "low": 3273.333251953125,
-        "close": 3291.333251953125,
-        "change_pct": -2.71921188806602,
+        "open": 3360.986171037444,
+        "high": 3374.2969257937348,
+        "low": 3267.8101565573484,
+        "close": 3285.77978515625,
+        "change_pct": -2.7192106832432783,
         "volume": 73802400
       },
       "verified": true,
@@ -1703,13 +1703,13 @@
       },
       "mu": {
         "close": 246.639892578125,
-        "change_pct": 4.089030881559919,
+        "change_pct": 4.089024178599598,
         "date": "2025-12-08",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 185.1168212890625,
-        "change_pct": 1.721391514737669,
+        "close": 185.11683654785156,
+        "change_pct": 1.7213998994173751,
         "date": "2025-12-08",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1735,11 +1735,11 @@
     {
       "date": "2025-12-10",
       "kioxia": {
-        "open": 3303.666748046875,
-        "high": 3317.0,
-        "low": 3125.0,
-        "close": 3156.666748046875,
-        "change_pct": -4.091548731090566,
+        "open": 3298.0925464214715,
+        "high": 3311.4033014823926,
+        "low": 3119.7272587074094,
+        "close": 3151.340576171875,
+        "change_pct": -4.091546536128621,
         "volume": 86162100
       },
       "verified": true,
@@ -1759,20 +1759,20 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 252.13365173339844,
-        "change_pct": 2.2274414320599956,
+        "close": 252.1336669921875,
+        "change_pct": 2.2274476187270853,
         "date": "2025-12-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 184.53819274902344,
-        "change_pct": -0.3125748033105724,
+        "close": 184.53817749023438,
+        "change_pct": -0.31259126312241925,
         "date": "2025-12-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 169.3603515625,
-        "change_pct": -0.14135964369308418,
+        "close": 169.36033630371094,
+        "change_pct": -0.14136864061541354,
         "date": "2025-12-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1792,11 +1792,11 @@
     {
       "date": "2025-12-11",
       "kioxia": {
-        "open": 3224.333251953125,
-        "high": 3324.666748046875,
-        "low": 3164.333251953125,
-        "close": 3203.333251953125,
-        "change_pct": 1.478347498516408,
+        "open": 3218.8927890605837,
+        "high": 3319.056991033744,
+        "low": 3158.994027905345,
+        "close": 3197.92822265625,
+        "change_pct": 1.4783437511209252,
         "volume": 105384000
       },
       "verified": true,
@@ -1817,19 +1817,19 @@
       },
       "mu": {
         "close": 263.4107971191406,
-        "change_pct": 4.472685541264609,
+        "change_pct": 4.472679218718767,
         "date": "2025-12-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 183.3509521484375,
-        "change_pct": -0.6433576610347602,
+        "close": 183.35096740722656,
+        "change_pct": -0.6433411769608655,
         "date": "2025-12-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 181.7572021484375,
-        "change_pct": 7.319806832924902,
+        "close": 181.75718688964844,
+        "change_pct": 7.319807492414543,
         "date": "2025-12-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1849,11 +1849,11 @@
     {
       "date": "2025-12-12",
       "kioxia": {
-        "open": 3263.333251953125,
-        "high": 3320.0,
-        "low": 3181.0,
-        "close": 3296.666748046875,
-        "change_pct": 2.9136367887057313,
+        "open": 3257.8269959068493,
+        "high": 3314.3981295619456,
+        "low": 3175.63266570378,
+        "close": 3291.104248046875,
+        "change_pct": 2.9136371707940256,
         "volume": 79497300
       },
       "verified": true,
@@ -1880,13 +1880,13 @@
       },
       "nvda": {
         "close": 180.50759887695312,
-        "change_pct": -1.5507709331023523,
+        "change_pct": -1.550779126219859,
         "date": "2025-12-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 187.00164794921875,
-        "change_pct": 2.8854129238291337,
+        "change_pct": 2.8854215612142076,
         "date": "2025-12-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1906,11 +1906,11 @@
     {
       "date": "2025-12-15",
       "kioxia": {
-        "open": 3146.666748046875,
-        "high": 3147.0,
-        "low": 3028.333251953125,
-        "close": 3066.666748046875,
-        "change_pct": -6.976744013821367,
+        "open": 3141.3574494770874,
+        "high": 3141.690139141842,
+        "low": 3023.2236147748586,
+        "close": 3061.492431640625,
+        "change_pct": -6.976740908238154,
         "volume": 92910000
       },
       "verified": true,
@@ -1936,8 +1936,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 174.61141967773438,
-        "change_pct": -3.2664437596546914,
+        "close": 174.6114044189453,
+        "change_pct": -3.2664522129215667,
         "date": "2025-12-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1963,11 +1963,11 @@
     {
       "date": "2025-12-16",
       "kioxia": {
-        "open": 3017.333251953125,
-        "high": 3052.333251953125,
-        "low": 2866.0,
-        "close": 2896.0,
-        "change_pct": -5.565219897322415,
+        "open": 3012.2420494932867,
+        "high": 3047.1829933429663,
+        "low": 2861.1641449480426,
+        "close": 2891.113525390625,
+        "change_pct": -5.5652238264294995,
         "volume": 110044500
       },
       "verified": true,
@@ -1987,20 +1987,20 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 237.2305908203125,
-        "change_pct": -1.5094875823093212,
+        "close": 237.23057556152344,
+        "change_pct": -1.5094939172678457,
         "date": "2025-12-15",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 175.87843322753906,
-        "change_pct": 0.7256189498619836,
+        "close": 175.87841796875,
+        "change_pct": 0.7256190132717499,
         "date": "2025-12-15",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 171.85769653320312,
-        "change_pct": -2.438469585006442,
+        "close": 171.8577117919922,
+        "change_pct": -2.4384609227769194,
         "date": "2025-12-15",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2020,11 +2020,11 @@
     {
       "date": "2025-12-17",
       "kioxia": {
-        "open": 2916.666748046875,
-        "high": 3132.666748046875,
-        "low": 2877.333251953125,
-        "close": 3100.0,
-        "change_pct": 7.044198895027631,
+        "open": 2911.745378254402,
+        "high": 3127.3809156787975,
+        "low": 2872.478250620346,
+        "close": 3094.769287109375,
+        "change_pct": 7.044198020250114,
         "volume": 131717100
       },
       "verified": true,
@@ -2044,20 +2044,20 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 232.24623107910156,
-        "change_pct": -2.101061133800519,
+        "close": 232.2462158203125,
+        "change_pct": -2.1010612689418284,
         "date": "2025-12-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
         "close": 177.3050994873047,
-        "change_pct": 0.8111661183153096,
+        "change_pct": 0.8111748644499261,
         "date": "2025-12-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 174.39501953125,
-        "change_pct": 1.4764092904949733,
+        "close": 174.39500427246094,
+        "change_pct": 1.4763914019405577,
         "date": "2025-12-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2077,11 +2077,11 @@
     {
       "date": "2025-12-18",
       "kioxia": {
-        "open": 3043.333251953125,
-        "high": 3188.0,
-        "low": 3016.333251953125,
-        "close": 3170.0,
-        "change_pct": 2.2580645161290214,
+        "open": 3038.1983396216524,
+        "high": 3182.620996401814,
+        "low": 3011.2438958001817,
+        "close": 3164.6513671875,
+        "change_pct": 2.258070750837704,
         "volume": 125662500
       },
       "verified": true,
@@ -2102,19 +2102,19 @@
       },
       "mu": {
         "close": 225.26416015625,
-        "change_pct": -3.0063225958114725,
+        "change_pct": -3.006316223238048,
         "date": "2025-12-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 170.5409393310547,
-        "change_pct": -3.8149834245090775,
+        "close": 170.54092407226562,
+        "change_pct": -3.814992030459552,
         "date": "2025-12-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 166.0838165283203,
-        "change_pct": -4.765734150705148,
+        "change_pct": -4.765725818129452,
         "date": "2025-12-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2134,11 +2134,11 @@
     {
       "date": "2025-12-19",
       "kioxia": {
-        "open": 3133.666748046875,
-        "high": 3206.666748046875,
-        "low": 3043.333251953125,
-        "close": 3113.333251953125,
-        "change_pct": -1.7875945756111955,
+        "open": 3128.379265206232,
+        "high": 3201.256091212824,
+        "low": 3038.1981901734734,
+        "close": 3108.080078125,
+        "change_pct": -1.7875994066536394,
         "volume": 130032300
       },
       "verified": true,
@@ -2165,7 +2165,7 @@
       },
       "nvda": {
         "close": 173.73345947265625,
-        "change_pct": 1.8719963394855155,
+        "change_pct": 1.872005454267267,
         "date": "2025-12-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2191,11 +2191,11 @@
     {
       "date": "2025-12-22",
       "kioxia": {
-        "open": 3200.0,
-        "high": 3443.333251953125,
-        "low": 3185.333251953125,
-        "close": 3375.0,
-        "change_pct": 8.404713754389137,
+        "open": 3194.6006944444443,
+        "high": 3437.523374341594,
+        "low": 3179.9586933520104,
+        "close": 3369.305419921875,
+        "change_pct": 8.404717228343216,
         "volume": 93293400
       },
       "verified": true,
@@ -2221,14 +2221,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 180.56747436523438,
-        "change_pct": 3.9336204513061634,
+        "close": 180.56748962402344,
+        "change_pct": 3.933629234179148,
         "date": "2025-12-19",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 180.88812255859375,
-        "change_pct": 3.468373269727909,
+        "close": 180.8881378173828,
+        "change_pct": 3.4683819977862074,
         "date": "2025-12-19",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2248,11 +2248,11 @@
     {
       "date": "2025-12-23",
       "kioxia": {
-        "open": 3325.333251953125,
-        "high": 3356.666748046875,
-        "low": 3238.666748046875,
-        "close": 3317.333251953125,
-        "change_pct": -1.7086443865740764,
+        "open": 3319.7223412611615,
+        "high": 3351.0029676318104,
+        "low": 3233.2020717249907,
+        "close": 3311.73583984375,
+        "change_pct": -1.7086483088689541,
         "volume": 98103300
       },
       "verified": true,
@@ -2279,13 +2279,13 @@
       },
       "nvda": {
         "close": 183.26116943359375,
-        "change_pct": 1.4917941771234178,
+        "change_pct": 1.4917856005967955,
         "date": "2025-12-22",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 176.57269287109375,
-        "change_pct": -2.385689909574984,
+        "close": 176.5727081298828,
+        "change_pct": -2.3856897083305073,
         "date": "2025-12-22",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2305,11 +2305,11 @@
     {
       "date": "2025-12-24",
       "kioxia": {
-        "open": 3386.666748046875,
-        "high": 3566.666748046875,
-        "low": 3353.333251953125,
-        "close": 3535.0,
-        "change_pct": 6.5614977909958405,
+        "open": 3380.952430886342,
+        "high": 3560.648717186289,
+        "low": 3347.675178345005,
+        "close": 3529.035400390625,
+        "change_pct": 6.561500405090492,
         "volume": 79818300
       },
       "verified": true,
@@ -2329,8 +2329,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 275.9565734863281,
-        "change_pct": -0.11570724465427284,
+        "close": 275.95654296875,
+        "change_pct": -0.11571829069194628,
         "date": "2025-12-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2341,8 +2341,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 178.06114196777344,
-        "change_pct": 0.8429667535094554,
+        "close": 178.06112670898438,
+        "change_pct": 0.8429493973704627,
         "date": "2025-12-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2362,11 +2362,11 @@
     {
       "date": "2025-12-25",
       "kioxia": {
-        "open": 3618.333251953125,
-        "high": 3771.666748046875,
-        "low": 3490.0,
-        "close": 3598.333251953125,
-        "change_pct": 1.7916054300742612,
+        "open": 3612.2279723859033,
+        "high": 3765.3027460802814,
+        "low": 3484.111259465086,
+        "close": 3592.26171875,
+        "change_pct": 1.791603403932318,
         "volume": 108210000
       },
       "verified": true,
@@ -2387,7 +2387,7 @@
       },
       "mu": {
         "close": 286.35479736328125,
-        "change_pct": 3.7680652957768013,
+        "change_pct": 3.768076771315676,
         "date": "2025-12-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2399,7 +2399,7 @@
       },
       "wdc": {
         "close": 179.36973571777344,
-        "change_pct": 0.7349125898770348,
+        "change_pct": 0.7349212222653279,
         "date": "2025-12-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2419,11 +2419,11 @@
     {
       "date": "2025-12-26",
       "kioxia": {
-        "open": 3605.0,
-        "high": 3816.666748046875,
-        "low": 3585.0,
-        "close": 3805.0,
-        "change_pct": 5.7434021135952085,
+        "open": 3598.917293433291,
+        "high": 3810.2268967594173,
+        "low": 3578.9510393781825,
+        "close": 3798.579833984375,
+        "change_pct": 5.7434043337512675,
         "volume": 94839600
       },
       "verified": true,
@@ -2444,7 +2444,7 @@
       },
       "mu": {
         "close": 286.35479736328125,
-        "change_pct": 3.7680652957768013,
+        "change_pct": 3.768076771315676,
         "date": "2025-12-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2456,7 +2456,7 @@
       },
       "wdc": {
         "close": 179.36973571777344,
-        "change_pct": 0.7349125898770348,
+        "change_pct": 0.7349212222653279,
         "date": "2025-12-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2476,11 +2476,11 @@
     {
       "date": "2025-12-29",
       "kioxia": {
-        "open": 3833.333251953125,
-        "high": 3851.666748046875,
-        "low": 3538.333251953125,
-        "close": 3558.333251953125,
-        "change_pct": -6.482700342887648,
+        "open": 3826.865343570148,
+        "high": 3845.1679059137437,
+        "low": 3532.3630913127963,
+        "close": 3552.329345703125,
+        "change_pct": -6.4826987727925385,
         "volume": 104486400
       },
       "verified": true,
@@ -2533,11 +2533,11 @@
     {
       "date": "2025-12-30",
       "kioxia": {
-        "open": 3466.666748046875,
-        "high": 3568.333251953125,
-        "low": 3443.333251953125,
-        "close": 3478.333251953125,
-        "change_pct": -2.248243611137013,
+        "open": 3460.8175361351964,
+        "high": 3562.3125009323,
+        "low": 3437.5234100107027,
+        "close": 3472.46435546875,
+        "change_pct": -2.248242841868797,
         "volume": 74096100
       },
       "verified": true,
@@ -2590,11 +2590,11 @@
     {
       "date": "2026-01-05",
       "kioxia": {
-        "open": 3783.333251953125,
-        "high": 3908.333251953125,
-        "low": 3735.0,
-        "close": 3783.333251953125,
-        "change_pct": 8.76856752666637,
+        "open": 3776.94970703125,
+        "high": 3901.738796952202,
+        "low": 3728.698006838046,
+        "close": 3776.94970703125,
+        "change_pct": 8.768566654484712,
         "volume": 103238400
       },
       "verified": true,
@@ -2647,11 +2647,11 @@
     {
       "date": "2026-01-06",
       "kioxia": {
-        "open": 3833.333251953125,
-        "high": 3866.666748046875,
-        "low": 3648.333251953125,
-        "close": 3866.666748046875,
-        "change_pct": 2.202647521222967,
+        "open": 3826.8653251488436,
+        "high": 3860.142578125,
+        "low": 3642.1774729273293,
+        "close": 3860.142578125,
+        "change_pct": 2.202647044488737,
         "volume": 100425000
       },
       "verified": true,
@@ -2704,11 +2704,11 @@
     {
       "date": "2026-01-07",
       "kioxia": {
-        "open": 4533.33349609375,
-        "high": 4620.0,
-        "low": 4230.0,
-        "close": 4230.0,
-        "change_pct": 9.396549421711908,
+        "open": 4525.684479615424,
+        "high": 4612.204752604167,
+        "low": 4222.86279296875,
+        "close": 4222.86279296875,
+        "change_pct": 9.39654967407797,
         "volume": 165221700
       },
       "verified": true,
@@ -2734,8 +2734,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 186.8029022216797,
-        "change_pct": -0.4677780243029006,
+        "close": 186.80288696289062,
+        "change_pct": -0.46778615448268557,
         "date": "2026-01-06",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2761,11 +2761,11 @@
     {
       "date": "2026-01-08",
       "kioxia": {
-        "open": 4466.66650390625,
-        "high": 4500.0,
-        "low": 4333.33349609375,
-        "close": 4333.33349609375,
-        "change_pct": 2.4428722480791976,
+        "open": 4459.13001107452,
+        "high": 4492.40726440778,
+        "low": 4326.02197265625,
+        "close": 4326.02197265625,
+        "change_pct": 2.4428731110862634,
         "volume": 84613200
       },
       "verified": true,
@@ -2792,7 +2792,7 @@
       },
       "nvda": {
         "close": 188.66851806640625,
-        "change_pct": 0.9987081691657185,
+        "change_pct": 0.9987164191344933,
         "date": "2026-01-07",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2818,11 +2818,11 @@
     {
       "date": "2026-01-09",
       "kioxia": {
-        "open": 4243.33349609375,
-        "high": 4326.66650390625,
-        "low": 4078.333251953125,
-        "close": 4230.0,
-        "change_pct": -2.3846190510584786,
+        "open": 4236.173791681395,
+        "high": 4319.366193127632,
+        "low": 4071.451949645413,
+        "close": 4222.86279296875,
+        "change_pct": -2.38461987339742,
         "volume": 91749900
       },
       "verified": true,
@@ -2875,11 +2875,11 @@
     {
       "date": "2026-01-13",
       "kioxia": {
-        "open": 4563.33349609375,
-        "high": 4625.0,
-        "low": 4443.33349609375,
-        "close": 4561.66650390625,
-        "change_pct": 7.840815695183223,
+        "open": 4555.633906078866,
+        "high": 4617.196361749733,
+        "low": 4435.836378855089,
+        "close": 4553.9697265625,
+        "change_pct": 7.8408167593097655,
         "volume": 79274700
       },
       "verified": true,
@@ -2911,8 +2911,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 211.91522216796875,
-        "change_pct": 5.826603510394324,
+        "close": 211.9152069091797,
+        "change_pct": 5.826595890432884,
         "date": "2026-01-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2932,11 +2932,11 @@
     {
       "date": "2026-01-14",
       "kioxia": {
-        "open": 4625.0,
-        "high": 4641.66650390625,
-        "low": 4341.66650390625,
-        "close": 4426.66650390625,
-        "change_pct": -2.9594447530172707,
+        "open": 4617.196108060028,
+        "high": 4633.834490107791,
+        "low": 4334.340688503897,
+        "close": 4419.197265625,
+        "change_pct": -2.9594500848654337,
         "volume": 84210600
       },
       "verified": true,
@@ -2968,8 +2968,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 213.77325439453125,
-        "change_pct": 0.8767809162334661,
+        "close": 213.7732391357422,
+        "change_pct": 0.876780979365388,
         "date": "2026-01-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2989,11 +2989,11 @@
     {
       "date": "2026-01-15",
       "kioxia": {
-        "open": 4383.33349609375,
-        "high": 4566.66650390625,
-        "low": 4375.0,
-        "close": 4543.33349609375,
-        "change_pct": 2.6355496192123073,
+        "open": 4375.937450194955,
+        "high": 4558.961118245434,
+        "low": 4367.618015299073,
+        "close": 4535.66748046875,
+        "change_pct": 2.635551387346302,
         "volume": 65724900
       },
       "verified": true,
@@ -3026,7 +3026,7 @@
       },
       "wdc": {
         "close": 214.77218627929688,
-        "change_pct": 0.4672857171000633,
+        "change_pct": 0.46729288829290283,
         "date": "2026-01-14",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3046,11 +3046,11 @@
     {
       "date": "2026-01-16",
       "kioxia": {
-        "open": 4630.0,
-        "high": 4930.0,
-        "low": 4568.33349609375,
-        "close": 4916.66650390625,
-        "change_pct": 8.217160552565272,
+        "open": 4622.187794365327,
+        "high": 4921.681603935434,
+        "low": 4560.625340439484,
+        "close": 4908.37060546875,
+        "change_pct": 8.21716156673553,
         "volume": 110641800
       },
       "verified": true,
@@ -3076,8 +3076,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 186.6133270263672,
-        "change_pct": 2.1349825621544527,
+        "close": 186.61331176757812,
+        "change_pct": 2.1349742108958347,
         "date": "2026-01-15",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3103,11 +3103,11 @@
     {
       "date": "2026-01-19",
       "kioxia": {
-        "open": 4766.66650390625,
-        "high": 5090.0,
-        "low": 4743.33349609375,
-        "close": 5070.0,
-        "change_pct": 3.1186474814170806,
+        "open": 4758.623635591134,
+        "high": 5081.411566198225,
+        "low": 4735.329997914782,
+        "close": 5061.4453125,
+        "change_pct": 3.118646070871245,
         "volume": 82602300
       },
       "verified": true,
@@ -3133,8 +3133,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 185.7952423095703,
-        "change_pct": -0.43838493736371165,
+        "close": 185.79522705078125,
+        "change_pct": -0.43838497320908276,
         "date": "2026-01-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3160,11 +3160,11 @@
     {
       "date": "2026-01-20",
       "kioxia": {
-        "open": 5070.0,
-        "high": 5223.33349609375,
-        "low": 4891.66650390625,
-        "close": 5068.33349609375,
-        "change_pct": -0.032869899531562385,
+        "open": 5061.445430309037,
+        "high": 5214.5202080441495,
+        "low": 4883.412834870232,
+        "close": 5059.78173828125,
+        "change_pct": -0.03286757271963037,
         "volume": 93150600
       },
       "verified": true,
@@ -3190,8 +3190,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 185.7952423095703,
-        "change_pct": -0.43838493736371165,
+        "close": 185.79522705078125,
+        "change_pct": -0.43838497320908276,
         "date": "2026-01-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3217,11 +3217,11 @@
     {
       "date": "2026-01-21",
       "kioxia": {
-        "open": 5190.0,
-        "high": 5596.66650390625,
-        "low": 5188.33349609375,
-        "close": 5500.0,
-        "change_pct": 8.516931733851818,
+        "open": 5181.242796519887,
+        "high": 5587.223122907205,
+        "low": 5179.579104543079,
+        "close": 5490.7197265625,
+        "change_pct": 8.516928408608294,
         "volume": 129948000
       },
       "verified": true,
@@ -3247,8 +3247,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 177.65428161621094,
-        "change_pct": -4.38168415518142,
+        "close": 177.654296875,
+        "change_pct": -4.3816680896523685,
         "date": "2026-01-20",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3274,11 +3274,11 @@
     {
       "date": "2026-01-22",
       "kioxia": {
-        "open": 6065.0,
-        "high": 6163.33349609375,
-        "low": 5756.66650390625,
-        "close": 5970.0,
-        "change_pct": 8.545454545454545,
+        "open": 6054.766463338829,
+        "high": 6152.934040316784,
+        "low": 5746.9532215131985,
+        "close": 5959.9267578125,
+        "change_pct": 8.545455871297047,
         "volume": 124679400
       },
       "verified": true,
@@ -3305,7 +3305,7 @@
       },
       "nvda": {
         "close": 182.8920440673828,
-        "change_pct": 2.948289454957864,
+        "change_pct": 2.9482806126936323,
         "date": "2026-01-21",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3331,11 +3331,11 @@
     {
       "date": "2026-01-23",
       "kioxia": {
-        "open": 5833.33349609375,
-        "high": 5990.0,
-        "low": 5696.66650390625,
-        "close": 5778.33349609375,
-        "change_pct": -3.2104942027847527,
+        "open": 5823.49118544865,
+        "high": 5979.893353293854,
+        "low": 5687.054785081923,
+        "close": 5768.583984375,
+        "change_pct": -3.210488672309275,
         "volume": 85766400
       },
       "verified": true,
@@ -3388,11 +3388,11 @@
     {
       "date": "2026-01-26",
       "kioxia": {
-        "open": 5733.33349609375,
-        "high": 5958.33349609375,
-        "low": 5698.33349609375,
-        "close": 5816.66650390625,
-        "change_pct": 0.6633920980575692,
+        "open": 5723.659650634393,
+        "high": 5948.280008454179,
+        "low": 5688.718706084649,
+        "close": 5806.85205078125,
+        "change_pct": 0.6633875230022568,
         "volume": 89093100
       },
       "verified": true,
@@ -3424,8 +3424,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 236.1395263671875,
-        "change_pct": -2.8361138112171558,
+        "close": 236.13951110839844,
+        "change_pct": -2.8361200897223493,
         "date": "2026-01-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3445,11 +3445,11 @@
     {
       "date": "2026-01-27",
       "kioxia": {
-        "open": 5831.66650390625,
-        "high": 6150.0,
-        "low": 5800.0,
-        "close": 6150.0,
-        "change_pct": 5.730661984315177,
+        "open": 5821.826677897849,
+        "high": 6139.623046875,
+        "low": 5790.213605182927,
+        "close": 6139.623046875,
+        "change_pct": 5.7306608328169695,
         "volume": 84337500
       },
       "verified": true,
@@ -3475,14 +3475,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 186.03466796875,
-        "change_pct": -0.6394234985120373,
+        "close": 186.03468322753906,
+        "change_pct": -0.639415348837058,
         "date": "2026-01-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 240.5948028564453,
-        "change_pct": 1.8867135704888405,
+        "change_pct": 1.8867201541726386,
         "date": "2026-01-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3502,11 +3502,11 @@
     {
       "date": "2026-01-28",
       "kioxia": {
-        "open": 6283.33349609375,
-        "high": 6508.33349609375,
-        "low": 6168.33349609375,
-        "close": 6315.0,
-        "change_pct": 2.682926829268295,
+        "open": 6272.731653417601,
+        "high": 6497.352011846194,
+        "low": 6157.925692442987,
+        "close": 6304.3447265625,
+        "change_pct": 2.6829282258841847,
         "volume": 103491600
       },
       "verified": true,
@@ -3533,7 +3533,7 @@
       },
       "nvda": {
         "close": 188.07989501953125,
-        "change_pct": 1.0993795259305106,
+        "change_pct": 1.0993712336374806,
         "date": "2026-01-27",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3559,11 +3559,11 @@
     {
       "date": "2026-01-29",
       "kioxia": {
-        "open": 6600.0,
-        "high": 6775.0,
-        "low": 6211.66650390625,
-        "close": 6415.0,
-        "change_pct": 1.5835312747426666,
+        "open": 6588.864127654911,
+        "high": 6763.568858312427,
+        "low": 6201.185848567195,
+        "close": 6404.17626953125,
+        "change_pct": 1.5835355980475363,
         "volume": 111063600
       },
       "verified": true,
@@ -3595,8 +3595,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 279.40362548828125,
-        "change_pct": 10.70212464574678,
+        "close": 279.4036560058594,
+        "change_pct": 10.702136737074275,
         "date": "2026-01-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3616,11 +3616,11 @@
     {
       "date": "2026-01-30",
       "kioxia": {
-        "open": 6766.66650390625,
-        "high": 7203.33349609375,
-        "low": 6721.66650390625,
-        "close": 7120.0,
-        "change_pct": 10.989867498051442,
+        "open": 6755.249016397052,
+        "high": 7191.179214488656,
+        "low": 6710.3249455030045,
+        "close": 7107.986328125,
+        "change_pct": 10.989860818513431,
         "volume": 138267600
       },
       "verified": true,
@@ -3652,8 +3652,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 278.1150207519531,
-        "change_pct": -0.4611982876300158,
+        "close": 278.114990234375,
+        "change_pct": -0.4612200820512391,
         "date": "2026-01-29",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3673,11 +3673,11 @@
     {
       "date": "2026-02-02",
       "kioxia": {
-        "open": 6620.0,
-        "high": 7045.0,
-        "low": 6116.66650390625,
-        "close": 6120.0,
-        "change_pct": -14.04494382022472,
+        "open": 6608.830186631944,
+        "high": 7033.113091362848,
+        "low": 6106.345956582493,
+        "close": 6109.673828125,
+        "change_pct": -14.044941195931404,
         "volume": 151336800
       },
       "verified": true,
@@ -3709,8 +3709,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 249.96485900878906,
-        "change_pct": -10.121769643025068,
+        "close": 249.96484375,
+        "change_pct": -10.121765267183946,
         "date": "2026-01-30",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3730,11 +3730,11 @@
     {
       "date": "2026-02-03",
       "kioxia": {
-        "open": 6653.33349609375,
-        "high": 6998.33349609375,
-        "low": 6576.66650390625,
-        "close": 6928.33349609375,
-        "change_pct": 13.208063661662583,
+        "open": 6642.107552832008,
+        "high": 6986.525446068898,
+        "low": 6565.569918252218,
+        "close": 6916.6435546875,
+        "change_pct": 13.208065590142159,
         "volume": 115416000
       },
       "verified": true,
@@ -3767,7 +3767,7 @@
       },
       "wdc": {
         "close": 269.94366455078125,
-        "change_pct": 7.992645694765321,
+        "change_pct": 7.992652287040358,
         "date": "2026-02-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3787,11 +3787,11 @@
     {
       "date": "2026-02-04",
       "kioxia": {
-        "open": 6923.33349609375,
-        "high": 7038.33349609375,
-        "low": 6726.66650390625,
-        "close": 6966.66650390625,
-        "change_pct": 0.5532789065958221,
+        "open": 6911.6517292296685,
+        "high": 7026.457689293542,
+        "low": 6715.3165740039285,
+        "close": 6954.91162109375,
+        "change_pct": 0.5532750980107304,
         "volume": 94849200
       },
       "verified": true,
@@ -3823,8 +3823,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 289.93243408203125,
-        "change_pct": 7.404792983200292,
+        "close": 289.9324645996094,
+        "change_pct": 7.404804288365829,
         "date": "2026-02-03",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3844,11 +3844,11 @@
     {
       "date": "2026-02-05",
       "kioxia": {
-        "open": 6366.66650390625,
-        "high": 6625.0,
-        "low": 6300.0,
-        "close": 6510.0,
-        "change_pct": -6.555021740314315,
+        "open": 6355.923976659115,
+        "high": 6613.821584581413,
+        "low": 6289.3699596774195,
+        "close": 6499.015625,
+        "change_pct": -6.555022133006694,
         "volume": 102582000
       },
       "verified": true,
@@ -3881,7 +3881,7 @@
       },
       "wdc": {
         "close": 269.1245422363281,
-        "change_pct": -7.176807214268377,
+        "change_pct": -7.176816984609347,
         "date": "2026-02-04",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3901,11 +3901,11 @@
     {
       "date": "2026-02-06",
       "kioxia": {
-        "open": 6233.33349609375,
-        "high": 6588.33349609375,
-        "low": 6093.33349609375,
-        "close": 6365.0,
-        "change_pct": -2.2273425499231947,
+        "open": 6222.815912579891,
+        "high": 6577.216916529101,
+        "low": 6083.052136374568,
+        "close": 6354.26025390625,
+        "change_pct": -2.2273430231020575,
         "volume": 104111400
       },
       "verified": true,
@@ -3958,11 +3958,11 @@
     {
       "date": "2026-02-09",
       "kioxia": {
-        "open": 6898.33349609375,
-        "high": 6903.33349609375,
-        "low": 6300.0,
-        "close": 6300.0,
-        "change_pct": -1.021209740769835,
+        "open": 6886.69405535327,
+        "high": 6891.68561893834,
+        "low": 6289.3701171875,
+        "close": 6289.3701171875,
+        "change_pct": -1.0212067829431293,
         "volume": 84715500
       },
       "verified": true,
@@ -3994,8 +3994,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 282.28057861328125,
-        "change_pct": 8.605248499683915,
+        "close": 282.2805480957031,
+        "change_pct": 8.605236758284018,
         "date": "2026-02-06",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4015,11 +4015,11 @@
     {
       "date": "2026-02-10",
       "kioxia": {
-        "open": 6290.0,
-        "high": 6540.0,
-        "low": 6168.33349609375,
-        "close": 6281.66650390625,
-        "change_pct": -0.2910078745039679,
+        "open": 6279.386817711792,
+        "high": 6528.964990116871,
+        "low": 6157.925602960443,
+        "close": 6271.0673828125,
+        "change_pct": -0.29101061050584853,
         "volume": 81468600
       },
       "verified": true,
@@ -4051,8 +4051,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 285.6869812011719,
-        "change_pct": 1.2067435190280307,
+        "close": 285.68695068359375,
+        "change_pct": 1.2067436494900496,
         "date": "2026-02-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4072,11 +4072,11 @@
     {
       "date": "2026-02-12",
       "kioxia": {
-        "open": 6595.0,
-        "high": 7058.33349609375,
-        "low": 6493.33349609375,
-        "close": 7058.33349609375,
-        "change_pct": 12.36402778951302,
+        "open": 6583.872123951443,
+        "high": 7046.423828125,
+        "low": 6482.377163980563,
+        "close": 7046.423828125,
+        "change_pct": 12.36402669563983,
         "volume": 107981400
       },
       "verified": true,
@@ -4108,8 +4108,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 273.449951171875,
-        "change_pct": 4.25807352419294,
+        "close": 273.4499206542969,
+        "change_pct": 4.258074019637559,
         "date": "2026-02-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4129,11 +4129,11 @@
     {
       "date": "2026-02-13",
       "kioxia": {
-        "open": 8133.33349609375,
-        "high": 8140.0,
-        "low": 7350.0,
-        "close": 7615.0,
-        "change_pct": 7.886656307956019,
+        "open": 8119.610289838607,
+        "high": 8126.265545489987,
+        "low": 7337.598496234817,
+        "close": 7602.1513671875,
+        "change_pct": 7.8866607036093495,
         "volume": 175278300
       },
       "verified": true,
@@ -4159,14 +4159,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 186.50360107421875,
-        "change_pct": -1.6364101808452158,
+        "close": 186.5035858154297,
+        "change_pct": -1.636418228460701,
         "date": "2026-02-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 283.79901123046875,
-        "change_pct": 3.7846267714595205,
+        "close": 283.7989807128906,
+        "change_pct": 3.784627193831702,
         "date": "2026-02-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4186,11 +4186,11 @@
     {
       "date": "2026-02-16",
       "kioxia": {
-        "open": 7676.66650390625,
-        "high": 7856.66650390625,
-        "low": 7433.33349609375,
-        "close": 7433.33349609375,
-        "change_pct": -2.3856402351444483,
+        "open": 7663.7139448197195,
+        "high": 7843.410237392233,
+        "low": 7420.79150390625,
+        "close": 7420.79150390625,
+        "change_pct": -2.3856386767571847,
         "volume": 80708400
       },
       "verified": true,
@@ -4217,13 +4217,13 @@
       },
       "nvda": {
         "close": 182.38320922851562,
-        "change_pct": -2.2092827280388083,
+        "change_pct": -2.209274727292232,
         "date": "2026-02-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 281.2816162109375,
-        "change_pct": -0.8870344574551381,
+        "change_pct": -0.8870237996026709,
         "date": "2026-02-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4243,11 +4243,11 @@
     {
       "date": "2026-02-17",
       "kioxia": {
-        "open": 7433.33349609375,
-        "high": 7545.0,
-        "low": 7241.66650390625,
-        "close": 7456.66650390625,
-        "change_pct": 0.3138969592143548,
+        "open": 7420.791322626134,
+        "high": 7532.2694129944675,
+        "low": 7229.447727830302,
+        "close": 7444.0849609375,
+        "change_pct": 0.3138945086786027,
         "volume": 58757100
       },
       "verified": true,
@@ -4274,13 +4274,13 @@
       },
       "nvda": {
         "close": 182.38320922851562,
-        "change_pct": -2.2092827280388083,
+        "change_pct": -2.209274727292232,
         "date": "2026-02-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 281.2816162109375,
-        "change_pct": -0.8870344574551381,
+        "change_pct": -0.8870237996026709,
         "date": "2026-02-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4300,11 +4300,11 @@
     {
       "date": "2026-02-18",
       "kioxia": {
-        "open": 7266.66650390625,
-        "high": 7311.66650390625,
-        "low": 7100.0,
-        "close": 7140.0,
-        "change_pct": -4.2467569622479555,
+        "open": 7254.405415500613,
+        "high": 7299.3294867404375,
+        "low": 7088.020128950018,
+        "close": 7127.95263671875,
+        "change_pct": -4.246758679913521,
         "volume": 53158500
       },
       "verified": true,
@@ -4330,14 +4330,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 184.53819274902344,
-        "change_pct": 1.1815690323815575,
+        "close": 184.53817749023438,
+        "change_pct": 1.181560666047221,
         "date": "2026-02-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 283.8089599609375,
-        "change_pct": 0.8985101067197743,
+        "close": 283.8089294433594,
+        "change_pct": 0.8984992572449446,
         "date": "2026-02-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4357,11 +4357,11 @@
     {
       "date": "2026-02-19",
       "kioxia": {
-        "open": 7440.0,
-        "high": 7583.33349609375,
-        "low": 7083.33349609375,
-        "close": 7083.33349609375,
-        "change_pct": -0.7936485140931371,
+        "open": 7427.446538891394,
+        "high": 7570.5381893576205,
+        "low": 7071.3818359375,
+        "close": 7071.3818359375,
+        "change_pct": -0.7936472598012556,
         "volume": 72105000
       },
       "verified": true,
@@ -4388,13 +4388,13 @@
       },
       "nvda": {
         "close": 187.5411376953125,
-        "change_pct": 1.6272755799517036,
+        "change_pct": 1.6272839831405816,
         "date": "2026-02-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 296.2457580566406,
-        "change_pct": 4.3821019947414275,
+        "change_pct": 4.382113218803174,
         "date": "2026-02-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4414,11 +4414,11 @@
     {
       "date": "2026-02-20",
       "kioxia": {
-        "open": 7090.0,
-        "high": 7126.66650390625,
-        "low": 6730.0,
-        "close": 6853.33349609375,
-        "change_pct": -3.2470587489186853,
+        "open": 7078.037201330586,
+        "high": 7114.641838663614,
+        "low": 6718.644621291232,
+        "close": 6841.77001953125,
+        "change_pct": -3.2470572475571724,
         "volume": 81762000
       },
       "verified": true,
@@ -4444,8 +4444,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 187.46131896972656,
-        "change_pct": -0.04256064912840918,
+        "close": 187.46133422851562,
+        "change_pct": -0.042552512892679584,
         "date": "2026-02-19",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4471,11 +4471,11 @@
     {
       "date": "2026-02-24",
       "kioxia": {
-        "open": 7058.33349609375,
-        "high": 7593.33349609375,
-        "low": 7001.66650390625,
-        "close": 7423.33349609375,
-        "change_pct": 8.317120425044067,
+        "open": 7046.423969969588,
+        "high": 7580.52126446836,
+        "low": 6989.852591998137,
+        "close": 7410.80810546875,
+        "change_pct": 8.317118001819157,
         "volume": 97634700
       },
       "verified": true,
@@ -4502,13 +4502,13 @@
       },
       "nvda": {
         "close": 191.10281372070312,
-        "change_pct": 0.9113849147715847,
+        "change_pct": 0.9113767839714404,
         "date": "2026-02-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 280.12286376953125,
-        "change_pct": -1.7862175564620886,
+        "close": 280.1228942871094,
+        "change_pct": -1.7862068567043532,
         "date": "2026-02-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4528,11 +4528,11 @@
     {
       "date": "2026-02-25",
       "kioxia": {
-        "open": 7216.66650390625,
-        "high": 7358.33349609375,
-        "low": 6963.33349609375,
-        "close": 7155.0,
-        "change_pct": -3.6147304473785336,
+        "open": 7204.4896990529805,
+        "high": 7345.917654100954,
+        "low": 6951.584144358531,
+        "close": 7142.92724609375,
+        "change_pct": -3.614732098882978,
         "volume": 85656000
       },
       "verified": true,
@@ -4565,7 +4565,7 @@
       },
       "wdc": {
         "close": 270.2833251953125,
-        "change_pct": -3.5125796023255496,
+        "change_pct": -3.512590114006142,
         "date": "2026-02-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4585,11 +4585,11 @@
     {
       "date": "2026-02-26",
       "kioxia": {
-        "open": 7216.66650390625,
-        "high": 7330.0,
-        "low": 6800.0,
-        "close": 7080.0,
-        "change_pct": -1.0482180293501009,
+        "open": 7204.490111199982,
+        "high": 7317.632384219412,
+        "low": 6788.526632018009,
+        "close": 7068.05419921875,
+        "change_pct": -1.0482123686188394,
         "volume": 84451500
       },
       "verified": true,
@@ -4642,11 +4642,11 @@
     {
       "date": "2026-02-27",
       "kioxia": {
-        "open": 6933.33349609375,
-        "high": 7111.66650390625,
-        "low": 6925.0,
-        "close": 7070.0,
-        "change_pct": -0.14124293785310327,
+        "open": 6921.634894039304,
+        "high": 7099.667000864891,
+        "low": 6913.315459039626,
+        "close": 7058.07080078125,
+        "change_pct": -0.14124677253611884,
         "volume": 59100000
       },
       "verified": true,
@@ -4672,8 +4672,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 184.4583740234375,
-        "change_pct": -5.456121004512637,
+        "close": 184.45835876464844,
+        "change_pct": -5.456128825383422,
         "date": "2026-02-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4699,11 +4699,11 @@
     {
       "date": "2026-03-02",
       "kioxia": {
-        "open": 6900.0,
-        "high": 7263.33349609375,
-        "low": 6876.66650390625,
-        "close": 7171.66650390625,
-        "change_pct": 1.437998640823901,
+        "open": 6888.357790630215,
+        "high": 7251.0782425743155,
+        "low": 6865.063664601226,
+        "close": 7159.56591796875,
+        "change_pct": 1.4380008369463404,
         "volume": 59295300
       },
       "verified": true,
@@ -4729,14 +4729,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 176.77633666992188,
-        "change_pct": -4.164645489360941,
+        "close": 176.77635192871094,
+        "change_pct": -4.164629289442512,
         "date": "2026-02-27",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 279.40362548828125,
-        "change_pct": -0.9034558838173279,
+        "close": 279.4036560058594,
+        "change_pct": -0.9034450600976185,
         "date": "2026-02-27",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4756,11 +4756,11 @@
     {
       "date": "2026-03-03",
       "kioxia": {
-        "open": 7220.0,
-        "high": 7488.33349609375,
-        "low": 6653.33349609375,
-        "close": 6733.33349609375,
-        "change_pct": -6.11201047307135,
+        "open": 7207.818030442208,
+        "high": 7475.698779931976,
+        "low": 6642.107636522109,
+        "close": 6721.97265625,
+        "change_pct": -6.112008280006176,
         "volume": 105427800
       },
       "verified": true,
@@ -4786,14 +4786,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 182.05397033691406,
-        "change_pct": 2.9854865002925335,
+        "close": 182.0540008544922,
+        "change_pct": 2.985494874285899,
         "date": "2026-03-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 269.7937927246094,
-        "change_pct": -3.439408757448259,
+        "close": 269.7938232421875,
+        "change_pct": -3.4394083817823606,
         "date": "2026-03-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4813,11 +4813,11 @@
     {
       "date": "2026-03-04",
       "kioxia": {
-        "open": 6533.33349609375,
-        "high": 6830.0,
-        "low": 6100.0,
-        "close": 6415.0,
-        "change_pct": -4.72772507523096,
+        "open": 6522.310107033084,
+        "high": 6818.4760593762185,
+        "low": 6089.707754347721,
+        "close": 6404.17626953125,
+        "change_pct": -4.727725073729172,
         "volume": 116819700
       },
       "verified": true,
@@ -4843,14 +4843,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 179.62966918945312,
-        "change_pct": -1.3316387129456486,
+        "close": 179.62965393066406,
+        "change_pct": -1.331663634113589,
         "date": "2026-03-03",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 250.34445190429688,
-        "change_pct": -7.208965270807887,
+        "change_pct": -7.208975766814119,
         "date": "2026-03-03",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4870,11 +4870,11 @@
     {
       "date": "2026-03-05",
       "kioxia": {
-        "open": 6826.66650390625,
-        "high": 7081.66650390625,
-        "low": 6730.0,
-        "close": 6766.66650390625,
-        "change_pct": 5.481940824727194,
+        "open": 6815.1477846919925,
+        "high": 7069.717520023584,
+        "low": 6718.644387378878,
+        "close": 6755.2490234375,
+        "change_pct": 5.4819345865998015,
         "volume": 87924000
       },
       "verified": true,
@@ -4901,7 +4901,7 @@
       },
       "nvda": {
         "close": 182.61268615722656,
-        "change_pct": 1.660648255510222,
+        "change_pct": 1.660656891157819,
         "date": "2026-03-04",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4927,11 +4927,11 @@
     {
       "date": "2026-03-06",
       "kioxia": {
-        "open": 6666.66650390625,
-        "high": 6696.66650390625,
-        "low": 6321.66650390625,
-        "close": 6658.33349609375,
-        "change_pct": -1.6009804495309754,
+        "open": 6655.418068911403,
+        "high": 6685.36745095269,
+        "low": 6311.000175436598,
+        "close": 6647.09912109375,
+        "change_pct": -1.6009758036827582,
         "volume": 85389900
       },
       "verified": true,
@@ -4963,8 +4963,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 258.87939453125,
-        "change_pct": -0.8212710907782528,
+        "close": 258.8793640136719,
+        "change_pct": -0.8212827823020685,
         "date": "2026-03-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4984,11 +4984,11 @@
     {
       "date": "2026-03-09",
       "kioxia": {
-        "open": 5991.66650390625,
-        "high": 6106.66650390625,
-        "low": 5616.66650390625,
-        "close": 6010.0,
-        "change_pct": -9.73717367077075,
+        "open": 5981.556812867785,
+        "high": 6096.362774286254,
+        "low": 5607.189547372776,
+        "close": 5999.859375,
+        "change_pct": -9.737176086931132,
         "volume": 125429700
       },
       "verified": true,
@@ -5014,14 +5014,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 177.40487670898438,
-        "change_pct": -3.010789985650675,
+        "close": 177.40489196777344,
+        "change_pct": -3.01078164350177,
         "date": "2026-03-06",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 245.10739135742188,
-        "change_pct": -5.3198529758480495,
+        "change_pct": -5.319841814630955,
         "date": "2026-03-06",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5041,11 +5041,11 @@
     {
       "date": "2026-03-10",
       "kioxia": {
-        "open": 6666.66650390625,
-        "high": 6686.66650390625,
-        "low": 6363.33349609375,
-        "close": 6523.33349609375,
-        "change_pct": 8.541322730345268,
+        "open": 6655.417821847842,
+        "high": 6675.384075800843,
+        "low": 6352.596628532243,
+        "close": 6512.32666015625,
+        "change_pct": 8.541321606495988,
         "volume": 92153100
       },
       "verified": true,
@@ -5072,13 +5072,13 @@
       },
       "nvda": {
         "close": 182.2235870361328,
-        "change_pct": 2.716222020803327,
+        "change_pct": 2.7162131860685834,
         "date": "2026-03-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 261.9076232910156,
-        "change_pct": 6.854233093727968,
+        "close": 261.9075927734375,
+        "change_pct": 6.854220643031184,
         "date": "2026-03-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5098,11 +5098,11 @@
     {
       "date": "2026-03-11",
       "kioxia": {
-        "open": 6868.33349609375,
-        "high": 7196.66650390625,
-        "low": 6855.0,
-        "close": 7126.66650390625,
-        "change_pct": 9.248845060179466,
+        "open": 6856.744481859737,
+        "high": 7184.523489796838,
+        "low": 6843.433483519788,
+        "close": 7114.6416015625,
+        "change_pct": 9.248844120356182,
         "volume": 83079000
       },
       "verified": true,
@@ -5128,14 +5128,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 184.33865356445312,
-        "change_pct": 1.1606985477137677,
+        "close": 184.33863830566406,
+        "change_pct": 1.1606901740507825,
         "date": "2026-03-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 266.065185546875,
-        "change_pct": 1.587415518348534,
+        "close": 266.0652160644531,
+        "change_pct": 1.5874390073953082,
         "date": "2026-03-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5155,11 +5155,11 @@
     {
       "date": "2026-03-12",
       "kioxia": {
-        "open": 7000.0,
-        "high": 7448.33349609375,
-        "low": 6975.0,
-        "close": 7081.66650390625,
-        "change_pct": -0.6314312585741888,
+        "open": 6988.189063515613,
+        "high": 7435.766096974194,
+        "low": 6963.231245431629,
+        "close": 7069.7177734375,
+        "change_pct": -0.6314278447298594,
         "volume": 106742400
       },
       "verified": true,
@@ -5186,13 +5186,13 @@
       },
       "nvda": {
         "close": 185.60574340820312,
-        "change_pct": 0.6873706730786022,
+        "change_pct": 0.68737900756215,
         "date": "2026-03-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 268.6536865234375,
-        "change_pct": 0.9728822548662475,
+        "change_pct": 0.972870673315418,
         "date": "2026-03-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5212,11 +5212,11 @@
     {
       "date": "2026-03-13",
       "kioxia": {
-        "open": 6748.33349609375,
-        "high": 7063.33349609375,
-        "low": 6708.33349609375,
-        "close": 7021.66650390625,
-        "change_pct": -0.8472581978677507,
+        "open": 6736.947034563912,
+        "high": 7051.415535137576,
+        "low": 6697.014526554558,
+        "close": 7009.81884765625,
+        "change_pct": -0.8472604947018292,
         "volume": 74358300
       },
       "verified": true,
@@ -5242,14 +5242,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 182.7223358154297,
-        "change_pct": -1.5535120518506584,
+        "close": 182.72235107421875,
+        "change_pct": -1.5535038307747384,
         "date": "2026-03-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 261.0281066894531,
-        "change_pct": -2.838442283321918,
+        "close": 261.02813720703125,
+        "change_pct": -2.8384309238730587,
         "date": "2026-03-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5269,11 +5269,11 @@
     {
       "date": "2026-03-16",
       "kioxia": {
-        "open": 7200.0,
-        "high": 7543.33349609375,
-        "low": 7081.66650390625,
-        "close": 7538.33349609375,
-        "change_pct": 7.358181877479808,
+        "open": 7187.851623217193,
+        "high": 7530.6058214397335,
+        "low": 7069.7177882201895,
+        "close": 7525.6142578125,
+        "change_pct": 7.358184588874317,
         "volume": 103794000
       },
       "verified": true,
@@ -5299,14 +5299,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 179.8389434814453,
-        "change_pct": -1.5780185389578927,
+        "close": 179.83892822265625,
+        "change_pct": -1.5780351087926303,
         "date": "2026-03-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 272.13165283203125,
-        "change_pct": 4.253774156124912,
+        "close": 272.1316833496094,
+        "change_pct": 4.253773658803484,
         "date": "2026-03-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5326,11 +5326,11 @@
     {
       "date": "2026-03-17",
       "kioxia": {
-        "open": 7760.0,
-        "high": 7793.33349609375,
-        "low": 7133.33349609375,
-        "close": 7203.33349609375,
-        "change_pct": -4.443953032505021,
+        "open": 7746.906431057073,
+        "high": 7780.183683023347,
+        "low": 7121.29731130973,
+        "close": 7191.17919921875,
+        "change_pct": -4.443956960012474,
         "volume": 112287300
       },
       "verified": true,
@@ -5356,14 +5356,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 182.80215454101562,
-        "change_pct": 1.6477026622857327,
+        "close": 182.8021697998047,
+        "change_pct": 1.647719771483347,
         "date": "2026-03-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 286.0435485839844,
-        "change_pct": 5.112193163556755,
+        "change_pct": 5.112181375993008,
         "date": "2026-03-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5383,11 +5383,11 @@
     {
       "date": "2026-03-18",
       "kioxia": {
-        "open": 7536.66650390625,
-        "high": 7803.33349609375,
-        "low": 7456.66650390625,
-        "close": 7796.66650390625,
-        "change_pct": 8.236922643304734,
+        "open": 7523.949927069668,
+        "high": 7790.166973476208,
+        "low": 7444.084910639181,
+        "close": 7783.51123046875,
+        "change_pct": 8.23692491649146,
         "volume": 122157000
       },
       "verified": true,
@@ -5413,8 +5413,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 181.51510620117188,
-        "change_pct": -0.7040662858024294,
+        "close": 181.5150909423828,
+        "change_pct": -0.7040829213523114,
         "date": "2026-03-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5440,11 +5440,11 @@
     {
       "date": "2026-03-19",
       "kioxia": {
-        "open": 7633.33349609375,
-        "high": 7746.66650390625,
-        "low": 7360.0,
-        "close": 7453.33349609375,
-        "change_pct": -4.4035871951235155,
+        "open": 7620.45410637333,
+        "high": 7733.595892359016,
+        "low": 7347.581793931734,
+        "close": 7440.7578125,
+        "change_pct": -4.403583521881915,
         "volume": 111735900
       },
       "verified": true,
@@ -5471,7 +5471,7 @@
       },
       "nvda": {
         "close": 179.98858642578125,
-        "change_pct": -0.8409877322820725,
+        "change_pct": -0.8409793966310586,
         "date": "2026-03-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5497,11 +5497,11 @@
     {
       "date": "2026-03-23",
       "kioxia": {
-        "open": 7120.0,
-        "high": 7278.33349609375,
-        "low": 6933.33349609375,
-        "close": 7155.0,
-        "change_pct": -4.002685459467292,
+        "open": 7107.986302192522,
+        "high": 7266.052639469577,
+        "low": 6921.634763871765,
+        "close": 7142.92724609375,
+        "change_pct": -4.002691310633888,
         "volume": 112305900
       },
       "verified": true,
@@ -5527,14 +5527,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 172.30615234375,
-        "change_pct": -3.281800569058757,
+        "close": 172.30613708496094,
+        "change_pct": -3.281817417975763,
         "date": "2026-03-20",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 292.9295959472656,
-        "change_pct": -7.518997510675995,
+        "close": 292.9295654296875,
+        "change_pct": -7.519007145401401,
         "date": "2026-03-20",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5554,11 +5554,11 @@
     {
       "date": "2026-03-24",
       "kioxia": {
-        "open": 7266.66650390625,
-        "high": 7426.66650390625,
-        "low": 6675.0,
-        "close": 7033.33349609375,
-        "change_pct": -1.700440306167017,
+        "open": 7254.405618801097,
+        "high": 7414.135654352369,
+        "low": 6663.737420654588,
+        "close": 7021.46630859375,
+        "change_pct": -1.700436436146302,
         "volume": 153422700
       },
       "verified": true,
@@ -5585,13 +5585,13 @@
       },
       "nvda": {
         "close": 175.23944091796875,
-        "change_pct": 1.702370190686442,
+        "change_pct": 1.7023791970691482,
         "date": "2026-03-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 294.61859130859375,
-        "change_pct": 0.5765874751802791,
+        "change_pct": 0.5765979533095988,
         "date": "2026-03-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5611,11 +5611,11 @@
     {
       "date": "2026-03-25",
       "kioxia": {
-        "open": 7188.33349609375,
-        "high": 7481.66650390625,
-        "low": 7136.66650390625,
-        "close": 7481.66650390625,
-        "change_pct": 6.374402807168189,
+        "open": 7176.204890714799,
+        "high": 7469.04296875,
+        "low": 7124.625074304508,
+        "close": 7469.04296875,
+        "change_pct": 6.374404440400849,
         "volume": 104677500
       },
       "verified": true,
@@ -5668,11 +5668,11 @@
     {
       "date": "2026-03-26",
       "kioxia": {
-        "open": 7226.66650390625,
-        "high": 7300.0,
-        "low": 6981.66650390625,
-        "close": 7055.0,
-        "change_pct": -5.702827086498486,
+        "open": 7214.473044681109,
+        "high": 7287.682806132619,
+        "low": 6969.88642995474,
+        "close": 7043.09619140625,
+        "change_pct": -5.702829386922581,
         "volume": 103309500
       },
       "verified": true,
@@ -5704,8 +5704,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 295.96783447265625,
-        "change_pct": -1.6309449065682657,
+        "close": 295.9678039550781,
+        "change_pct": -1.6309550495127834,
         "date": "2026-03-25",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5725,11 +5725,11 @@
     {
       "date": "2026-03-27",
       "kioxia": {
-        "open": 6433.33349609375,
-        "high": 6860.0,
-        "low": 6358.33349609375,
-        "close": 6756.66650390625,
-        "change_pct": -4.228681730598871,
+        "open": 6422.478658899408,
+        "high": 6848.425256797522,
+        "low": 6347.605204925674,
+        "close": 6745.26611328125,
+        "change_pct": -4.228681108862354,
         "volume": 111107400
       },
       "verified": true,
@@ -5761,8 +5761,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 273.1910400390625,
-        "change_pct": -7.695699255352039,
+        "close": 273.1910705566406,
+        "change_pct": -7.69567942663606,
         "date": "2026-03-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5782,11 +5782,11 @@
     {
       "date": "2026-03-30",
       "kioxia": {
-        "open": 6456.66650390625,
-        "high": 6686.66650390625,
-        "low": 6356.66650390625,
-        "close": 6673.33349609375,
-        "change_pct": -1.2333449899343485,
+        "open": 6445.772315627584,
+        "high": 6675.384241796827,
+        "low": 6345.941043380088,
+        "close": 6662.07373046875,
+        "change_pct": -1.2333447104287965,
         "volume": 92735400
       },
       "verified": true,
@@ -5812,14 +5812,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 167.13796997070312,
-        "change_pct": -2.1723900917334227,
+        "close": 167.13795471191406,
+        "change_pct": -2.172399022862981,
         "date": "2026-03-27",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 275.17987060546875,
-        "change_pct": 0.7279999249323321,
+        "close": 275.1799011230469,
+        "change_pct": 0.7279998436090507,
         "date": "2026-03-27",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5839,11 +5839,11 @@
     {
       "date": "2026-03-31",
       "kioxia": {
-        "open": 6268.33349609375,
-        "high": 6558.33349609375,
-        "low": 6180.0,
-        "close": 6360.0,
-        "change_pct": -4.6953070197549795,
+        "open": 6257.757204049076,
+        "high": 6547.267899404569,
+        "low": 6169.572749299823,
+        "close": 6349.26904296875,
+        "change_pct": -4.695305098011737,
         "volume": 148740900
       },
       "verified": true,
@@ -5870,13 +5870,13 @@
       },
       "nvda": {
         "close": 164.79331970214844,
-        "change_pct": -1.402823229793726,
+        "change_pct": -1.4028142284060685,
         "date": "2026-03-30",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 251.52365112304688,
-        "change_pct": -8.596638784069455,
+        "change_pct": -8.596648920744432,
         "date": "2026-03-30",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5896,11 +5896,11 @@
     {
       "date": "2026-04-01",
       "kioxia": {
-        "open": 6926.66650390625,
-        "high": 7271.66650390625,
-        "low": 6803.33349609375,
-        "close": 7266.66650390625,
-        "change_pct": 14.255762640035385,
+        "open": 6914.979429485326,
+        "high": 7259.397325428065,
+        "low": 6791.854516293817,
+        "close": 7254.40576171875,
+        "change_pct": 14.255762555098507,
         "volume": 103832700
       },
       "verified": true,
@@ -5926,8 +5926,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 174.00225830078125,
-        "change_pct": 5.588174699846626,
+        "close": 174.0022735595703,
+        "change_pct": 5.5881839591958915,
         "date": "2026-03-31",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5953,11 +5953,11 @@
     {
       "date": "2026-04-02",
       "kioxia": {
-        "open": 7408.33349609375,
-        "high": 7466.66650390625,
-        "low": 6883.33349609375,
-        "close": 7031.66650390625,
-        "change_pct": -3.2339450265630565,
+        "open": 7395.8337026934505,
+        "high": 7454.068287487271,
+        "low": 6871.719514804719,
+        "close": 7019.80224609375,
+        "change_pct": -3.233945320001186,
         "volume": 136549500
       },
       "verified": true,
@@ -5983,8 +5983,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 175.34918212890625,
-        "change_pct": 0.7740841074583615,
+        "close": 175.3491973876953,
+        "change_pct": 0.7740840395765725,
         "date": "2026-04-01",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6010,11 +6010,11 @@
     {
       "date": "2026-04-03",
       "kioxia": {
-        "open": 7276.66650390625,
-        "high": 7360.0,
-        "low": 7166.66650390625,
-        "close": 7283.33349609375,
-        "change_pct": 3.5790518797740756,
+        "open": 7264.388690525039,
+        "high": 7347.581579224882,
+        "low": 7154.574291922493,
+        "close": 7271.04443359375,
+        "change_pct": 3.57904936196467,
         "volume": 86587800
       },
       "verified": true,
@@ -6040,14 +6040,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 176.98545837402344,
-        "change_pct": 0.9331530522419529,
+        "close": 176.98544311523438,
+        "change_pct": 0.9331355671513775,
         "date": "2026-04-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 294.7984924316406,
-        "change_pct": -0.9270134469101854,
+        "close": 294.7984619140625,
+        "change_pct": -0.9270237029585848,
         "date": "2026-04-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6067,11 +6067,11 @@
     {
       "date": "2026-04-06",
       "kioxia": {
-        "open": 7373.33349609375,
-        "high": 7611.66650390625,
-        "low": 7318.33349609375,
-        "close": 7600.0,
-        "change_pct": 4.347823755099056,
+        "open": 7360.892701205643,
+        "high": 7598.823577191767,
+        "low": 7305.9855009846315,
+        "close": 7587.1767578125,
+        "change_pct": 4.347825503006852,
         "volume": 83782200
       },
       "verified": true,
@@ -6097,14 +6097,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 176.98545837402344,
-        "change_pct": 0.9331530522419529,
+        "close": 176.98544311523438,
+        "change_pct": 0.9331355671513775,
         "date": "2026-04-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 294.7984924316406,
-        "change_pct": -0.9270134469101854,
+        "close": 294.7984619140625,
+        "change_pct": -0.9270237029585848,
         "date": "2026-04-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6124,11 +6124,11 @@
     {
       "date": "2026-04-07",
       "kioxia": {
-        "open": 7766.66650390625,
-        "high": 7800.0,
-        "low": 7525.0,
-        "close": 7756.66650390625,
-        "change_pct": 2.0614013671875098,
+        "open": 7753.561740194572,
+        "high": 7786.8389923914365,
+        "low": 7512.303002275072,
+        "close": 7743.57861328125,
+        "change_pct": 2.06139728203516,
         "volume": 116333400
       },
       "verified": true,
@@ -6155,13 +6155,13 @@
       },
       "nvda": {
         "close": 177.23487854003906,
-        "change_pct": 0.14092692603508983,
+        "change_pct": 0.14093555967893412,
         "date": "2026-04-06",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 303.97314453125,
-        "change_pct": 3.1121774144543313,
+        "change_pct": 3.112188088641399,
         "date": "2026-04-06",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6181,11 +6181,11 @@
     {
       "date": "2026-04-08",
       "kioxia": {
-        "open": 8756.6669921875,
-        "high": 9271.6669921875,
-        "low": 8613.3330078125,
-        "close": 9200.0,
-        "change_pct": 18.607651822685533,
+        "open": 8741.891603843855,
+        "high": 9256.022628809887,
+        "low": 8598.79947122408,
+        "close": 9184.4765625,
+        "change_pct": 18.607649268871906,
         "volume": 151215600
       },
       "verified": true,
@@ -6238,11 +6238,11 @@
     {
       "date": "2026-04-09",
       "kioxia": {
-        "open": 8971.6669921875,
-        "high": 9405.0,
-        "low": 8866.6669921875,
-        "close": 9233.3330078125,
-        "change_pct": 0.36231530230979025,
+        "open": 8956.52939115676,
+        "high": 9389.131250321921,
+        "low": 8851.706554231316,
+        "close": 9217.75390625,
+        "change_pct": 0.36232161434077703,
         "volume": 140773800
       },
       "verified": true,
@@ -6274,8 +6274,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 338.5829772949219,
-        "change_pct": 8.597249059621138,
+        "close": 338.5830078125,
+        "change_pct": 8.597258847842193,
         "date": "2026-04-08",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6295,11 +6295,11 @@
     {
       "date": "2026-04-10",
       "kioxia": {
-        "open": 9666.6669921875,
-        "high": 10163.3330078125,
-        "low": 9630.0,
-        "close": 10046.6669921875,
-        "change_pct": 8.808671621469987,
+        "open": 9650.35697277804,
+        "high": 10146.184991980757,
+        "low": 9613.751846728554,
+        "close": 10029.7158203125,
+        "change_pct": 8.808674242343972,
         "volume": 139653600
       },
       "verified": true,
@@ -6325,14 +6325,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 183.4906005859375,
-        "change_pct": 1.005057963567002,
+        "close": 183.49058532714844,
+        "change_pct": 1.0050495641456214,
         "date": "2026-04-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 337.68353271484375,
-        "change_pct": -0.26564967538065254,
+        "change_pct": -0.2656586647592052,
         "date": "2026-04-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6352,11 +6352,11 @@
     {
       "date": "2026-04-13",
       "kioxia": {
-        "open": 9850.0,
-        "high": 10460.0,
-        "low": 9843.3330078125,
-        "close": 10423.3330078125,
-        "change_pct": 3.749163935839661,
+        "open": 9833.380450055103,
+        "high": 10442.351219043288,
+        "low": 9826.724706843203,
+        "close": 10405.74609375,
+        "change_pct": 3.749161792559974,
         "volume": 104217600
       },
       "verified": true,
@@ -6383,7 +6383,7 @@
       },
       "nvda": {
         "close": 188.1998291015625,
-        "change_pct": 2.566468527863064,
+        "change_pct": 2.5664770571296014,
         "date": "2026-04-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6409,11 +6409,11 @@
     {
       "date": "2026-04-14",
       "kioxia": {
-        "open": 12056.6669921875,
-        "high": 12290.0,
-        "low": 11273.3330078125,
-        "close": 11666.6669921875,
-        "change_pct": 11.928372464384429,
+        "open": 12036.324394828627,
+        "high": 12269.263711795096,
+        "low": 11254.31208980763,
+        "close": 11646.982421875,
+        "change_pct": 11.928374159259203,
         "volume": 138208800
       },
       "verified": true,
@@ -6466,11 +6466,11 @@
     {
       "date": "2026-04-15",
       "kioxia": {
-        "open": 11666.6669921875,
-        "high": 11716.6669921875,
-        "low": 10700.0,
-        "close": 10803.3330078125,
-        "change_pct": -7.400005373883777,
+        "open": 11646.981768987866,
+        "high": 11696.897403747935,
+        "low": 10681.945838654936,
+        "close": 10785.1044921875,
+        "change_pct": -7.400010564699988,
         "volume": 122850600
       },
       "verified": true,
@@ -6523,11 +6523,11 @@
     {
       "date": "2026-04-16",
       "kioxia": {
-        "open": 11000.0,
-        "high": 11316.6669921875,
-        "low": 10336.6669921875,
-        "close": 11290.0,
-        "change_pct": 4.504785623432728,
+        "open": 10981.439517133525,
+        "high": 11297.572191840763,
+        "low": 10319.225762132504,
+        "close": 11270.9501953125,
+        "change_pct": 4.504784385510008,
         "volume": 140359500
       },
       "verified": true,
@@ -6580,11 +6580,11 @@
     {
       "date": "2026-04-17",
       "kioxia": {
-        "open": 11146.6669921875,
-        "high": 11160.0,
-        "low": 10153.3330078125,
-        "close": 10176.6669921875,
-        "change_pct": -9.86123124723206,
+        "open": 11127.859431029567,
+        "high": 11141.169942309245,
+        "low": 10136.201480367108,
+        "close": 10159.49609375,
+        "change_pct": -9.8612280446838,
         "volume": 131827200
       },
       "verified": true,
@@ -6637,11 +6637,11 @@
     {
       "date": "2026-04-20",
       "kioxia": {
-        "open": 10393.3330078125,
-        "high": 10576.6669921875,
-        "low": 10030.0,
-        "close": 10170.0,
-        "change_pct": -0.06551253168269877,
+        "open": 10375.796014855534,
+        "high": 10558.820654115705,
+        "low": 10013.076070089724,
+        "close": 10152.83984375,
+        "change_pct": -0.06551752113074238,
         "volume": 102999300
       },
       "verified": true,
@@ -6694,11 +6694,11 @@
     {
       "date": "2026-04-21",
       "kioxia": {
-        "open": 10260.0,
-        "high": 10960.0,
-        "low": 10236.6669921875,
-        "close": 10913.3330078125,
-        "change_pct": 7.3090757897001035,
+        "open": 10242.688306027612,
+        "high": 10941.5071963024,
+        "low": 10219.394667990035,
+        "close": 10894.9189453125,
+        "change_pct": 7.309079163888499,
         "volume": 75926100
       },
       "verified": true,
@@ -6751,11 +6751,11 @@
     {
       "date": "2026-04-22",
       "kioxia": {
-        "open": 11000.0,
-        "high": 11693.3330078125,
-        "low": 10800.0,
-        "close": 11600.0,
-        "change_pct": 6.292000726963409,
+        "open": 10981.44009294181,
+        "high": 11673.603264737458,
+        "low": 10781.777545797413,
+        "close": 11580.427734375,
+        "change_pct": 6.292004488545899,
         "volume": 100157700
       },
       "verified": true,
@@ -6808,11 +6808,11 @@
     {
       "date": "2026-04-23",
       "kioxia": {
-        "open": 12166.6669921875,
-        "high": 12226.6669921875,
-        "low": 11250.0,
-        "close": 11793.3330078125,
-        "change_pct": 1.6666638604525774,
+        "open": 12146.138642604988,
+        "high": 12206.037406911126,
+        "low": 11231.01830740074,
+        "close": 11773.4345703125,
+        "change_pct": 1.6666641368054513,
         "volume": 112519500
       },
       "verified": true,
@@ -6865,11 +6865,11 @@
     {
       "date": "2026-04-24",
       "kioxia": {
-        "open": 11750.0,
-        "high": 11866.6669921875,
-        "low": 11383.3330078125,
-        "close": 11526.6669921875,
-        "change_pct": -2.26115904170896,
+        "open": 11730.173946166104,
+        "high": 11846.644083369114,
+        "low": 11364.125639895728,
+        "close": 11507.2177734375,
+        "change_pct": -2.261165128027154,
         "volume": 78082500
       },
       "verified": true,
@@ -6922,11 +6922,11 @@
     {
       "date": "2026-04-27",
       "kioxia": {
-        "open": 11803.3330078125,
-        "high": 12146.6669921875,
-        "low": 11676.6669921875,
-        "close": 11823.3330078125,
-        "change_pct": 2.5737363266074453,
+        "open": 11783.417534570195,
+        "high": 12126.172219964606,
+        "low": 11656.965239395447,
+        "close": 11803.3837890625,
+        "change_pct": 2.5737412939959237,
         "volume": 70871100
       },
       "verified": true,
@@ -6958,8 +6958,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 403.76507568359375,
-        "change_pct": 0.218296734032708,
+        "close": 403.7651062011719,
+        "change_pct": 0.2183043087831793,
         "date": "2026-04-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6979,11 +6979,11 @@
     {
       "date": "2026-04-28",
       "kioxia": {
-        "open": 12133.3330078125,
-        "high": 12476.6669921875,
-        "low": 12066.6669921875,
-        "close": 12106.6669921875,
-        "change_pct": 2.396396888997221,
+        "open": 12112.860279527584,
+        "high": 12455.614952070579,
+        "low": 12046.30675032514,
+        "close": 12086.2392578125,
+        "change_pct": 2.3963930496956776,
         "volume": 77466300
       },
       "verified": true,
@@ -7016,7 +7016,7 @@
       },
       "wdc": {
         "close": 400.4969787597656,
-        "change_pct": -0.8094055480888485,
+        "change_pct": -0.8094130451624326,
         "date": "2026-04-27",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7036,11 +7036,11 @@
     {
       "date": "2026-04-30",
       "kioxia": {
-        "open": 12486.6669921875,
-        "high": 12756.6669921875,
-        "low": 12306.6669921875,
-        "close": 12520.0,
-        "change_pct": 3.4140941357289067,
+        "open": 12465.598234982232,
+        "high": 12735.14266389597,
+        "low": 12285.901949039739,
+        "close": 12498.875,
+        "change_pct": 3.414095430228836,
         "volume": 87505200
       },
       "verified": true,
@@ -7073,7 +7073,7 @@
       },
       "wdc": {
         "close": 412.52001953125,
-        "change_pct": 5.567920555497974,
+        "change_pct": 5.567928800086852,
         "date": "2026-04-29",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7093,11 +7093,11 @@
     {
       "date": "2026-05-01",
       "kioxia": {
-        "open": 12166.6669921875,
-        "high": 12330.0,
-        "low": 12016.6669921875,
-        "close": 12136.6669921875,
-        "change_pct": -3.0617652381190075,
+        "open": 12146.137856777914,
+        "high": 12309.195268534699,
+        "low": 11996.390955700848,
+        "close": 12116.1884765625,
+        "change_pct": -3.061767746597188,
         "volume": 57497400
       },
       "verified": true,
@@ -7123,8 +7123,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 199.1148681640625,
-        "change_pct": -4.626047369511221,
+        "close": 199.11488342285156,
+        "change_pct": -4.626040060709824,
         "date": "2026-04-30",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7150,11 +7150,11 @@
     {
       "date": "2026-05-07",
       "kioxia": {
-        "open": 14470.0,
-        "high": 14470.0,
-        "low": 14470.0,
-        "close": 14470.0,
-        "change_pct": 19.225484305654028,
+        "open": 14445.5849609375,
+        "high": 14445.5849609375,
+        "low": 14445.5849609375,
+        "close": 14445.5849609375,
+        "change_pct": 19.22548901315768,
         "volume": 3817800
       },
       "verified": true,
@@ -7207,11 +7207,11 @@
     {
       "date": "2026-05-08",
       "kioxia": {
-        "open": 14450.0,
-        "high": 15183.3330078125,
-        "low": 13966.6669921875,
-        "close": 14830.0,
-        "change_pct": 2.4879060124395336,
+        "open": 14425.618707987398,
+        "high": 15157.714372809867,
+        "low": 13943.101221503812,
+        "close": 14804.9775390625,
+        "change_pct": 2.4879060217833926,
         "volume": 124222500
       },
       "verified": true,
@@ -7264,11 +7264,11 @@
     {
       "date": "2026-05-11",
       "kioxia": {
-        "open": 16400.0,
-        "high": 16476.666015625,
-        "low": 15230.0,
-        "close": 15313.3330078125,
-        "change_pct": 3.25915716663856,
+        "open": 16372.328597175167,
+        "high": 16448.865255714718,
+        "low": 15204.302715547425,
+        "close": 15287.4951171875,
+        "change_pct": 3.25915778562913,
         "volume": 116370900
       },
       "verified": true,
@@ -7321,11 +7321,11 @@
     {
       "date": "2026-05-12",
       "kioxia": {
-        "open": 15633.3330078125,
-        "high": 15726.6669921875,
-        "low": 14543.3330078125,
-        "close": 15366.6669921875,
-        "change_pct": 0.3482846245673077,
+        "open": 15606.955335554192,
+        "high": 15700.131840187081,
+        "low": 14518.794461142266,
+        "close": 15340.7392578125,
+        "change_pct": 0.34828557730912646,
         "volume": 85396500
       },
       "verified": true,
@@ -7378,11 +7378,11 @@
     {
       "date": "2026-05-13",
       "kioxia": {
-        "open": 14933.3330078125,
-        "high": 16890.0,
-        "low": 14913.3330078125,
-        "close": 16833.333984375,
-        "change_pct": 9.54447046280864,
+        "open": 14908.136474682771,
+        "high": 16861.502045501933,
+        "low": 14888.170220040376,
+        "close": 16804.931640625,
+        "change_pct": 9.544470825073436,
         "volume": 89242200
       },
       "verified": true,
@@ -7435,11 +7435,11 @@
     {
       "date": "2026-05-14",
       "kioxia": {
-        "open": 16690.0,
-        "high": 17830.0,
-        "low": 15036.6669921875,
-        "close": 16153.3330078125,
-        "change_pct": -4.039609605522521,
+        "open": 16661.839620100654,
+        "high": 17799.916142983504,
+        "low": 15011.296215978995,
+        "close": 16126.078125,
+        "change_pct": -4.039608908517723,
         "volume": 143575500
       },
       "verified": true,
@@ -7471,8 +7471,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 493.8027038574219,
-        "change_pct": 1.0946524117627865,
+        "close": 493.80267333984375,
+        "change_pct": 1.0946461639963712,
         "date": "2026-05-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7492,11 +7492,11 @@
     {
       "date": "2026-05-15",
       "kioxia": {
-        "open": 16153.3330078125,
-        "high": 16156.6669921875,
-        "low": 14033.3330078125,
-        "close": 14816.6669921875,
-        "change_pct": -8.274862005126293,
+        "open": 16126.07766587843,
+        "high": 16129.406024858095,
+        "low": 14009.654718668235,
+        "close": 14791.6669921875,
+        "change_pct": -8.274864616609934,
         "volume": 113885400
       },
       "verified": true,
@@ -7529,7 +7529,7 @@
       },
       "wdc": {
         "close": 488.8655700683594,
-        "change_pct": -0.9998191080152541,
+        "change_pct": -0.9998129896892194,
         "date": "2026-05-14",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7549,11 +7549,11 @@
     {
       "date": "2026-05-18",
       "kioxia": {
-        "open": 17150.0,
-        "high": 17150.0,
-        "low": 17150.0,
-        "close": 17150.0,
-        "change_pct": 15.748028953089221,
+        "open": 17121.0625,
+        "high": 17121.0625,
+        "low": 17121.0625,
+        "close": 17121.0625,
+        "change_pct": 15.7480256217424,
         "volume": 2467500
       },
       "verified": true,
@@ -7579,14 +7579,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 224.80615234375,
-        "change_pct": -4.420125203837699,
+        "close": 224.80616760253906,
+        "change_pct": -4.4201187163233175,
         "date": "2026-05-15",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 481.7397155761719,
-        "change_pct": -1.4576306715956888,
+        "close": 481.73968505859375,
+        "change_pct": -1.4576369141253265,
         "date": "2026-05-15",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7606,11 +7606,11 @@
     {
       "date": "2026-05-19",
       "kioxia": {
-        "open": 17336.666015625,
-        "high": 17530.0,
-        "low": 16000.0,
-        "close": 16590.0,
-        "change_pct": -3.2653061224489743,
+        "open": 17307.41398393517,
+        "high": 17500.421757270946,
+        "low": 15973.00331525015,
+        "close": 16562.0078125,
+        "change_pct": -3.2653037012159714,
         "volume": 150282600
       },
       "verified": true,
@@ -7637,13 +7637,13 @@
       },
       "nvda": {
         "close": 221.81300354003906,
-        "change_pct": -1.3314354489436409,
+        "change_pct": -1.3314421461033787,
         "date": "2026-05-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 458.41326904296875,
-        "change_pct": -4.8421265216433635,
+        "close": 458.4132995605469,
+        "change_pct": -4.84211415864767,
         "date": "2026-05-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7663,11 +7663,11 @@
     {
       "date": "2026-05-20",
       "kioxia": {
-        "open": 17000.0,
-        "high": 17150.0,
-        "low": 16090.0,
-        "close": 17096.666015625,
-        "change_pct": 3.0540446993670978,
+        "open": 16971.315450872014,
+        "high": 17121.06235190912,
+        "low": 16062.850917913569,
+        "close": 17067.818359375,
+        "change_pct": 3.0540412285836815,
         "volume": 94437900
       },
       "verified": true,
@@ -7700,7 +7700,7 @@
       },
       "wdc": {
         "close": 455.5349426269531,
-        "change_pct": -0.6278889836728974,
+        "change_pct": -0.6278955990921431,
         "date": "2026-05-19",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7720,11 +7720,11 @@
     {
       "date": "2026-05-21",
       "kioxia": {
-        "open": 17763.333984375,
-        "high": 19806.666015625,
-        "low": 17040.0,
-        "close": 18446.666015625,
-        "change_pct": 7.8962763778985146,
+        "open": 17733.361968304704,
+        "high": 19773.246292016727,
+        "low": 17011.248463025742,
+        "close": 18415.541015625,
+        "change_pct": 7.896279582268484,
         "volume": 166543800
       },
       "verified": true,
@@ -7756,8 +7756,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 459.35272216796875,
-        "change_pct": 0.8380870892141568,
+        "close": 459.3527526855469,
+        "change_pct": 0.8380937884978623,
         "date": "2026-05-20",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7777,11 +7777,11 @@
     {
       "date": "2026-05-22",
       "kioxia": {
-        "open": 19166.666015625,
-        "high": 19626.666015625,
-        "low": 18760.0,
-        "close": 19133.333984375,
-        "change_pct": 3.7224502691617367,
+        "open": 19134.32657218473,
+        "high": 19593.5504255158,
+        "low": 18728.34671411059,
+        "close": 19101.05078125,
+        "change_pct": 3.7224524929426073,
         "volume": 76079100
       },
       "verified": true,
@@ -7814,7 +7814,7 @@
       },
       "wdc": {
         "close": 486.1771240234375,
-        "change_pct": 5.839608771418159,
+        "change_pct": 5.839601739853606,
         "date": "2026-05-21",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7834,11 +7834,11 @@
     {
       "date": "2026-05-25",
       "kioxia": {
-        "open": 19460.0,
-        "high": 21930.0,
-        "low": 19363.333984375,
-        "close": 21816.666015625,
-        "change_pct": 14.02438296138724,
+        "open": 19427.165778599054,
+        "high": 21892.998228400684,
+        "low": 19330.662864379963,
+        "close": 21779.85546875,
+        "change_pct": 14.024383884312641,
         "volume": 116404200
       },
       "verified": true,
@@ -7870,8 +7870,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 483.9984130859375,
-        "change_pct": -0.44813110898137554,
+        "close": 483.9983825683594,
+        "change_pct": -0.4481373860307558,
         "date": "2026-05-22",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7891,11 +7891,11 @@
     {
       "date": "2026-05-26",
       "kioxia": {
-        "open": 22000.0,
-        "high": 22030.0,
-        "low": 20370.0,
-        "close": 20820.0,
-        "change_pct": -4.568369955845641,
+        "open": 21962.880118275698,
+        "high": 21992.829500255164,
+        "low": 20335.630364057997,
+        "close": 20784.87109375,
+        "change_pct": -4.568369961993623,
         "volume": 95260200
       },
       "verified": true,
@@ -7927,8 +7927,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 483.9984130859375,
-        "change_pct": -0.44813110898137554,
+        "close": 483.9983825683594,
+        "change_pct": -0.4481373860307558,
         "date": "2026-05-22",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7948,11 +7948,11 @@
     {
       "date": "2026-05-27",
       "kioxia": {
-        "open": 21963.333984375,
-        "high": 22446.666015625,
-        "low": 20056.666015625,
-        "close": 20183.333984375,
-        "change_pct": -3.0579539655379406,
+        "open": 21926.275960369894,
+        "high": 22408.792481095436,
+        "low": 20022.82505089723,
+        "close": 20149.279296875,
+        "change_pct": -3.057953999368912,
         "volume": 134817900
       },
       "verified": true,
@@ -7985,7 +7985,7 @@
       },
       "wdc": {
         "close": 524.3449096679688,
-        "change_pct": 8.336080344723662,
+        "change_pct": 8.336087175644824,
         "date": "2026-05-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8005,11 +8005,11 @@
     {
       "date": "2026-05-28",
       "kioxia": {
-        "open": 19666.666015625,
-        "high": 20613.333984375,
-        "low": 18966.666015625,
-        "close": 20426.666015625,
-        "change_pct": 1.2056087038859742,
+        "open": 19633.48348007106,
+        "high": 20578.554185537803,
+        "low": 18934.664553409533,
+        "close": 20392.201171875,
+        "change_pct": 1.2056107388301207,
         "volume": 124977000
       },
       "verified": true,
@@ -8062,11 +8062,11 @@
     {
       "date": "2026-05-29",
       "kioxia": {
-        "open": 20833.333984375,
-        "high": 21950.0,
-        "low": 20370.0,
-        "close": 21950.0,
-        "change_pct": 7.457575226469926,
+        "open": 20798.182923813732,
+        "high": 21912.96484375,
+        "low": 20335.630700099657,
+        "close": 21912.96484375,
+        "change_pct": 7.457574879029938,
         "volume": 127579500
       },
       "verified": true,
@@ -8092,14 +8092,14 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "nvda": {
-        "close": 213.7613983154297,
-        "change_pct": 0.7761068323773213,
+        "close": 213.76138305664062,
+        "change_pct": 0.7760996387428776,
         "date": "2026-05-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 530.8711547851562,
-        "change_pct": 0.10931949248960127,
+        "close": 530.87109375,
+        "change_pct": 0.10930798275150533,
         "date": "2026-05-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8119,11 +8119,11 @@
     {
       "date": "2026-06-01",
       "kioxia": {
-        "open": 23333.333984375,
-        "high": 24383.333984375,
-        "low": 23090.0,
-        "close": 24166.666015625,
-        "change_pct": 10.0987062215262,
+        "open": 23293.964639543516,
+        "high": 24342.19301907553,
+        "low": 23051.041222280204,
+        "close": 24125.890625,
+        "change_pct": 10.098705478830583,
         "volume": 110179500
       },
       "verified": true,
@@ -8150,13 +8150,13 @@
       },
       "nvda": {
         "close": 210.6584930419922,
-        "change_pct": -1.4515741840623653,
+        "change_pct": -1.4515671494445104,
         "date": "2026-05-29",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
         "close": 530.901123046875,
-        "change_pct": 0.005645110202090464,
+        "change_pct": 0.005656608021897824,
         "date": "2026-05-29",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8176,11 +8176,11 @@
     {
       "date": "2026-06-02",
       "kioxia": {
-        "open": 24666.666015625,
-        "high": 25846.666015625,
-        "low": 23410.0,
-        "close": 25846.666015625,
-        "change_pct": 6.951724325208097,
+        "open": 24625.04571284758,
+        "high": 25803.0546875,
+        "low": 23370.500081875587,
+        "close": 25803.0546875,
+        "change_pct": 6.951718751315528,
         "volume": 131279700
       },
       "verified": true,
@@ -8233,11 +8233,11 @@
     {
       "date": "2026-06-03",
       "kioxia": {
-        "open": 26553.333984375,
-        "high": 27713.333984375,
-        "low": 25413.333984375,
-        "close": 26026.666015625,
-        "change_pct": 0.6964147712172464,
+        "open": 26508.531289805007,
+        "high": 27666.57405438848,
+        "low": 25370.454779783322,
+        "close": 25982.751953125,
+        "change_pct": 0.6964185744723128,
         "volume": 130829700
       },
       "verified": true,
@@ -8290,11 +8290,11 @@
     {
       "date": "2026-06-04",
       "kioxia": {
-        "open": 25666.666015625,
-        "high": 26610.0,
-        "low": 25000.0,
-        "close": 25640.0,
-        "change_pct": -1.4856532734268235,
+        "open": 25623.359303986224,
+        "high": 26565.101624963434,
+        "low": 24957.818136944228,
+        "close": 25596.73828125,
+        "change_pct": -1.4856535311247976,
         "volume": 104272200
       },
       "verified": true,
@@ -8347,11 +8347,11 @@
     {
       "date": "2026-06-05",
       "kioxia": {
-        "open": 24670.0,
-        "high": 26280.0,
-        "low": 24430.0,
-        "close": 26046.666015625,
-        "change_pct": 1.5860609033736317,
+        "open": 24628.37551561039,
+        "high": 26235.659041355535,
+        "low": 24388.780455871984,
+        "close": 26002.71875,
+        "change_pct": 1.5860632877876757,
         "volume": 109568700
       },
       "verified": true,
@@ -8404,11 +8404,11 @@
     {
       "date": "2026-06-08",
       "kioxia": {
-        "open": 23046.666015625,
-        "high": 24833.333984375,
-        "low": 23003.333984375,
-        "close": 23960.0,
-        "change_pct": -8.01125953845011,
+        "open": 23007.77935068723,
+        "high": 24791.432672606807,
+        "low": 22964.520433621256,
+        "close": 23919.572265625,
+        "change_pct": -8.011264146657737,
         "volume": 133999500
       },
       "verified": true,
@@ -8461,11 +8461,11 @@
     {
       "date": "2026-06-09",
       "kioxia": {
-        "open": 24676.666015625,
-        "high": 25550.0,
-        "low": 24010.0,
-        "close": 25483.333984375,
-        "change_pct": 6.357821303735389,
+        "open": 24635.02906016583,
+        "high": 25506.889467511206,
+        "low": 23969.487910565324,
+        "close": 25440.3359375,
+        "change_pct": 6.357821348086978,
         "volume": 103559400
       },
       "verified": true,
@@ -8518,11 +8518,11 @@
     {
       "date": "2026-06-10",
       "kioxia": {
-        "open": 24983.333984375,
-        "high": 25226.666015625,
-        "low": 23376.666015625,
-        "close": 23500.0,
-        "change_pct": -7.782866973336667,
+        "open": 24941.180837498603,
+        "high": 25184.10230661709,
+        "low": 23337.22372034714,
+        "close": 23460.349609375,
+        "change_pct": -7.782862352876507,
         "volume": 118131600
       },
       "verified": true,
@@ -8575,11 +8575,11 @@
     {
       "date": "2026-06-11",
       "kioxia": {
-        "open": 22583.333984375,
-        "high": 25786.666015625,
-        "low": 22533.333984375,
-        "close": 25146.666015625,
-        "change_pct": 7.007089428191482,
+        "open": 22545.229378258635,
+        "high": 25743.15646330383,
+        "low": 22495.31374269779,
+        "close": 25104.236328125,
+        "change_pct": 7.007085342381614,
         "volume": 151734300
       },
       "verified": true,
@@ -8632,11 +8632,11 @@
     {
       "date": "2026-06-12",
       "kioxia": {
-        "open": 26833.333984375,
-        "high": 27713.333984375,
-        "low": 26306.666015625,
-        "close": 27066.666015625,
-        "change_pct": 7.635206984524312,
+        "open": 26788.05776653551,
+        "high": 27666.572931601397,
+        "low": 26262.2784511931,
+        "close": 27020.99609375,
+        "change_pct": 7.63520443550636,
         "volume": 114428100
       },
       "verified": true,
@@ -8689,11 +8689,11 @@
     {
       "date": "2026-06-15",
       "kioxia": {
-        "open": 28566.666015625,
-        "high": 30330.0,
-        "low": 28400.0,
-        "close": 30303.333984375,
-        "change_pct": 11.958133177102571,
+        "open": 28518.465438632033,
+        "high": 30278.824147018167,
+        "low": 28352.08063881688,
+        "close": 30252.203125,
+        "change_pct": 11.958134407922083,
         "volume": 101238300
       },
       "verified": true,
@@ -8746,11 +8746,11 @@
     {
       "date": "2026-06-16",
       "kioxia": {
-        "open": 31303.333984375,
-        "high": 32536.666015625,
-        "low": 30306.666015625,
-        "close": 31573.333984375,
-        "change_pct": 4.190958000379874,
+        "open": 31250.516115746253,
+        "high": 32481.767155583817,
+        "low": 30255.529817001956,
+        "close": 31520.060546875,
+        "change_pct": 4.190958974578818,
         "volume": 108654900
       },
       "verified": true,
@@ -8803,11 +8803,11 @@
     {
       "date": "2026-06-17",
       "kioxia": {
-        "open": 31166.666015625,
-        "high": 32133.333984375,
-        "low": 30773.333984375,
-        "close": 32000.0,
-        "change_pct": 1.351349261488033,
+        "open": 31114.077973510623,
+        "high": 32079.11486706555,
+        "low": 30721.40961804211,
+        "close": 31946.005859375,
+        "change_pct": 1.3513467458812656,
         "volume": 84129900
       },
       "verified": true,
@@ -8860,11 +8860,11 @@
     {
       "date": "2026-06-18",
       "kioxia": {
-        "open": 32500.0,
-        "high": 33166.66796875,
-        "low": 31933.333984375,
-        "close": 32300.0,
-        "change_pct": 0.9374999999999911,
+        "open": 32445.16253869969,
+        "high": 33110.705634251644,
+        "low": 31879.45266232706,
+        "close": 32245.5,
+        "change_pct": 0.9375010508148041,
         "volume": 92120100
       },
       "verified": true,
@@ -8917,11 +8917,11 @@
     {
       "date": "2026-06-19",
       "kioxia": {
-        "open": 33433.33203125,
-        "high": 36200.0,
-        "low": 33323.33203125,
-        "close": 36200.0,
-        "change_pct": 12.074303405572762,
+        "open": 33376.9219419414,
+        "high": 36138.921875,
+        "low": 33267.107538453834,
+        "close": 36138.921875,
+        "change_pct": 12.074310756539663,
         "volume": 104613300
       },
       "verified": true,
@@ -8974,11 +8974,11 @@
     {
       "date": "2026-06-22",
       "kioxia": {
-        "open": 35200.0,
-        "high": 37566.66796875,
-        "low": 34750.0,
-        "close": 36233.33203125,
-        "change_pct": 0.09207743439225702,
+        "open": 35140.60682859241,
+        "high": 37503.28150426478,
+        "low": 34691.36611629507,
+        "close": 36172.1953125,
+        "change_pct": 0.0920709190359581,
         "volume": 71370600
       },
       "verified": true,
@@ -9031,11 +9031,11 @@
     {
       "date": "2026-06-23",
       "kioxia": {
-        "open": 36916.66796875,
-        "high": 37166.66796875,
-        "low": 30383.333984375,
-        "close": 30763.333984375,
-        "change_pct": -15.096591288257223,
+        "open": 36854.37934302022,
+        "high": 37103.95752389923,
+        "low": 30332.068899438902,
+        "close": 30711.427734375,
+        "change_pct": -15.096588777507591,
         "volume": 131534700
       },
       "verified": true,
@@ -9088,11 +9088,11 @@
     {
       "date": "2026-06-24",
       "kioxia": {
-        "open": 31763.333984375,
-        "high": 32730.0,
-        "low": 28850.0,
-        "close": 30833.333984375,
-        "change_pct": 0.2275436077102455,
+        "open": 31709.739395514553,
+        "high": 32674.774345971826,
+        "low": 28801.32110850251,
+        "close": 30781.30859375,
+        "change_pct": 0.2275402497708745,
         "volume": 150627900
       },
       "verified": true,
@@ -9145,11 +9145,11 @@
     {
       "date": "2026-06-25",
       "kioxia": {
-        "open": 35333.33203125,
-        "high": 35383.33203125,
-        "low": 32436.666015625,
-        "close": 34616.66796875,
-        "change_pct": 12.27027212267162,
+        "open": 35273.71261765879,
+        "high": 35323.62825056098,
+        "low": 32381.93426813526,
+        "close": 34558.2578125,
+        "change_pct": 12.270268521062455,
         "volume": 87386100
       },
       "verified": true,
@@ -9202,11 +9202,11 @@
     {
       "date": "2026-06-26",
       "kioxia": {
-        "open": 33333.33203125,
-        "high": 34000.0,
-        "low": 29866.666015625,
-        "close": 30726.666015625,
-        "change_pct": -11.237366798666692,
+        "open": 33277.08804969403,
+        "high": 33942.63113657194,
+        "low": 29816.271407280827,
+        "close": 30674.8203125,
+        "change_pct": -11.237364803139261,
         "volume": 131719800
       },
       "verified": true,
@@ -9259,11 +9259,11 @@
     {
       "date": "2026-06-29",
       "kioxia": {
-        "open": 30910.0,
-        "high": 31046.666015625,
-        "low": 27366.666015625,
-        "close": 29483.333984375,
-        "change_pct": -4.046426744176368,
+        "open": 30857.846747636228,
+        "high": 30994.282171957362,
+        "low": 27320.491294205785,
+        "close": 29433.587890625,
+        "change_pct": -4.046421166383151,
         "volume": 134147400
       },
       "verified": true,
@@ -9316,11 +9316,11 @@
     {
       "date": "2026-06-30",
       "kioxia": {
-        "open": 29483.333984375,
-        "high": 31626.666015625,
-        "low": 28433.333984375,
-        "close": 29893.333984375,
-        "change_pct": 1.3906161366190162,
+        "open": 29433.58633015714,
+        "high": 31573.301886390404,
+        "low": 28385.358010285192,
+        "close": 29842.89453125,
+        "change_pct": 1.3906107612363883,
         "volume": 109180800
       },
       "verified": true,
@@ -9373,11 +9373,11 @@
     {
       "date": "2026-07-01",
       "kioxia": {
-        "open": 30393.333984375,
-        "high": 31020.0,
-        "low": 29040.0,
-        "close": 29376.666015625,
-        "change_pct": -1.7283718471150067,
+        "open": 30342.052183412285,
+        "high": 30967.660843437534,
+        "low": 28991.001640664927,
+        "close": 29327.099609375,
+        "change_pct": -1.728367606348924,
         "volume": 87966900
       },
       "verified": true,
@@ -9430,11 +9430,11 @@
     {
       "date": "2026-07-02",
       "kioxia": {
-        "open": 26376.666015625,
-        "high": 26996.666015625,
-        "low": 25000.0,
-        "close": 25420.0,
-        "change_pct": -13.468737444611689,
+        "open": 26332.161228417037,
+        "high": 26951.11511561216,
+        "low": 24957.81803206137,
+        "close": 25377.109375,
+        "change_pct": -13.468738085208765,
         "volume": 134275200
       },
       "verified": true,
@@ -9487,11 +9487,11 @@
     {
       "date": "2026-07-03",
       "kioxia": {
-        "open": 22666.666015625,
-        "high": 28130.0,
-        "low": 22396.666015625,
-        "close": 27766.666015625,
-        "change_pct": 9.231573625590084,
+        "open": 22628.421436745128,
+        "high": 28082.53735140628,
+        "low": 22358.876997183106,
+        "close": 27719.81640625,
+        "change_pct": 9.231575577153372,
         "volume": 170446500
       },
       "verified": true,
@@ -9544,11 +9544,11 @@
     {
       "date": "2026-07-06",
       "kioxia": {
-        "open": 28266.666015625,
-        "high": 28266.666015625,
-        "low": 26066.666015625,
-        "close": 27196.666015625,
-        "change_pct": -2.05282117658363,
+        "open": 28218.97194308515,
+        "high": 28218.97194308515,
+        "low": 26022.683981835307,
+        "close": 27150.77734375,
+        "change_pct": -2.052824066943304,
         "volume": 120459600
       },
       "verified": true,
@@ -9601,11 +9601,11 @@
     {
       "date": "2026-07-07",
       "kioxia": {
-        "open": 26000.0,
-        "high": 26490.0,
-        "low": 23706.666015625,
-        "close": 24133.333984375,
-        "change_pct": -11.263630731392071,
+        "open": 25956.12963041346,
+        "high": 26445.302842678942,
+        "low": 23666.66523871076,
+        "close": 24092.61328125,
+        "change_pct": -11.263633537195862,
         "volume": 139485000
       },
       "verified": true,
@@ -9658,11 +9658,11 @@
     {
       "date": "2026-07-08",
       "kioxia": {
-        "open": 23133.333984375,
-        "high": 25826.666015625,
-        "low": 23100.0,
-        "close": 23956.666015625,
-        "change_pct": -0.7320495745195554,
+        "open": 23094.30131037772,
+        "high": 25783.088905827273,
+        "low": 23061.02357014574,
+        "close": 23916.244140625,
+        "change_pct": -0.7320465346208782,
         "volume": 145044300
       },
       "verified": true,
@@ -9715,11 +9715,11 @@
     {
       "date": "2026-07-09",
       "kioxia": {
-        "open": 25740.0,
-        "high": 26650.0,
-        "low": 25233.333984375,
-        "close": 25953.333984375,
-        "change_pct": 8.334498495941522,
+        "open": 25696.568942438527,
+        "high": 26605.033501009584,
+        "low": 25190.757823506963,
+        "close": 25909.54296875,
+        "change_pct": 8.334497743059543,
         "volume": 120134400
       },
       "verified": true,
@@ -9772,11 +9772,11 @@
     {
       "date": "2026-07-10",
       "kioxia": {
-        "open": 27360.0,
-        "high": 28016.666015625,
-        "low": 25293.333984375,
-        "close": 25666.666015625,
-        "change_pct": -1.1045516114522536,
+        "open": 27313.836244770602,
+        "high": 27969.394286374667,
+        "low": 25250.657256341736,
+        "close": 25623.359375,
+        "change_pct": -1.1045489845003087,
         "volume": 119919300
       },
       "verified": true,
@@ -9829,11 +9829,11 @@
     {
       "date": "2026-07-13",
       "kioxia": {
-        "open": 25166.666015625,
-        "high": 25720.0,
-        "low": 22033.333984375,
-        "close": 22366.666015625,
-        "change_pct": -12.857143183267638,
+        "open": 25124.203418850007,
+        "high": 25676.603787391832,
+        "low": 21996.158119442935,
+        "close": 22328.927734375,
+        "change_pct": -12.857141768222968,
         "volume": 146114400
       },
       "verified": true,
@@ -9886,11 +9886,11 @@
     {
       "date": "2026-07-14",
       "kioxia": {
-        "open": 21766.666015625,
-        "high": 23640.0,
-        "low": 21020.0,
-        "close": 23033.333984375,
-        "change_pct": 2.980631839739889,
+        "open": 21729.939935769868,
+        "high": 23600.113113916846,
+        "low": 20984.533741731477,
+        "close": 22994.470703125,
+        "change_pct": 2.9806311197174473,
         "volume": 159650700
       },
       "verified": true,
@@ -9943,11 +9943,11 @@
     {
       "date": "2026-07-15",
       "kioxia": {
-        "open": 24246.666015625,
-        "high": 24980.0,
-        "low": 23733.333984375,
-        "close": 24366.666015625,
-        "change_pct": 5.788706194919446,
+        "open": 24205.755207448125,
+        "high": 24937.851855277764,
+        "low": 23693.289308813964,
+        "close": 24325.552734375,
+        "change_pct": 5.78870480836553,
         "volume": 111669600
       },
       "verified": true,
@@ -10000,11 +10000,11 @@
     {
       "date": "2026-07-16",
       "kioxia": {
-        "open": 23036.666015625,
-        "high": 23100.0,
-        "low": 20506.666015625,
-        "close": 20703.333984375,
-        "change_pct": -15.034194784386612,
+        "open": 22997.79746725191,
+        "high": 23061.024591544217,
+        "low": 20472.06620246373,
+        "close": 20668.40234375,
+        "change_pct": -15.034192359612842,
         "volume": 135993900
       },
       "verified": true,
@@ -10057,11 +10057,11 @@
     {
       "date": "2026-07-17",
       "kioxia": {
-        "open": 18633.333984375,
-        "high": 18916.666015625,
-        "low": 17370.0,
-        "close": 17370.0,
-        "change_pct": -16.10046955186396,
+        "open": 18601.893753174303,
+        "high": 18884.74771514392,
+        "low": 17340.69140625,
+        "close": 17340.69140625,
+        "change_pct": -16.100474928611398,
         "volume": 124506000
       },
       "verified": true,
@@ -10114,11 +10114,11 @@
     {
       "date": "2026-07-21",
       "kioxia": {
-        "open": 17703.333984375,
-        "high": 20640.0,
-        "low": 17123.333984375,
-        "close": 20353.333984375,
-        "change_pct": 17.175210042458254,
+        "open": 17673.463482560976,
+        "high": 20605.174516959032,
+        "low": 17094.442105630926,
+        "close": 20318.9921875,
+        "change_pct": 17.17521355680518,
         "volume": 152645100
       },
       "verified": true,
@@ -10171,11 +10171,11 @@
     {
       "date": "2026-07-22",
       "kioxia": {
-        "open": 22166.666015625,
-        "high": 22900.0,
-        "low": 20916.666015625,
-        "close": 21423.333984375,
-        "change_pct": 5.257123972030464,
+        "open": 22129.265345525564,
+        "high": 22861.36201336397,
+        "low": 20881.374405931463,
+        "close": 21387.1875,
+        "change_pct": 5.257127433501063,
         "volume": 151391400
       },
       "verified": true,
@@ -10228,11 +10228,11 @@
     {
       "date": "2026-07-23",
       "kioxia": {
-        "open": 22333.333984375,
-        "high": 22396.666015625,
-        "low": 20383.333984375,
-        "close": 20626.666015625,
-        "change_pct": -3.7186927549700988,
+        "open": 22295.651642023717,
+        "high": 22358.876815099964,
+        "low": 20348.94181659579,
+        "close": 20591.86328125,
+        "change_pct": -3.7186947500694068,
         "volume": 117831300
       },
       "verified": true,
@@ -10285,11 +10285,11 @@
     {
       "date": "2026-07-24",
       "kioxia": {
-        "open": 20293.333984375,
-        "high": 20896.666015625,
-        "low": 18360.0,
-        "close": 18670.0,
-        "change_pct": -9.486099276261118,
+        "open": 20259.09297441647,
+        "high": 20861.407001522537,
+        "low": 18329.021110906535,
+        "close": 18638.498046875,
+        "change_pct": -9.486102387604934,
         "volume": 127156500
       },
       "verified": true,
@@ -10342,11 +10342,11 @@
     {
       "date": "2026-07-27",
       "kioxia": {
-        "open": 18933.333984375,
-        "high": 19136.666015625,
-        "low": 16800.0,
-        "close": 18183.333984375,
-        "change_pct": -2.6066738919389376,
+        "open": 18901.38886526357,
+        "high": 19104.37782614029,
+        "low": 16771.65433190399,
+        "close": 18152.654296875,
+        "change_pct": -2.6066679234460044,
         "volume": 167618100
       },
       "verified": true,
@@ -10399,11 +10399,11 @@
     {
       "date": "2026-07-28",
       "kioxia": {
-        "open": 14883.3330078125,
-        "high": 15906.6669921875,
-        "low": 14850.0,
-        "close": 14850.0,
-        "change_pct": -18.331808606932842,
+        "open": 14858.220123874524,
+        "high": 15879.827420580445,
+        "low": 14824.943359375,
+        "close": 14824.943359375,
+        "change_pct": -18.331814637558917,
         "volume": 119568600
       },
       "verified": true,
@@ -10456,11 +10456,11 @@
     {
       "date": "2026-07-29",
       "kioxia": {
-        "open": 14886.6669921875,
-        "high": 16273.3330078125,
-        "low": 12550.0,
-        "close": 12793.3330078125,
-        "change_pct": -13.849609375000005,
+        "open": 14861.549013699765,
+        "high": 16245.875335209996,
+        "low": 12528.824633466544,
+        "close": 12771.7470703125,
+        "change_pct": -13.849606297241602,
         "volume": 258692100
       },
       "verified": true,
@@ -10513,11 +10513,11 @@
     {
       "date": "2026-07-30",
       "kioxia": {
-        "open": 13000.0,
-        "high": 15013.3330078125,
-        "low": 12006.6669921875,
-        "close": 13166.6669921875,
-        "change_pct": 2.9181917186632766,
+        "open": 12978.06539314514,
+        "high": 14988.001349573464,
+        "low": 11986.408413717434,
+        "close": 13144.451171875,
+        "change_pct": 2.9181920023207963,
         "volume": 274617300
       },
       "verified": true,
@@ -10570,11 +10570,11 @@
     {
       "date": "2026-07-31",
       "kioxia": {
-        "open": 15500.0,
-        "high": 15500.0,
-        "low": 15500.0,
-        "close": 15500.0,
-        "change_pct": 17.7215160769008,
+        "open": 15473.8466796875,
+        "high": 15473.8466796875,
+        "low": 15473.8466796875,
+        "close": 15473.8466796875,
+        "change_pct": 17.721512122139238,
         "volume": 3538800
       },
       "verified": true,
@@ -10627,11 +10627,11 @@
     {
       "date": "2026-08-03",
       "kioxia": {
-        "open": 15833.3330078125,
-        "high": 17330.0,
-        "low": 14790.0,
-        "close": 16386.666015625,
-        "change_pct": 5.720425907258075,
+        "open": 15806.61723903409,
+        "high": 17300.75888742431,
+        "low": 14765.044659261715,
+        "close": 16359.0166015625,
+        "change_pct": 5.720425826869291,
         "volume": 208397700
       },
       "verified": true,
@@ -10684,11 +10684,11 @@
     {
       "date": "2026-08-04",
       "kioxia": {
-        "open": 16996.666015625,
-        "high": 17526.666015625,
-        "low": 15763.3330078125,
-        "close": 17363.333984375,
-        "change_pct": 5.960138369932766,
+        "open": 16967.98781360892,
+        "high": 17497.093553107803,
+        "low": 15736.735788803244,
+        "close": 17334.037109375,
+        "change_pct": 5.960141318759793,
         "volume": 155437500
       },
       "verified": true,
@@ -10741,11 +10741,11 @@
     {
       "date": "2026-08-05",
       "kioxia": {
-        "open": 18666.666015625,
-        "high": 18933.333984375,
-        "low": 17800.0,
-        "close": 18100.0,
-        "change_pct": 4.242653031312504,
+        "open": 18635.170850977607,
+        "high": 18901.388886591452,
+        "low": 17769.96710980663,
+        "close": 18069.4609375,
+        "change_pct": 4.242657515295445,
         "volume": 143061300
       },
       "verified": true,
@@ -10798,11 +10798,11 @@
     {
       "date": "2026-08-06",
       "kioxia": {
-        "open": 16670.0,
-        "high": 16770.0,
-        "low": 16100.0,
-        "close": 16246.6669921875,
-        "change_pct": -10.23940888294199,
+        "open": 16641.87262207086,
+        "high": 16741.70389154939,
+        "low": 16072.834386043243,
+        "close": 16219.25390625,
+        "change_pct": -10.239414654646506,
         "volume": 103532400
       },
       "verified": true,
@@ -10855,11 +10855,11 @@
     {
       "date": "2026-08-07",
       "kioxia": {
-        "open": 16443.333984375,
-        "high": 16686.666015625,
-        "low": 14723.3330078125,
-        "close": 15910.0,
-        "change_pct": -2.072221904649074,
+        "open": 16415.58937063607,
+        "high": 16658.510831059997,
+        "low": 14698.49052832266,
+        "close": 15883.1552734375,
+        "change_pct": -2.072220058673513,
         "volume": 158737200
       },
       "verified": true,
@@ -10912,11 +10912,11 @@
     {
       "date": "2026-08-10",
       "kioxia": {
-        "open": 15500.0,
-        "high": 16376.6669921875,
-        "low": 15433.3330078125,
-        "close": 16003.3330078125,
-        "change_pct": 0.5866310987586498,
+        "open": 15473.847305856025,
+        "high": 16349.035123610442,
+        "low": 15407.292798923761,
+        "close": 15976.3310546875,
+        "change_pct": 0.5866326913382514,
         "volume": 97647300
       },
       "verified": true,
@@ -10969,11 +10969,11 @@
     {
       "date": "2026-08-12",
       "kioxia": {
-        "open": 16140.0,
-        "high": 17370.0,
-        "low": 15636.6669921875,
-        "close": 16623.333984375,
-        "change_pct": 3.8741990575327456,
+        "open": 16112.766709351865,
+        "high": 17340.69130987868,
+        "low": 15610.282983701358,
+        "close": 16595.28515625,
+        "change_pct": 3.8741942655281747,
         "volume": 116717700
       },
       "verified": true,
@@ -11026,11 +11026,11 @@
     {
       "date": "2026-08-13",
       "kioxia": {
-        "open": 17486.666015625,
-        "high": 18400.0,
-        "low": 17236.666015625,
-        "close": 17266.666015625,
-        "change_pct": 3.870054177186688,
+        "open": 17457.16003482553,
+        "high": 18368.952912680717,
+        "low": 17207.581870251066,
+        "close": 17237.53125,
+        "change_pct": 3.8700515700877958,
         "volume": 134523900
       },
       "verified": true,
@@ -11083,11 +11083,11 @@
     {
       "date": "2026-08-14",
       "kioxia": {
-        "open": 18503.333984375,
-        "high": 18760.0,
-        "low": 17673.333984375,
-        "close": 17913.333984375,
-        "change_pct": 3.7451814274094053,
+        "open": 18472.1138864133,
+        "high": 18728.346837480418,
+        "low": 17643.514319509846,
+        "close": 17883.109375,
+        "change_pct": 3.745189004370908,
         "volume": 135446400
       },
       "verified": true,
@@ -11140,11 +11140,11 @@
     {
       "date": "2026-08-17",
       "kioxia": {
-        "open": 18400.0,
-        "high": 20693.333984375,
-        "low": 18193.333984375,
-        "close": 20613.333984375,
-        "change_pct": 15.07257109343849,
+        "open": 18368.95334832856,
+        "high": 20658.417748932952,
+        "low": 18162.636043997005,
+        "close": 20578.552734375,
+        "change_pct": 15.0725654183111,
         "volume": 145751700
       },
       "verified": true,
@@ -11197,11 +11197,11 @@
     {
       "date": "2026-08-18",
       "kioxia": {
-        "open": 20333.333984375,
-        "high": 21116.666015625,
-        "low": 18876.666015625,
-        "close": 19050.0,
-        "change_pct": -7.5840908877720326,
+        "open": 20299.026069617285,
+        "high": 21081.036404751154,
+        "low": 18844.81589950181,
+        "close": 19017.857421875,
+        "change_pct": -7.584086853168104,
         "volume": 159706200
       },
       "verified": true,
@@ -11254,11 +11254,11 @@
     {
       "date": "2026-08-19",
       "kioxia": {
-        "open": 17516.666015625,
-        "high": 17880.0,
-        "low": 16526.666015625,
-        "close": 16650.0,
-        "change_pct": -12.598425196850393,
+        "open": 17487.109929386173,
+        "high": 17849.830855855856,
+        "low": 16498.78036857536,
+        "close": 16621.90625,
+        "change_pct": -12.598428512347004,
         "volume": 144230700
       },
       "verified": true,
@@ -11311,11 +11311,11 @@
     {
       "date": "2026-08-20",
       "kioxia": {
-        "open": 16833.333984375,
-        "high": 17993.333984375,
-        "low": 16666.666015625,
-        "close": 17650.0,
-        "change_pct": 6.006006006006004,
+        "open": 16804.930713682526,
+        "high": 17962.97341906496,
+        "low": 16638.54396762059,
+        "close": 17620.21875,
+        "change_pct": 6.006004876847393,
         "volume": 133862100
       },
       "verified": true,
@@ -11368,11 +11368,11 @@
     {
       "date": "2026-08-21",
       "kioxia": {
-        "open": 17316.666015625,
-        "high": 18490.0,
-        "low": 17303.333984375,
-        "close": 18106.666015625,
-        "change_pct": 2.5873428647308794,
+        "open": 17287.448175357436,
+        "high": 18458.802431942742,
+        "low": 17274.138638804692,
+        "close": 18076.115234375,
+        "change_pct": 2.5873486069802665,
         "volume": 119535000
       },
       "verified": true,
@@ -11425,11 +11425,11 @@
     {
       "date": "2026-08-24",
       "kioxia": {
-        "open": 18336.666015625,
-        "high": 18346.666015625,
-        "low": 16770.0,
-        "close": 16976.666015625,
-        "change_pct": -6.240795511580521,
+        "open": 18305.726772182148,
+        "high": 18315.709899298377,
+        "low": 16741.704173916103,
+        "close": 16948.021484375,
+        "change_pct": -6.240797513033803,
         "volume": 98235000
       },
       "verified": true,
@@ -11482,11 +11482,11 @@
     {
       "date": "2026-08-25",
       "kioxia": {
-        "open": 16636.666015625,
-        "high": 17233.333984375,
-        "low": 16360.0,
-        "close": 17086.666015625,
-        "change_pct": 0.6479481889951622,
+        "open": 16608.59521582524,
+        "high": 17204.256435561827,
+        "low": 16332.39601466467,
+        "close": 17057.8359375,
+        "change_pct": 0.6479485126110074,
         "volume": 91506000
       },
       "verified": true,
@@ -11539,11 +11539,11 @@
     {
       "date": "2026-08-26",
       "kioxia": {
-        "open": 16753.333984375,
-        "high": 17070.0,
-        "low": 16586.666015625,
-        "close": 16666.666015625,
-        "change_pct": -2.4580570581524075,
+        "open": 16725.066658734828,
+        "high": 17041.198374656185,
+        "low": 16558.679903130273,
+        "close": 16638.544921875,
+        "change_pct": -2.458055155186656,
         "volume": 70920900
       },
       "verified": true,
@@ -11596,11 +11596,11 @@
     {
       "date": "2026-08-27",
       "kioxia": {
-        "open": 17466.666015625,
-        "high": 17816.666015625,
-        "low": 16860.0,
-        "close": 17500.0,
-        "change_pct": 5.0000041015626495,
+        "open": 17437.19491553301,
+        "high": 17786.604368658012,
+        "low": 16831.552513392857,
+        "close": 17470.47265625,
+        "change_pct": 5.000002934639136,
         "volume": 108020700
       },
       "verified": true,
@@ -11653,11 +11653,11 @@
     {
       "date": "2026-08-28",
       "kioxia": {
-        "open": 17260.0,
-        "high": 17396.666015625,
-        "low": 15933.3330078125,
-        "close": 15966.6669921875,
-        "change_pct": -8.761902901785712,
+        "open": 17230.87733985848,
+        "high": 17367.312760006895,
+        "low": 15906.448822290591,
+        "close": 15939.7265625,
+        "change_pct": -8.761904293427236,
         "volume": 95862300
       },
       "verified": true,
@@ -11710,11 +11710,11 @@
     {
       "date": "2026-08-31",
       "kioxia": {
-        "open": 15366.6669921875,
-        "high": 16663.333984375,
-        "low": 15326.6669921875,
-        "close": 16663.333984375,
-        "change_pct": 4.363258734765241,
+        "open": 15340.739561071192,
+        "high": 16635.21875,
+        "low": 15300.807051129066,
+        "close": 16635.21875,
+        "change_pct": 4.36326297551568,
         "volume": 120957000
       },
       "verified": true,
@@ -11767,11 +11767,11 @@
     {
       "date": "2026-09-01",
       "kioxia": {
-        "open": 16500.0,
-        "high": 17303.333984375,
-        "low": 16236.6669921875,
-        "close": 17000.0,
-        "change_pct": 2.020400094847097,
+        "open": 16472.160041360294,
+        "high": 17274.13858422627,
+        "low": 16209.271347489974,
+        "close": 16971.31640625,
+        "change_pct": 2.020398176308924,
         "volume": 88962300
       },
       "verified": true,
@@ -11824,10 +11824,10 @@
     {
       "date": "2026-09-02",
       "kioxia": {
-        "open": 16666.666015625,
-        "high": 17213.333984375,
-        "low": 16610.0,
-        "close": 17000.0,
+        "open": 16638.544846380348,
+        "high": 17184.290438546126,
+        "low": 16581.97444163603,
+        "close": 16971.31640625,
         "change_pct": 0.0,
         "volume": 78611100
       },
@@ -11881,11 +11881,11 @@
     {
       "date": "2026-09-03",
       "kioxia": {
-        "open": 17333.333984375,
-        "high": 17470.0,
-        "low": 16720.0,
-        "close": 17223.333984375,
-        "change_pct": 1.313729319852941,
+        "open": 17304.08783695604,
+        "high": 17440.52325906431,
+        "low": 16691.788717318563,
+        "close": 17194.2734375,
+        "change_pct": 1.3137285636127372,
         "volume": 68235000
       },
       "verified": true,
@@ -11938,11 +11938,11 @@
     {
       "date": "2026-09-04",
       "kioxia": {
-        "open": 17276.666015625,
-        "high": 18400.0,
-        "low": 17110.0,
-        "close": 18153.333984375,
-        "change_pct": 5.399651431271635,
+        "open": 17247.514393799007,
+        "high": 18368.952931016138,
+        "low": 17081.12960052642,
+        "close": 18122.703125,
+        "change_pct": 5.39964477635404,
         "volume": 91581300
       },
       "verified": true,
@@ -11995,11 +11995,11 @@
     {
       "date": "2026-09-07",
       "kioxia": {
-        "open": 19333.333984375,
-        "high": 19930.0,
-        "low": 19216.666015625,
-        "close": 19843.333984375,
-        "change_pct": 9.309584682651817,
+        "open": 19300.7140080743,
+        "high": 19896.373304873418,
+        "low": 19184.242886199172,
+        "close": 19809.853515625,
+        "change_pct": 9.309595698765282,
         "volume": 93970500
       },
       "verified": true,
@@ -12052,11 +12052,11 @@
     {
       "date": "2026-09-08",
       "kioxia": {
-        "open": 19510.0,
-        "high": 20346.666015625,
-        "low": 19013.333984375,
-        "close": 19136.666015625,
-        "change_pct": -3.5612360770949203,
+        "open": 19477.08101563456,
+        "high": 20312.335334924992,
+        "low": 18981.253018502804,
+        "close": 19104.376953125,
+        "change_pct": -3.5612406822875142,
         "volume": 104084100
       },
       "verified": true,
@@ -12109,11 +12109,11 @@
     {
       "date": "2026-09-09",
       "kioxia": {
-        "open": 19250.0,
-        "high": 19503.333984375,
-        "low": 18673.333984375,
-        "close": 19000.0,
-        "change_pct": -0.7141579181734858,
+        "open": 19217.519582648027,
+        "high": 19470.42611800786,
+        "low": 18641.826572366415,
+        "close": 18967.94140625,
+        "change_pct": -0.7141585784752991,
         "volume": 92279100
       },
       "verified": true,
@@ -12166,11 +12166,11 @@
     {
       "date": "2026-09-10",
       "kioxia": {
-        "open": 18993.333984375,
-        "high": 19406.666015625,
-        "low": 18510.0,
-        "close": 19363.333984375,
-        "change_pct": 1.9122841282894765,
+        "open": 18961.28641269796,
+        "high": 19373.92102621662,
+        "low": 18478.767960789293,
+        "close": 19330.662109375,
+        "change_pct": 1.912282916508179,
         "volume": 86145300
       },
       "verified": true,
@@ -12223,11 +12223,11 @@
     {
       "date": "2026-09-11",
       "kioxia": {
-        "open": 18363.333984375,
-        "high": 18453.333984375,
-        "low": 17716.666015625,
-        "close": 18010.0,
-        "change_pct": -6.989157887102793,
+        "open": 18332.34912424273,
+        "high": 18422.197265249462,
+        "low": 17686.772292678426,
+        "close": 17979.611328125,
+        "change_pct": -6.98915936560065,
         "volume": 84153300
       },
       "verified": true,
@@ -12280,11 +12280,11 @@
     {
       "date": "2026-09-14",
       "kioxia": {
-        "open": 16500.0,
-        "high": 17060.0,
-        "low": 16243.3330078125,
-        "close": 16863.333984375,
-        "change_pct": -6.366829625902282,
+        "open": 16472.15992027822,
+        "high": 17031.215044845238,
+        "low": 16215.925996546748,
+        "close": 16834.880859375,
+        "change_pct": -6.366825443881153,
         "volume": 85604700
       },
       "verified": true,
@@ -12337,11 +12337,11 @@
     {
       "date": "2026-09-15",
       "kioxia": {
-        "open": 16640.0,
-        "high": 17563.333984375,
-        "low": 16566.666015625,
-        "close": 17250.0,
-        "change_pct": 2.2929393202036463,
+        "open": 16611.923768115943,
+        "high": 17533.69983548062,
+        "low": 16538.713518233148,
+        "close": 17220.89453125,
+        "change_pct": 2.292939730904231,
         "volume": 87181500
       },
       "verified": true,
@@ -12394,11 +12394,11 @@
     {
       "date": "2026-09-16",
       "kioxia": {
-        "open": 17116.666015625,
-        "high": 17230.0,
-        "low": 16370.0,
-        "close": 16926.666015625,
-        "change_pct": -1.874399909420288,
+        "open": 17087.7848796924,
+        "high": 17200.927634408217,
+        "low": 16342.378721721563,
+        "close": 16898.10546875,
+        "change_pct": -1.8744035736021125,
         "volume": 81759000
       },
       "verified": true,
@@ -12451,11 +12451,11 @@
     {
       "date": "2026-09-17",
       "kioxia": {
-        "open": 17260.0,
-        "high": 17360.0,
-        "low": 16470.0,
-        "close": 16626.666015625,
-        "change_pct": -1.7723513875861352,
+        "open": 17230.87666849175,
+        "high": 17330.70793540074,
+        "low": 16442.209659910728,
+        "close": 16598.611328125,
+        "change_pct": -1.772353363392487,
         "volume": 75325200
       },
       "verified": true,
@@ -12508,11 +12508,11 @@
     {
       "date": "2026-09-18",
       "kioxia": {
-        "open": 16933.333984375,
-        "high": 18190.0,
-        "low": 16866.666015625,
-        "close": 18190.0,
-        "change_pct": 9.402570442600155,
+        "open": 16904.762910571735,
+        "high": 18159.30859375,
+        "low": 16838.207428556907,
+        "close": 18159.30859375,
+        "change_pct": 9.40257732874632,
         "volume": 103426500
       },
       "verified": true,
@@ -12565,11 +12565,11 @@
     {
       "date": "2026-09-24",
       "kioxia": {
-        "open": 18926.666015625,
-        "high": 19063.333984375,
-        "low": 18100.0,
-        "close": 18193.333984375,
-        "change_pct": 0.018328666162736873,
+        "open": 18894.73141284267,
+        "high": 19031.1687843342,
+        "low": 18069.460215027673,
+        "close": 18162.63671875,
+        "change_pct": 0.018327377294236058,
         "volume": 83428800
       },
       "verified": true,
@@ -12622,11 +12622,11 @@
     {
       "date": "2026-09-25",
       "kioxia": {
-        "open": 18130.0,
-        "high": 18746.666015625,
-        "low": 18103.333984375,
-        "close": 18593.333984375,
-        "change_pct": 2.198607469876235,
+        "open": 18099.40874937643,
+        "high": 18715.03424737126,
+        "low": 18072.787728057392,
+        "close": 18561.9609375,
+        "change_pct": 2.1986026860172814,
         "volume": 65273400
       },
       "verified": true,
@@ -12679,11 +12679,11 @@
     {
       "date": "2026-09-28",
       "kioxia": {
-        "open": 18663.333984375,
-        "high": 18690.0,
-        "low": 17780.0,
-        "close": 17780.0,
-        "change_pct": -4.374331064339987,
+        "open": 18631.84354458134,
+        "high": 18658.464566929135,
+        "low": 17750.0,
+        "close": 17750.0,
+        "change_pct": -4.374327368934539,
         "volume": 55197600
       },
       "verified": true,
@@ -12740,7 +12740,7 @@
         "high": 18050.0,
         "low": 17185.0,
         "close": 17880.0,
-        "change_pct": 0.5624296962879693,
+        "change_pct": 0.7323943661971866,
         "volume": 41572200
       },
       "verified": true,
@@ -14057,11 +14057,11 @@
       "verified": true,
       "price_basis": "yahoo_adjclose_split_consistent",
       "volume_basis": "reported_daily_volume",
-      "us_session_date": "2026-10-29",
+      "us_session_date": "2026-10-30",
       "sox": {
-        "close": 11518.2,
-        "change_pct": -1.419034577199585,
-        "date": "2026-10-29",
+        "close": 10688.8,
+        "change_pct": -7.200777899324562,
+        "date": "2026-10-30",
         "source": "FRED NASDAQSOX / Nasdaq"
       },
       "sndk": {
