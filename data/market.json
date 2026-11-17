@@ -1,10 +1,10 @@
 {
   "meta": {
     "version": "13",
-    "as_of": "2026-11-17",
+    "as_of": "2026-11-16",
     "target_period": {
-      "from": "2025-11-12",
-      "to": "2026-11-17",
+      "from": "2025-11-11",
+      "to": "2026-11-16",
       "source_rows": 246
     },
     "loaded_daily_rows": 246,
@@ -28,57 +28,114 @@
       "usdjpy": "FRED DEXJPUS / Federal Reserve H.10; Yahoo JPY=X freshness extension"
     },
     "no_imputation": true,
-    "last_automation_run_jst": "2026-11-17T13:43:17+09:00",
+    "last_automation_run_jst": "2026-11-18T01:59:49+09:00",
     "automation_status": {
-      "kioxia": "ok:347",
-      "sox": "fred-ok:5459",
-      "us10y": "fred+tnx-fresh:16207",
+      "kioxia": "ok:346",
+      "sox": "fred-ok:5460",
+      "us10y": "fred+tnx-fresh:16208",
       "usdjpy": "fred+yahoo-fresh:14065",
-      "sndk": "yahoo-ok:358",
-      "mu": "yahoo-ok:358",
-      "nvda": "yahoo-ok:358",
-      "wdc": "yahoo-ok:358"
+      "sndk": "yahoo-ok:359",
+      "mu": "yahoo-ok:359",
+      "nvda": "yahoo-ok:359",
+      "wdc": "yahoo-ok:359"
     },
     "latest_context": {
       "sox": {
-        "date": "2026-11-13",
-        "value": 10146.32,
-        "change_pct": -3.4297260692493503
+        "date": "2026-11-16",
+        "value": 9610.65,
+        "change_pct": -5.27945107191573
       },
       "us10y": {
-        "date": "2026-11-16",
-        "value": 5.120999813079834,
-        "change_pct": -0.5631104256342945
+        "date": "2026-11-17",
+        "value": 5.098999977111816,
+        "change_pct": -0.42960040560491297
       },
       "usdjpy": {
         "date": "2026-11-17",
-        "value": 159.24099731445312,
-        "change_pct": -0.33733976027141566
+        "value": 159.2740020751953,
+        "change_pct": -0.3166833821300119
       },
       "sndk": {
-        "date": "2026-11-16",
-        "close": 809.1099853515625,
-        "change_pct": -8.576176944502912
+        "date": "2026-11-17",
+        "close": 776.0399780273438,
+        "change_pct": -4.087207910287949
       },
       "mu": {
-        "date": "2026-11-16",
-        "close": 719.02001953125,
-        "change_pct": -7.617784457777088
+        "date": "2026-11-17",
+        "close": 690.3200073242188,
+        "change_pct": -3.99154563536932
       },
       "nvda": {
-        "date": "2026-11-16",
-        "close": 156.13999938964844,
-        "change_pct": -4.120360124274091
+        "date": "2026-11-17",
+        "close": 153.72999572753906,
+        "change_pct": -1.5434889660113305
       },
       "wdc": {
-        "date": "2026-11-16",
-        "close": 280.92999267578125,
-        "change_pct": -4.978860654350981
+        "date": "2026-11-17",
+        "close": 278.010009765625,
+        "change_pct": -1.0393987777325586
       }
     },
-    "latest_context_generated_jst": "2026-11-17T13:43:17+09:00"
+    "latest_context_generated_jst": "2026-11-18T01:59:49+09:00"
   },
   "sessions": [
+    {
+      "date": "2025-11-11",
+      "kioxia": {
+        "open": 4592.238337784852,
+        "high": 4793.564566194705,
+        "low": 4078.107306489374,
+        "close": 4390.912109375,
+        "change_pct": -0.9384345969283059,
+        "volume": 157294500
+      },
+      "verified": true,
+      "price_basis": "yahoo_adjclose_split_consistent",
+      "volume_basis": "reported_daily_volume",
+      "us_session_date": "2025-11-10",
+      "sox": {
+        "close": 7156.95,
+        "change_pct": 3.0168294143386953,
+        "date": "2025-11-10",
+        "source": "FRED NASDAQSOX / Nasdaq"
+      },
+      "sndk": {
+        "close": 267.95001220703125,
+        "change_pct": 11.88826498555773,
+        "date": "2025-11-10",
+        "source": "Yahoo Finance chart / Stooq fallback"
+      },
+      "mu": {
+        "close": 253.0126495361328,
+        "change_pct": 6.464356119503778,
+        "date": "2025-11-10",
+        "source": "Yahoo Finance chart / Stooq fallback"
+      },
+      "nvda": {
+        "close": 198.5742645263672,
+        "change_pct": 5.793249204463202,
+        "date": "2025-11-10",
+        "source": "Yahoo Finance chart / Stooq fallback"
+      },
+      "wdc": {
+        "close": 173.8955841064453,
+        "change_pct": 6.909668607280017,
+        "date": "2025-11-10",
+        "source": "Yahoo Finance chart / Stooq fallback"
+      },
+      "us10y": {
+        "value": 4.13,
+        "change_pct": 0.48661800486617945,
+        "date": "2025-11-10",
+        "source": "FRED DGS10 / Federal Reserve H.15"
+      },
+      "usdjpy": {
+        "value": 153.81700134277344,
+        "change_pct": 0.5681691208747397,
+        "date": "2025-11-10",
+        "source": "FRED DEXJPUS / Federal Reserve H.10"
+      }
+    },
     {
       "date": "2025-11-12",
       "kioxia": {
@@ -107,7 +164,7 @@
       },
       "mu": {
         "close": 240.83648681640625,
-        "change_pct": -4.81246618206047,
+        "change_pct": -4.8124719226687045,
         "date": "2025-11-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -118,8 +175,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 169.67347717285156,
-        "change_pct": -2.427955232612067,
+        "close": 169.6734619140625,
+        "change_pct": -2.427964007296679,
         "date": "2025-11-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -176,7 +233,7 @@
       },
       "wdc": {
         "close": 165.80067443847656,
-        "change_pct": -2.282503311009332,
+        "change_pct": -2.2824945232433946,
         "date": "2025-11-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -220,8 +277,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 236.6811981201172,
-        "change_pct": -3.246215994727397,
+        "close": 236.68118286132812,
+        "change_pct": -3.246222232424323,
         "date": "2025-11-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -232,8 +289,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 156.86734008789062,
-        "change_pct": -5.387996388338467,
+        "close": 156.8673553466797,
+        "change_pct": -5.387987185246191,
         "date": "2025-11-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -277,8 +334,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 246.5499725341797,
-        "change_pct": 4.16964866345404,
+        "close": 246.54998779296875,
+        "change_pct": 4.16966182623093,
         "date": "2025-11-14",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -289,8 +346,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 157.5360870361328,
-        "change_pct": 0.4263136914717247,
+        "close": 157.53610229492188,
+        "change_pct": 0.42631365000336263,
         "date": "2025-11-14",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -335,7 +392,7 @@
       },
       "mu": {
         "close": 241.675537109375,
-        "change_pct": -1.977057784554781,
+        "change_pct": -1.977063851119265,
         "date": "2025-11-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -347,7 +404,7 @@
       },
       "wdc": {
         "close": 162.14749145507812,
-        "change_pct": 2.9272051284907397,
+        "change_pct": 2.927195159064744,
         "date": "2025-11-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -403,8 +460,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 152.5753631591797,
-        "change_pct": -5.903346521121067,
+        "close": 152.57534790039062,
+        "change_pct": -5.903355931559018,
         "date": "2025-11-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -448,8 +505,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 225.66371154785156,
-        "change_pct": -1.129102389973835,
+        "close": 225.6636962890625,
+        "change_pct": -1.1291090753649535,
         "date": "2025-11-19",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -460,8 +517,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 153.6832733154297,
-        "change_pct": 0.7261396160624711,
+        "close": 153.68328857421875,
+        "change_pct": 0.7261596903265444,
         "date": "2025-11-19",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -505,8 +562,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 201.14154052734375,
-        "change_pct": -10.866687803859831,
+        "close": 201.1415557861328,
+        "change_pct": -10.86667501515982,
         "date": "2025-11-20",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -518,7 +575,7 @@
       },
       "wdc": {
         "close": 139.9688720703125,
-        "change_pct": -8.923808654809717,
+        "change_pct": -8.923817697513092,
         "date": "2025-11-20",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -562,8 +619,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 223.67596435546875,
-        "change_pct": 7.985726180668973,
+        "close": 223.6759796142578,
+        "change_pct": 7.985741502147148,
         "date": "2025-11-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -574,8 +631,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 150.64892578125,
-        "change_pct": 8.434504280025546,
+        "close": 150.64894104003906,
+        "change_pct": 8.434515263039334,
         "date": "2025-11-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -620,7 +677,7 @@
       },
       "mu": {
         "close": 224.27528381347656,
-        "change_pct": 0.26794092952042714,
+        "change_pct": 0.26793408941465646,
         "date": "2025-11-25",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -631,8 +688,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 155.12060546875,
-        "change_pct": 2.968278508665323,
+        "close": 155.12062072753906,
+        "change_pct": 2.9682782080170833,
         "date": "2025-11-25",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -688,8 +745,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 157.44627380371094,
-        "change_pct": 1.4992646063578308,
+        "close": 157.4462890625,
+        "change_pct": 1.4992644588792903,
         "date": "2025-11-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -745,8 +802,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 157.44627380371094,
-        "change_pct": 1.4992646063578308,
+        "close": 157.4462890625,
+        "change_pct": 1.4992644588792903,
         "date": "2025-11-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -790,8 +847,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 236.21173095703125,
-        "change_pct": 2.7012976673831623,
+        "close": 236.2117156982422,
+        "change_pct": 2.701291033091846,
         "date": "2025-11-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -802,8 +859,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 163.02584838867188,
-        "change_pct": 3.5437958931419544,
+        "close": 163.0258331298828,
+        "change_pct": 3.5437761668475787,
         "date": "2025-11-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -847,8 +904,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 240.18724060058594,
-        "change_pct": 1.6830280305925482,
+        "close": 240.18722534179688,
+        "change_pct": 1.6830281393126922,
         "date": "2025-12-01",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -860,7 +917,7 @@
       },
       "wdc": {
         "close": 163.23545837402344,
-        "change_pct": 0.12857469378220188,
+        "change_pct": 0.128584065553361,
         "date": "2025-12-01",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -905,7 +962,7 @@
       },
       "mu": {
         "close": 239.21832275390625,
-        "change_pct": -0.40340104838912927,
+        "change_pct": -0.4033947211438238,
         "date": "2025-12-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -961,8 +1018,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 233.89437866210938,
-        "change_pct": -2.2255586572579755,
+        "close": 233.8943634033203,
+        "change_pct": -2.2255650358617873,
         "date": "2025-12-03",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -973,8 +1030,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 155.3002471923828,
-        "change_pct": -2.750186802833665,
+        "close": 155.30026245117188,
+        "change_pct": -2.750177247701513,
         "date": "2025-12-03",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1019,7 +1076,7 @@
       },
       "mu": {
         "close": 226.39288330078125,
-        "change_pct": -3.207214899407651,
+        "change_pct": -3.2072085848446674,
         "date": "2025-12-04",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1031,7 +1088,7 @@
       },
       "wdc": {
         "close": 160.82940673828125,
-        "change_pct": 3.5603031198327972,
+        "change_pct": 3.5602929446740594,
         "date": "2025-12-04",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1075,8 +1132,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 236.95089721679688,
-        "change_pct": 4.663580304328052,
+        "close": 236.95091247558594,
+        "change_pct": 4.663587044287731,
         "date": "2025-12-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1133,7 +1190,7 @@
       },
       "mu": {
         "close": 246.639892578125,
-        "change_pct": 4.089030881559919,
+        "change_pct": 4.089024178599598,
         "date": "2025-12-08",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1189,8 +1246,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 252.13365173339844,
-        "change_pct": 2.2274414320599956,
+        "close": 252.1336669921875,
+        "change_pct": 2.2274476187270853,
         "date": "2025-12-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1201,8 +1258,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 169.36033630371094,
-        "change_pct": -0.14136864061541354,
+        "close": 169.3603515625,
+        "change_pct": -0.14135964369308418,
         "date": "2025-12-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1247,7 +1304,7 @@
       },
       "mu": {
         "close": 263.41082763671875,
-        "change_pct": 4.472697644995272,
+        "change_pct": 4.472691322448696,
         "date": "2025-12-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1258,8 +1315,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 181.75718688964844,
-        "change_pct": 7.319807492414543,
+        "close": 181.7572021484375,
+        "change_pct": 7.319806832924902,
         "date": "2025-12-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1303,8 +1360,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 258.16680908203125,
-        "change_pct": -1.9908135902142021,
+        "close": 258.166748046875,
+        "change_pct": -1.9908367613027944,
         "date": "2025-12-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1316,7 +1373,7 @@
       },
       "wdc": {
         "close": 187.00164794921875,
-        "change_pct": 2.8854215612142076,
+        "change_pct": 2.8854129238291337,
         "date": "2025-12-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1360,8 +1417,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 240.866455078125,
-        "change_pct": -6.701230907807809,
+        "close": 240.86643981933594,
+        "change_pct": -6.701214760778518,
         "date": "2025-12-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1417,8 +1474,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 237.23056030273438,
-        "change_pct": -1.5095064915582879,
+        "close": 237.23057556152344,
+        "change_pct": -1.5094939172678457,
         "date": "2025-12-15",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1474,8 +1531,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 232.24623107910156,
-        "change_pct": -2.101048539982464,
+        "close": 232.2462158203125,
+        "change_pct": -2.1010612689418284,
         "date": "2025-12-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1486,8 +1543,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 174.39500427246094,
-        "change_pct": 1.4763914019405577,
+        "close": 174.39501953125,
+        "change_pct": 1.476400280674528,
         "date": "2025-12-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1531,8 +1588,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 225.26417541503906,
-        "change_pct": -3.0063160257203347,
+        "close": 225.26416015625,
+        "change_pct": -3.006316223238048,
         "date": "2025-12-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1544,7 +1601,7 @@
       },
       "wdc": {
         "close": 166.0838165283203,
-        "change_pct": -4.765725818129452,
+        "change_pct": -4.765734150705148,
         "date": "2025-12-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1588,8 +1645,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 248.26803588867188,
-        "change_pct": 10.211948007822036,
+        "close": 248.26805114746094,
+        "change_pct": 10.211962247014682,
         "date": "2025-12-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1645,8 +1702,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 265.61834716796875,
-        "change_pct": 6.988540114393582,
+        "close": 265.6183776855469,
+        "change_pct": 6.988545830965798,
         "date": "2025-12-19",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1657,8 +1714,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 180.8881378173828,
-        "change_pct": 3.4683819977862074,
+        "close": 180.88812255859375,
+        "change_pct": 3.468373269727909,
         "date": "2025-12-19",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1702,8 +1759,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 276.2762145996094,
-        "change_pct": 4.0124741175732614,
+        "close": 276.2762451171875,
+        "change_pct": 4.012473656569782,
         "date": "2025-12-22",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1714,8 +1771,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 176.5727081298828,
-        "change_pct": -2.3856897083305073,
+        "close": 176.57269287109375,
+        "change_pct": -2.385689909574984,
         "date": "2025-12-22",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1759,8 +1816,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 275.95660400390625,
-        "change_pct": -0.11568516535754858,
+        "close": 275.9565734863281,
+        "change_pct": -0.11570724465427284,
         "date": "2025-12-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1771,8 +1828,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 178.06112670898438,
-        "change_pct": 0.8429493973704627,
+        "close": 178.06114196777344,
+        "change_pct": 0.8429667535094554,
         "date": "2025-12-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1817,7 +1874,7 @@
       },
       "mu": {
         "close": 286.3547668457031,
-        "change_pct": 3.768042761408119,
+        "change_pct": 3.7680542369432413,
         "date": "2025-12-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1829,7 +1886,7 @@
       },
       "wdc": {
         "close": 179.36973571777344,
-        "change_pct": 0.7349212222653279,
+        "change_pct": 0.7349125898770348,
         "date": "2025-12-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1874,7 +1931,7 @@
       },
       "mu": {
         "close": 286.3547668457031,
-        "change_pct": 3.768042761408119,
+        "change_pct": 3.7680542369432413,
         "date": "2025-12-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1886,7 +1943,7 @@
       },
       "wdc": {
         "close": 179.36973571777344,
-        "change_pct": 0.7349212222653279,
+        "change_pct": 0.7349125898770348,
         "date": "2025-12-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1930,8 +1987,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 284.4669189453125,
-        "change_pct": -0.6592688926348012,
+        "close": 284.4669494628906,
+        "change_pct": -0.6592582353726728,
         "date": "2025-12-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -1988,7 +2045,7 @@
       },
       "mu": {
         "close": 294.15484619140625,
-        "change_pct": 3.405642836085354,
+        "change_pct": 3.4056317427411553,
         "date": "2025-12-29",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2330,7 +2387,7 @@
       },
       "mu": {
         "close": 345.6172180175781,
-        "change_pct": 0.22602479989415336,
+        "change_pct": 0.2260336697333054,
         "date": "2026-01-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2341,8 +2398,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 211.9152069091797,
-        "change_pct": 5.826595890432884,
+        "close": 211.91522216796875,
+        "change_pct": 5.826603510394324,
         "date": "2026-01-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2399,7 +2456,7 @@
       },
       "wdc": {
         "close": 213.7732391357422,
-        "change_pct": 0.876780979365388,
+        "change_pct": 0.8767737158120292,
         "date": "2026-01-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2455,8 +2512,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 214.77218627929688,
-        "change_pct": 0.46729288829290283,
+        "close": 214.7721710205078,
+        "change_pct": 0.46728575045416054,
         "date": "2026-01-14",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2500,8 +2557,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 336.3839416503906,
-        "change_pct": 0.9839463743729127,
+        "close": 336.38397216796875,
+        "change_pct": 0.9839555358847729,
         "date": "2026-01-15",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2513,7 +2570,7 @@
       },
       "wdc": {
         "close": 221.8646697998047,
-        "change_pct": 3.3023286876097124,
+        "change_pct": 3.302336026868047,
         "date": "2026-01-15",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2557,8 +2614,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 362.4848937988281,
-        "change_pct": 7.759274125982096,
+        "close": 362.48486328125,
+        "change_pct": 7.759255277551724,
         "date": "2026-01-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2614,8 +2671,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 362.4848937988281,
-        "change_pct": 7.759274125982096,
+        "close": 362.48486328125,
+        "change_pct": 7.759255277551724,
         "date": "2026-01-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2671,8 +2728,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 364.7332458496094,
-        "change_pct": 0.6202608961765499,
+        "close": 364.73321533203125,
+        "change_pct": 0.6202609483962895,
         "date": "2026-01-20",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2729,7 +2786,7 @@
       },
       "mu": {
         "close": 388.8255920410156,
-        "change_pct": 6.605470289741633,
+        "change_pct": 6.605479209523635,
         "date": "2026-01-21",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2785,8 +2842,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 397.28936767578125,
-        "change_pct": 2.1767537446127916,
+        "close": 397.2893981933594,
+        "change_pct": 2.1767615932674955,
         "date": "2026-01-22",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2843,7 +2900,7 @@
       },
       "mu": {
         "close": 399.3578796386719,
-        "change_pct": 0.5206562599426645,
+        "change_pct": 0.5206485385008452,
         "date": "2026-01-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2854,8 +2911,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 236.13951110839844,
-        "change_pct": -2.8361200897223493,
+        "close": 236.1395263671875,
+        "change_pct": -2.8361138112171558,
         "date": "2026-01-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2912,7 +2969,7 @@
       },
       "wdc": {
         "close": 240.5948028564453,
-        "change_pct": 1.8867201541726386,
+        "change_pct": 1.8867135704888405,
         "date": "2026-01-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -2968,8 +3025,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 252.3922882080078,
-        "change_pct": 4.903466413861679,
+        "close": 252.39230346679688,
+        "change_pct": 4.9034727559725155,
         "date": "2026-01-27",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3025,8 +3082,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 279.4036560058594,
-        "change_pct": 10.702136737074275,
+        "close": 279.40362548828125,
+        "change_pct": 10.702117953068967,
         "date": "2026-01-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3082,8 +3139,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 278.114990234375,
-        "change_pct": -0.4612200820512391,
+        "close": 278.1150207519531,
+        "change_pct": -0.4611982876300158,
         "date": "2026-01-29",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3127,8 +3184,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 414.5767517089844,
-        "change_pct": -4.798188868168751,
+        "close": 414.5767822265625,
+        "change_pct": -4.798181860229455,
         "date": "2026-01-30",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3139,8 +3196,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 249.96484375,
-        "change_pct": -10.121765267183946,
+        "close": 249.96485900878906,
+        "change_pct": -10.121769643025068,
         "date": "2026-01-30",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3185,7 +3242,7 @@
       },
       "mu": {
         "close": 437.4800109863281,
-        "change_pct": 5.524491950629429,
+        "change_pct": 5.52448418282363,
         "date": "2026-02-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3196,8 +3253,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 269.94366455078125,
-        "change_pct": 7.992652287040358,
+        "close": 269.9436950683594,
+        "change_pct": 7.99265790351269,
         "date": "2026-02-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3253,8 +3310,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 289.9324645996094,
-        "change_pct": 7.404804288365829,
+        "close": 289.93243408203125,
+        "change_pct": 7.404780840912029,
         "date": "2026-02-03",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3298,8 +3355,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 379.1227111816406,
-        "change_pct": -9.54606268382534,
+        "close": 379.1226806640625,
+        "change_pct": -9.546069964937798,
         "date": "2026-02-04",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3311,7 +3368,7 @@
       },
       "wdc": {
         "close": 269.1245422363281,
-        "change_pct": -7.176816984609347,
+        "change_pct": -7.176807214268377,
         "date": "2026-02-04",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3356,7 +3413,7 @@
       },
       "mu": {
         "close": 382.61016845703125,
-        "change_pct": 0.9198755897585231,
+        "change_pct": 0.9198837133299831,
         "date": "2026-02-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3367,8 +3424,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 259.914306640625,
-        "change_pct": -3.422294941653925,
+        "close": 259.9142761230469,
+        "change_pct": -3.422306281228482,
         "date": "2026-02-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3425,7 +3482,7 @@
       },
       "wdc": {
         "close": 282.2805480957031,
-        "change_pct": 8.605236758284018,
+        "change_pct": 8.605249510060675,
         "date": "2026-02-06",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3469,8 +3526,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 383.2196960449219,
-        "change_pct": -2.835137079805561,
+        "close": 383.2197265625,
+        "change_pct": -2.83512934211273,
         "date": "2026-02-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3527,7 +3584,7 @@
       },
       "mu": {
         "close": 410.0400695800781,
-        "change_pct": 9.937032578973959,
+        "change_pct": 9.93704157419466,
         "date": "2026-02-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3538,8 +3595,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 273.4499206542969,
-        "change_pct": 4.258074019637559,
+        "close": 273.449951171875,
+        "change_pct": 4.2580856550547885,
         "date": "2026-02-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3583,8 +3640,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 413.6674499511719,
-        "change_pct": 0.8846404632621763,
+        "close": 413.66741943359375,
+        "change_pct": 0.8846330206778052,
         "date": "2026-02-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3596,7 +3653,7 @@
       },
       "wdc": {
         "close": 283.7989807128906,
-        "change_pct": 3.784627193831702,
+        "change_pct": 3.7846156112534057,
         "date": "2026-02-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3641,7 +3698,7 @@
       },
       "mu": {
         "close": 411.359130859375,
-        "change_pct": -0.5580132282753558,
+        "change_pct": -0.5580058921196507,
         "date": "2026-02-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3698,7 +3755,7 @@
       },
       "mu": {
         "close": 411.359130859375,
-        "change_pct": -0.5580132282753558,
+        "change_pct": -0.5580058921196507,
         "date": "2026-02-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3754,8 +3811,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 399.48779296875,
-        "change_pct": -2.8858817028868278,
+        "close": 399.4878234863281,
+        "change_pct": -2.8858742841678,
         "date": "2026-02-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3811,8 +3868,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 420.6423645019531,
-        "change_pct": 5.2954237665174375,
+        "close": 420.642333984375,
+        "change_pct": 5.2954080836385975,
         "date": "2026-02-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3869,7 +3926,7 @@
       },
       "mu": {
         "close": 417.0449523925781,
-        "change_pct": -0.855218687645598,
+        "change_pct": -0.8552114946971834,
         "date": "2026-02-19",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3925,8 +3982,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 420.662353515625,
-        "change_pct": -1.6815667880644924,
+        "close": 420.66229248046875,
+        "change_pct": -1.6815810533793774,
         "date": "2026-02-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3938,7 +3995,7 @@
       },
       "wdc": {
         "close": 280.1228942871094,
-        "change_pct": -1.7862068567043532,
+        "change_pct": -1.7861963480652943,
         "date": "2026-02-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -3983,7 +4040,7 @@
       },
       "mu": {
         "close": 417.7044982910156,
-        "change_pct": -0.7031423658165559,
+        "change_pct": -0.7031279585370642,
         "date": "2026-02-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4165,8 +4222,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 279.4036560058594,
-        "change_pct": -0.9034450600976185,
+        "close": 279.40362548828125,
+        "change_pct": -0.9034558838173279,
         "date": "2026-02-27",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4210,8 +4267,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 412.3683776855469,
-        "change_pct": 0.07274860723780474,
+        "close": 412.368408203125,
+        "change_pct": 0.07275601318377234,
         "date": "2026-03-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4222,8 +4279,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 269.7938232421875,
-        "change_pct": -3.4394083817823606,
+        "close": 269.7937927246094,
+        "change_pct": -3.439408757448259,
         "date": "2026-03-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4268,7 +4325,7 @@
       },
       "mu": {
         "close": 379.4024963378906,
-        "change_pct": -7.994279661471648,
+        "change_pct": -7.994286470411671,
         "date": "2026-03-03",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4280,7 +4337,7 @@
       },
       "wdc": {
         "close": 250.34445190429688,
-        "change_pct": -7.208975766814119,
+        "change_pct": -7.208965270807887,
         "date": "2026-03-03",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4324,8 +4381,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 400.47705078125,
-        "change_pct": 5.554669420148106,
+        "close": 400.4770812988281,
+        "change_pct": 5.554677463737279,
         "date": "2026-03-04",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4336,8 +4393,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "wdc": {
-        "close": 261.0231018066406,
-        "change_pct": 4.265582808452262,
+        "close": 261.02313232421875,
+        "change_pct": 4.265594998687727,
         "date": "2026-03-04",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4382,7 +4439,7 @@
       },
       "mu": {
         "close": 396.7597961425781,
-        "change_pct": -0.9282066553926827,
+        "change_pct": -0.9282142049662601,
         "date": "2026-03-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4394,7 +4451,7 @@
       },
       "wdc": {
         "close": 258.8793640136719,
-        "change_pct": -0.8212827823020685,
+        "change_pct": -0.8212943778040604,
         "date": "2026-03-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4552,8 +4609,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 402.81536865234375,
-        "change_pct": 3.5420697064633577,
+        "close": 402.8153381347656,
+        "change_pct": 3.542061862042689,
         "date": "2026-03-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4610,7 +4667,7 @@
       },
       "mu": {
         "close": 418.38397216796875,
-        "change_pct": 3.86494774708106,
+        "change_pct": 3.8649556159637832,
         "date": "2026-03-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4666,8 +4723,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 405.0537109375,
-        "change_pct": -3.1861309508092406,
+        "close": 405.0537414550781,
+        "change_pct": -3.1861236566535944,
         "date": "2026-03-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4723,8 +4780,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 425.8185729980469,
-        "change_pct": 5.126446567416076,
+        "close": 425.81854248046875,
+        "change_pct": 5.126431112769647,
         "date": "2026-03-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4781,7 +4838,7 @@
       },
       "mu": {
         "close": 441.4770812988281,
-        "change_pct": 3.677272268923093,
+        "change_pct": 3.6772796992694534,
         "date": "2026-03-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -4951,8 +5008,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 422.5909118652344,
-        "change_pct": -4.8101356144230945,
+        "close": 422.59088134765625,
+        "change_pct": -4.810142488598668,
         "date": "2026-03-20",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5008,8 +5065,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 404.054443359375,
-        "change_pct": -4.386385978828322,
+        "close": 404.0544738769531,
+        "change_pct": -4.386371852508963,
         "date": "2026-03-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5065,8 +5122,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 395.2409362792969,
-        "change_pct": -2.181267209141713,
+        "close": 395.24090576171875,
+        "change_pct": -2.181282150069297,
         "date": "2026-03-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5123,7 +5180,7 @@
       },
       "mu": {
         "close": 381.81072998046875,
-        "change_pct": -3.3979795780408883,
+        "change_pct": -3.3979721191476853,
         "date": "2026-03-25",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5293,8 +5350,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 321.6998596191406,
-        "change_pct": -9.877624963344767,
+        "close": 321.69989013671875,
+        "change_pct": -9.877616414019863,
         "date": "2026-03-30",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5351,7 +5408,7 @@
       },
       "mu": {
         "close": 337.7348937988281,
-        "change_pct": 4.984470368955507,
+        "change_pct": 4.9844604097609935,
         "date": "2026-03-31",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5464,8 +5521,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 366.12603759765625,
-        "change_pct": -0.4376861365254392,
+        "close": 366.1260681152344,
+        "change_pct": -0.4376778377420232,
         "date": "2026-04-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5521,8 +5578,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 366.12603759765625,
-        "change_pct": -0.4376861365254392,
+        "close": 366.1260681152344,
+        "change_pct": -0.4376778377420232,
         "date": "2026-04-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5578,8 +5635,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 377.6424560546875,
-        "change_pct": 3.1454792269341114,
+        "close": 377.6424865722656,
+        "change_pct": 3.1454789647500814,
         "date": "2026-04-06",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5635,8 +5692,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 377.4624938964844,
-        "change_pct": -0.047654111797501564,
+        "close": 377.4625244140625,
+        "change_pct": -0.04765410794653757,
         "date": "2026-04-07",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5692,8 +5749,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 406.60345458984375,
-        "change_pct": 7.720226821092058,
+        "close": 406.6034851074219,
+        "change_pct": 7.72022619691719,
         "date": "2026-04-08",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5750,7 +5807,7 @@
       },
       "mu": {
         "close": 421.3788757324219,
-        "change_pct": 3.633865127260827,
+        "change_pct": 3.6338573490329207,
         "date": "2026-04-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5806,8 +5863,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 420.45916748046875,
-        "change_pct": -0.2182615942373789,
+        "close": 420.4591369628906,
+        "change_pct": -0.2182688365506169,
         "date": "2026-04-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -5864,7 +5921,7 @@
       },
       "mu": {
         "close": 426.42730712890625,
-        "change_pct": 1.4194338261668937,
+        "change_pct": 1.4194411873471369,
         "date": "2026-04-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6034,8 +6091,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 457.0877685546875,
-        "change_pct": 0.2191889860311269,
+        "close": 457.0877380371094,
+        "change_pct": 0.21918229487214447,
         "date": "2026-04-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6092,7 +6149,7 @@
       },
       "mu": {
         "close": 454.9284362792969,
-        "change_pct": -0.47241086372064034,
+        "change_pct": -0.47240421873605554,
         "date": "2026-04-17",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6148,8 +6205,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 448.2804870605469,
-        "change_pct": -1.4613175806553858,
+        "close": 448.280517578125,
+        "change_pct": -1.461310872440269,
         "date": "2026-04-20",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6206,7 +6263,7 @@
       },
       "mu": {
         "close": 449.2402038574219,
-        "change_pct": 0.21408846125960945,
+        "change_pct": 0.21408163898839483,
         "date": "2026-04-21",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6262,8 +6319,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 487.328369140625,
-        "change_pct": 8.478351883058854,
+        "close": 487.3283386230469,
+        "change_pct": 8.478345089905016,
         "date": "2026-04-22",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6319,8 +6376,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 481.5701599121094,
-        "change_pct": -1.1815871172593306,
+        "close": 481.57012939453125,
+        "change_pct": -1.1815871912529308,
         "date": "2026-04-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6377,7 +6434,7 @@
       },
       "mu": {
         "close": 496.5654602050781,
-        "change_pct": 3.113835021610467,
+        "change_pct": 3.113841556036756,
         "date": "2026-04-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6433,8 +6490,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 524.3967895507812,
-        "change_pct": 5.604765449092852,
+        "close": 524.3968505859375,
+        "change_pct": 5.6047777405551225,
         "date": "2026-04-27",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6490,8 +6547,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 518.2987670898438,
-        "change_pct": 2.8099025668797184,
+        "close": 518.2987060546875,
+        "change_pct": 2.809890459927389,
         "date": "2026-04-29",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6548,7 +6605,7 @@
       },
       "mu": {
         "close": 516.9990844726562,
-        "change_pct": -0.2507593495707061,
+        "change_pct": -0.2507476030422784,
         "date": "2026-04-30",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6604,8 +6661,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 666.3826904296875,
-        "change_pct": 4.122156361561857,
+        "close": 666.3826293945312,
+        "change_pct": 4.122156754680839,
         "date": "2026-05-06",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6662,7 +6719,7 @@
       },
       "mu": {
         "close": 646.4288330078125,
-        "change_pct": -2.9943541013961017,
+        "change_pct": -2.994345216478489,
         "date": "2026-05-07",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6718,8 +6775,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 746.57763671875,
-        "change_pct": 15.492626349129313,
+        "close": 746.5776977539062,
+        "change_pct": 15.492635791028109,
         "date": "2026-05-08",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6776,7 +6833,7 @@
       },
       "mu": {
         "close": 795.0825805664062,
-        "change_pct": 6.496972513245658,
+        "change_pct": 6.496963806771605,
         "date": "2026-05-11",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6889,8 +6946,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 803.3799438476562,
-        "change_pct": 4.833144044078641,
+        "close": 803.3800048828125,
+        "change_pct": 4.833152008563424,
         "date": "2026-05-13",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -6946,8 +7003,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 775.7686157226562,
-        "change_pct": -3.4368953739074004,
+        "close": 775.7685546875,
+        "change_pct": -3.436910307388108,
         "date": "2026-05-14",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7004,7 +7061,7 @@
       },
       "mu": {
         "close": 724.4345092773438,
-        "change_pct": -6.617192988336207,
+        "change_pct": -6.617185641255463,
         "date": "2026-05-15",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7231,8 +7288,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 761.8629150390625,
-        "change_pct": 4.1134461677278855,
+        "close": 761.8628540039062,
+        "change_pct": 4.1134378268829375,
         "date": "2026-05-21",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7289,7 +7346,7 @@
       },
       "mu": {
         "close": 750.766357421875,
-        "change_pct": -1.4565031842531106,
+        "change_pct": -1.4564952896331085,
         "date": "2026-05-22",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7346,7 +7403,7 @@
       },
       "mu": {
         "close": 750.766357421875,
-        "change_pct": -1.4565031842531106,
+        "change_pct": -1.4564952896331085,
         "date": "2026-05-22",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7402,8 +7459,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 895.601318359375,
-        "change_pct": 19.291615761108694,
+        "close": 895.6012573242188,
+        "change_pct": 19.291607631394882,
         "date": "2026-05-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7459,8 +7516,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 928.1211547851562,
-        "change_pct": 3.631061696665805,
+        "close": 928.12109375,
+        "change_pct": 3.6310619441223713,
         "date": "2026-05-27",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7516,8 +7573,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 923.232666015625,
-        "change_pct": -0.5267080428376647,
+        "close": 923.2327270507812,
+        "change_pct": -0.5266949250628206,
         "date": "2026-05-28",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7574,7 +7631,7 @@
       },
       "mu": {
         "close": 970.6979370117188,
-        "change_pct": 5.141203592907795,
+        "change_pct": 5.141196641995416,
         "date": "2026-05-29",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7744,8 +7801,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 1079.234130859375,
-        "change_pct": 1.453812915297048,
+        "close": 1079.2340087890625,
+        "change_pct": 1.4538014400311106,
         "date": "2026-06-03",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7801,8 +7858,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 995.690185546875,
-        "change_pct": -7.74103995821328,
+        "close": 995.6901245117188,
+        "change_pct": -7.7410351783746005,
         "date": "2026-06-04",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7858,8 +7915,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 863.7412109375,
-        "change_pct": -13.252011170211853,
+        "close": 863.7411499023438,
+        "change_pct": -13.252011982551505,
         "date": "2026-06-05",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7915,8 +7972,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 948.9846801757812,
-        "change_pct": 9.869098308480439,
+        "close": 948.9847412109375,
+        "change_pct": 9.869113138610054,
         "date": "2026-06-08",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -7972,8 +8029,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 935.598876953125,
-        "change_pct": -1.410539443078973,
+        "close": 935.5988159179688,
+        "change_pct": -1.4105522156117933,
         "date": "2026-06-09",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8030,7 +8087,7 @@
       },
       "mu": {
         "close": 891.6025390625,
-        "change_pct": -4.702478698339574,
+        "change_pct": -4.702472481466479,
         "date": "2026-06-10",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8143,8 +8200,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 981.3046264648438,
-        "change_pct": -1.4319128542997772,
+        "close": 981.3045654296875,
+        "change_pct": -1.4319189850347525,
         "date": "2026-06-12",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8200,8 +8257,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 1087.6514892578125,
-        "change_pct": 10.83729352994942,
+        "close": 1087.651611328125,
+        "change_pct": 10.83731286339944,
         "date": "2026-06-15",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8258,7 +8315,7 @@
       },
       "mu": {
         "close": 1020.4424438476562,
-        "change_pct": -6.179281329906338,
+        "change_pct": -6.179291859679226,
         "date": "2026-06-16",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8371,8 +8428,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 1133.6370849609375,
-        "change_pct": 8.704069797181436,
+        "close": 1133.63720703125,
+        "change_pct": 8.70408150246167,
         "date": "2026-06-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8428,8 +8485,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 1133.6370849609375,
-        "change_pct": 8.704069797181436,
+        "close": 1133.63720703125,
+        "change_pct": 8.70408150246167,
         "date": "2026-06-18",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8485,8 +8542,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 1211.003173828125,
-        "change_pct": 6.824590505510275,
+        "close": 1211.0030517578125,
+        "change_pct": 6.824568234591277,
         "date": "2026-06-22",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8543,7 +8600,7 @@
       },
       "mu": {
         "close": 1051.4427490234375,
-        "change_pct": -13.175888243157786,
+        "change_pct": -13.175879491200925,
         "date": "2026-06-23",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8599,8 +8656,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 1048.183837890625,
-        "change_pct": -0.3099466077291724,
+        "close": 1048.1837158203125,
+        "change_pct": -0.30995821752082264,
         "date": "2026-06-24",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8657,7 +8714,7 @@
       },
       "mu": {
         "close": 1213.1824951171875,
-        "change_pct": 15.741385362190607,
+        "change_pct": 15.741398841303923,
         "date": "2026-06-25",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8713,8 +8770,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 1131.977783203125,
-        "change_pct": -6.693528157626316,
+        "close": 1131.9776611328125,
+        "change_pct": -6.693538219617235,
         "date": "2026-06-26",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8771,7 +8828,7 @@
       },
       "mu": {
         "close": 1144.9237060546875,
-        "change_pct": 1.1436552062823901,
+        "change_pct": 1.1436661134212933,
         "date": "2026-06-29",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8884,8 +8941,8 @@
         "source": "Yahoo Finance chart / Stooq fallback"
       },
       "mu": {
-        "close": 1031.958984375,
-        "change_pct": -10.570123649608876,
+        "close": 1031.9588623046875,
+        "change_pct": -10.57013422825892,
         "date": "2026-07-01",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8942,7 +8999,7 @@
       },
       "mu": {
         "close": 975.2564697265625,
-        "change_pct": -5.494648092315324,
+        "change_pct": -5.494636913286522,
         "date": "2026-07-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -8999,7 +9056,7 @@
       },
       "mu": {
         "close": 975.2564697265625,
-        "change_pct": -5.494648092315324,
+        "change_pct": -5.494636913286522,
         "date": "2026-07-02",
         "source": "Yahoo Finance chart / Stooq fallback"
       },
@@ -14041,63 +14098,6 @@
         "value": 159.875,
         "change_pct": 0.08827580567554172,
         "date": "2026-11-13",
-        "source": "FRED DEXJPUS / Federal Reserve H.10"
-      }
-    },
-    {
-      "date": "2026-11-17",
-      "kioxia": {
-        "open": 8242.0,
-        "high": 8362.0,
-        "low": 7753.0,
-        "close": 7827.0,
-        "change_pct": -6.732602478550998,
-        "volume": 126187500
-      },
-      "verified": true,
-      "price_basis": "yahoo_adjclose_split_consistent",
-      "volume_basis": "reported_daily_volume",
-      "us_session_date": "2026-11-13",
-      "sox": {
-        "close": 10146.32,
-        "change_pct": -3.4297260692493503,
-        "date": "2026-11-13",
-        "source": "FRED NASDAQSOX / Nasdaq"
-      },
-      "sndk": {
-        "close": 809.1099853515625,
-        "change_pct": -8.576176944502912,
-        "date": "2026-11-16",
-        "source": "Yahoo Finance chart / Stooq fallback"
-      },
-      "mu": {
-        "close": 719.02001953125,
-        "change_pct": -7.617784457777088,
-        "date": "2026-11-16",
-        "source": "Yahoo Finance chart / Stooq fallback"
-      },
-      "nvda": {
-        "close": 156.13999938964844,
-        "change_pct": -4.120360124274091,
-        "date": "2026-11-16",
-        "source": "Yahoo Finance chart / Stooq fallback"
-      },
-      "wdc": {
-        "close": 280.92999267578125,
-        "change_pct": -4.978860654350981,
-        "date": "2026-11-16",
-        "source": "Yahoo Finance chart / Stooq fallback"
-      },
-      "us10y": {
-        "value": 5.120999813079834,
-        "change_pct": -0.5631104256342945,
-        "date": "2026-11-16",
-        "source": "FRED DGS10 / Federal Reserve H.15"
-      },
-      "usdjpy": {
-        "value": 159.77999877929688,
-        "change_pct": -0.05942218652267295,
-        "date": "2026-11-16",
         "source": "FRED DEXJPUS / Federal Reserve H.10"
       }
     }
